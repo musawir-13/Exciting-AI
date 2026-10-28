@@ -1,0 +1,44 @@
+{
+  "name": "liquid-lfm-2-5-2-6b-free",
+  "model": "liquid/lfm-2.5-2.6b:free",
+  "display_name": "LiquidAI: LFM2.5-2.6B (free)",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-liquid-lfm-2-5-2-6b-free",
+  "details": {
+    "parent_model": "LiquidAI: LFM2.5-2.6B (free)",
+    "format": "openrouter",
+    "family": "liquid",
+    "families": [
+      "liquid",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "66k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
+  "context_length": 65536,
+  "metadata": {
+    "display_name": "LiquidAI: LFM2.5-2.6B (free)",
+    "owner": "liquid",
+    "category": "liquid",
+    "url": "https://openrouter.ai/models/liquid/lfm-2.5-2.6b:free",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    },
+    "top_provider": {
+      "context_length": 65536,
+      "max_completion_tokens": 8192,
+      "is_moderated": false
+    }
+  }
+}

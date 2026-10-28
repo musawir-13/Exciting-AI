@@ -1,0 +1,45 @@
+{
+  "name": "inception-mercury-2-5",
+  "model": "inception/mercury-2.5",
+  "display_name": "Inception: Mercury 2.5",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "openrouter-inception-mercury-2-5",
+  "details": {
+    "parent_model": "Inception: Mercury 2.5",
+    "format": "openrouter",
+    "family": "inception",
+    "families": [
+      "inception",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "260k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "Mercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving...",
+  "context_length": 260000,
+  "metadata": {
+    "display_name": "Inception: Mercury 2.5",
+    "owner": "inception",
+    "category": "inception",
+    "url": "https://openrouter.ai/models/inception/mercury-2.5",
+    "pricing": {
+      "prompt": "0.00000004",
+      "completion": "0.00000015",
+      "input_cache_read": "0.000000004"
+    },
+    "top_provider": {
+      "context_length": 260000,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    }
+  }
+}

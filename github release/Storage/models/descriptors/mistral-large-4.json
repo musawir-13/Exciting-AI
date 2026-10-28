@@ -1,0 +1,40 @@
+{
+  "name": "mistral-large-4",
+  "model": "mistral-large-4",
+  "display_name": "Mistral Large 4 [Cloud]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-mistral-large-4",
+  "details": {
+    "parent_model": "mistral-large-4",
+    "format": "ollama",
+    "family": "mistral",
+    "families": [
+      "mistral",
+      "cloud",
+      "ollama"
+    ],
+    "parameter_size": "Standard",
+    "quantization_level": "cloud",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "vision",
+    "tools",
+    "thinking",
+    "cloud"
+  ],
+  "description": "Mistral Large 4 is Mistral&#39;s open-weight, general-purpose multimodal model. Its granular Mixture-of-Experts design activates 52B of 1.05T total parameters, with a 1.6B vision encoder handling images.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Mistral Large 4 [Cloud]",
+    "owner": "Mistral AI",
+    "category": "Ollama Cloud",
+    "url": "https://ollama.com/library/mistral-large-4",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

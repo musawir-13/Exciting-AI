@@ -1,0 +1,45 @@
+{
+  "name": "google-gemma-4-31b-it",
+  "model": "google/gemma-4-31b-it",
+  "display_name": "Google: Gemma 4 31B",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-google-gemma-4-31b-it",
+  "details": {
+    "parent_model": "Google: Gemma 4 31B",
+    "format": "openrouter",
+    "family": "google",
+    "families": [
+      "google",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "Google: Gemma 4 31B",
+    "owner": "google",
+    "category": "google",
+    "url": "https://openrouter.ai/models/google/gemma-4-31b-it",
+    "pricing": {
+      "prompt": "0.0000002",
+      "completion": "0.0000004"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 16384,
+      "is_moderated": false
+    }
+  }
+}

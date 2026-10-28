@@ -1,0 +1,38 @@
+{
+  "name": "mistral-small3.1:latest",
+  "model": "mistral-small3.1:latest",
+  "display_name": "Mistral Small3.1 [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-mistral-small3.1-latest",
+  "details": {
+    "parent_model": "mistral-small3.1",
+    "format": "ollama",
+    "family": "mistral",
+    "families": [
+      "mistral",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "24B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "vision",
+    "tools"
+  ],
+  "description": "Building upon Mistral Small 3, Mistral Small 3.1 (2503) adds state-of-the-art vision understanding and enhances long context capabilities up to 128k tokens without compromising text performance.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "Mistral Small3.1 [Local]",
+    "owner": "Mistral AI",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/mistral-small3.1",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

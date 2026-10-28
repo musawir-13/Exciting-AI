@@ -1,0 +1,44 @@
+{
+  "name": "poe-claude-sonnet-4-6",
+  "model": "claude-sonnet-4.6",
+  "display_name": "Claude-Sonnet-4.6",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-poe-claude-sonnet-4-6",
+  "details": {
+    "parent_model": "Claude-Sonnet-4.6",
+    "format": "poe",
+    "family": "anthropic",
+    "families": [
+      "anthropic",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "983k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Claude Sonnet 4.6 from Anthropic is built for high-quality conversations, advanced coding, and agentic workflows at scale. It excels at iterative development and navigating complex codebases, supports end-to-end project management with memory, and produces polished documents. The model also enables confident computer use for web QA and workflow automation, along with financial modeling, compliance review, and accurate data summarization. It features a 1M token context window for handling extensive projects and long-form content with ease.\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 983040,
+  "metadata": {
+    "display_name": "Claude-Sonnet-4.6",
+    "owner": "Anthropic",
+    "category": "Anthropic",
+    "url": "https://poe.com/claude-sonnet-4.6",
+    "pricing": {
+      "prompt": "0.0000025758",
+      "completion": "0.0000128788",
+      "image": null,
+      "request": null,
+      "input_cache_read": "0.0000002576",
+      "input_cache_write": "0.0000032197"
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-1042-200-tljsvnswxayrrkbxefpkxlkfkrhkkjow.jpeg"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "reka-core",
+  "model": "reka-core",
+  "display_name": "Reka Core",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-reka-core",
+  "details": {
+    "parent_model": "Reka Core",
+    "format": "poe",
+    "family": "reka",
+    "families": [
+      "reka",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Frontier multimodal model trained from scratch on text, audio, and video.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "Reka Core",
+    "owner": "Cohere & Specialized Enterprise Labs",
+    "category": "Cohere & Specialized Enterprise Labs",
+    "url": null,
+    "pricing": null
+  }
+}

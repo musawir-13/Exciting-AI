@@ -1,0 +1,37 @@
+{
+  "name": "gemini-robotics-2",
+  "model": "gemini-robotics-2",
+  "display_name": "Gemini Robotics 2",
+  "modified_at": "2026-10-28T09:07:40.412Z",
+  "size": 0,
+  "digest": "poe-gemini-robotics-2",
+  "details": {
+    "parent_model": "Gemini Robotics 2",
+    "format": "poe",
+    "family": "google",
+    "families": [
+      "google",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "256k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Spatial intelligence and robotic action sequence planning.",
+  "context_length": 256000,
+  "metadata": {
+    "display_name": "Gemini Robotics 2",
+    "owner": "Google DeepMind",
+    "category": "Google DeepMind",
+    "url": null,
+    "pricing": null
+  }
+}

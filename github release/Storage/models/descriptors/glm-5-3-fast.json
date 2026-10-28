@@ -1,0 +1,43 @@
+{
+  "name": "glm-5-3-fast",
+  "model": "glm-5.3-fast",
+  "display_name": "GLM-5.3-Fast",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-glm-5-3-fast",
+  "details": {
+    "parent_model": "GLM-5.3-Fast",
+    "format": "poe",
+    "family": "zai",
+    "families": [
+      "zai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Speed-optimized version of Z.ai's GLM 5.3 reasoning model for coding and agentic tasks, with a 1M-token context window.",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "GLM-5.3-Fast",
+    "owner": "Z.ai",
+    "category": "Z.ai",
+    "url": "https://poe.com/glm-5.3-fast",
+    "pricing": {
+      "prompt": "0.0000028283",
+      "completion": "0.0000088889",
+      "image": null,
+      "request": null,
+      "input_cache_read": "0.0000005657",
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-7170941-200-weirwqvszedpymbmfqibsvcuotysixrq.jpeg"
+  }
+}

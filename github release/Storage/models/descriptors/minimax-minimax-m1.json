@@ -1,0 +1,44 @@
+{
+  "name": "minimax-minimax-m1",
+  "model": "minimax/minimax-m1",
+  "display_name": "MiniMax: MiniMax M1",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-minimax-minimax-m1",
+  "details": {
+    "parent_model": "MiniMax: MiniMax M1",
+    "format": "openrouter",
+    "family": "minimax",
+    "families": [
+      "minimax",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "MiniMax-M1 is a large-scale, open-weight reasoning model designed for extended context and high-efficiency inference. It leverages a hybrid Mixture-of-Experts (MoE) architecture paired with a custom \"lightning attention\" mechanism, allowing it...",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "MiniMax: MiniMax M1",
+    "owner": "minimax",
+    "category": "minimax",
+    "url": "https://openrouter.ai/models/minimax/minimax-m1",
+    "pricing": {
+      "prompt": "0.00000055",
+      "completion": "0.0000022"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 40000,
+      "is_moderated": false
+    }
+  }
+}

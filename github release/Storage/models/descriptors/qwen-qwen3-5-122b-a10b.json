@@ -1,0 +1,45 @@
+{
+  "name": "qwen-qwen3-5-122b-a10b",
+  "model": "qwen/qwen3.5-122b-a10b",
+  "display_name": "Qwen: Qwen3.5-122B-A10B",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-qwen-qwen3-5-122b-a10b",
+  "details": {
+    "parent_model": "Qwen: Qwen3.5-122B-A10B",
+    "format": "openrouter",
+    "family": "qwen",
+    "families": [
+      "qwen",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "The Qwen3.5 122B-A10B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. In terms of...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "Qwen: Qwen3.5-122B-A10B",
+    "owner": "qwen",
+    "category": "qwen",
+    "url": "https://openrouter.ai/models/qwen/qwen3.5-122b-a10b",
+    "pricing": {
+      "prompt": "0.00000026",
+      "completion": "0.00000208"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    }
+  }
+}

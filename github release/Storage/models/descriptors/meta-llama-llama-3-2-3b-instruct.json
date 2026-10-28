@@ -1,0 +1,42 @@
+{
+  "name": "meta-llama-llama-3-2-3b-instruct",
+  "model": "meta-llama/llama-3.2-3b-instruct",
+  "display_name": "Meta: Llama 3.2 3B Instruct",
+  "modified_at": "2026-10-28T10:31:33.936Z",
+  "size": 0,
+  "digest": "openrouter-meta-llama-llama-3-2-3b-instruct",
+  "details": {
+    "parent_model": "Meta: Llama 3.2 3B Instruct",
+    "format": "openrouter",
+    "family": "metallama",
+    "families": [
+      "metallama",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "131k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it...",
+  "context_length": 131072,
+  "metadata": {
+    "display_name": "Meta: Llama 3.2 3B Instruct",
+    "owner": "meta-llama",
+    "category": "meta-llama",
+    "url": "https://openrouter.ai/models/meta-llama/llama-3.2-3b-instruct",
+    "pricing": {
+      "prompt": "0.00000005",
+      "completion": "0.00000033"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 117964,
+      "is_moderated": false
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "falcon2:latest",
+  "model": "falcon2:latest",
+  "display_name": "Falcon2 [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-falcon2-latest",
+  "details": {
+    "parent_model": "falcon2",
+    "format": "ollama",
+    "family": "ollama",
+    "families": [
+      "ollama",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "11B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "Falcon2 is an 11B parameters causal decoder-only model built by TII and trained over 5T tokens.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Falcon2 [Local]",
+    "owner": "Ollama Community",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/falcon2",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

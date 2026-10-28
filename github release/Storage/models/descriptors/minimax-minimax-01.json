@@ -1,0 +1,43 @@
+{
+  "name": "minimax-minimax-01",
+  "model": "minimax/minimax-01",
+  "display_name": "MiniMax: MiniMax-01",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-minimax-minimax-01",
+  "details": {
+    "parent_model": "MiniMax: MiniMax-01",
+    "format": "openrouter",
+    "family": "minimax",
+    "families": [
+      "minimax",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "MiniMax-01 is a combines MiniMax-Text-01 for text generation and MiniMax-VL-01 for image understanding. It has 456 billion parameters, with 45.9 billion parameters activated per inference, and can handle a context...",
+  "context_length": 1000192,
+  "metadata": {
+    "display_name": "MiniMax: MiniMax-01",
+    "owner": "minimax",
+    "category": "minimax",
+    "url": "https://openrouter.ai/models/minimax/minimax-01",
+    "pricing": {
+      "prompt": "0.0000002",
+      "completion": "0.0000011"
+    },
+    "top_provider": {
+      "context_length": 1000192,
+      "max_completion_tokens": 900172,
+      "is_moderated": false
+    }
+  }
+}

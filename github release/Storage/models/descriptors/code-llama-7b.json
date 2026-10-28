@@ -1,0 +1,35 @@
+{
+  "name": "code-llama-7b",
+  "model": "code-llama-7b",
+  "display_name": "Code Llama 7B",
+  "modified_at": "2026-10-28T09:07:40.412Z",
+  "size": 0,
+  "digest": "poe-code-llama-7b",
+  "details": {
+    "parent_model": "Code Llama 7B",
+    "format": "poe",
+    "family": "meta",
+    "families": [
+      "meta",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "16.384k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Fast code generation and debugging model.",
+  "context_length": 16384,
+  "metadata": {
+    "display_name": "Code Llama 7B",
+    "owner": "Meta AI",
+    "category": "Meta AI",
+    "url": null,
+    "pricing": null
+  }
+}

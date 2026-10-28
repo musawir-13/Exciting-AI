@@ -1,0 +1,55 @@
+{
+  "name": "x-ai-grok-4-6",
+  "model": "x-ai/grok-4.6",
+  "display_name": "SpaceXAI: Grok 4.6",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-x-ai-grok-4-6",
+  "details": {
+    "parent_model": "SpaceXAI: Grok 4.6",
+    "format": "openrouter",
+    "family": "xai",
+    "families": [
+      "xai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "500k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Grok 4.6 is a model from SpaceXAI with frontier performance on coding, knowledge work, and STEM. It is succeeded by [Grok 4.7](/x-ai/grok-4.7).",
+  "context_length": 500000,
+  "metadata": {
+    "display_name": "SpaceXAI: Grok 4.6",
+    "owner": "x-ai",
+    "category": "x-ai",
+    "url": "https://openrouter.ai/models/x-ai/grok-4.6",
+    "pricing": {
+      "prompt": "0.000002",
+      "completion": "0.000006",
+      "web_search": "0.005",
+      "input_cache_read": "0.0000005",
+      "overrides": [
+        {
+          "min_prompt_tokens": 200000,
+          "prompt": "0.000004",
+          "completion": "0.000012",
+          "input_cache_read": "0.000001"
+        }
+      ]
+    },
+    "top_provider": {
+      "context_length": 500000,
+      "max_completion_tokens": 450000,
+      "is_moderated": false
+    }
+  }
+}

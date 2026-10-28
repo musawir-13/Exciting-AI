@@ -1,0 +1,36 @@
+{
+  "name": "openai-gpt-oss-20b",
+  "model": "openai-gpt-oss-20b",
+  "display_name": "OpenAI gpt-oss (20b)",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-openai-gpt-oss-20b",
+  "details": {
+    "parent_model": "OpenAI gpt-oss (20b)",
+    "format": "poe",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "65.536k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "20B open-weights reasoning model delivering fast, accurate inferences.",
+  "context_length": 65536,
+  "metadata": {
+    "display_name": "OpenAI gpt-oss (20b)",
+    "owner": "Open Source & Community Innovation",
+    "category": "Open Source & Community Innovation",
+    "url": null,
+    "pricing": null
+  }
+}

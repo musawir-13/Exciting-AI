@@ -1,0 +1,45 @@
+{
+  "name": "minimax-minimax-m2-1",
+  "model": "minimax/minimax-m2.1",
+  "display_name": "MiniMax: MiniMax M2.1",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-minimax-minimax-m2-1",
+  "details": {
+    "parent_model": "MiniMax: MiniMax M2.1",
+    "format": "openrouter",
+    "family": "minimax",
+    "families": [
+      "minimax",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "205k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "MiniMax-M2.1 is a lightweight, state-of-the-art large language model optimized for coding, agentic workflows, and modern application development. With only 10 billion activated parameters, it delivers a major jump in real-world...",
+  "context_length": 204800,
+  "metadata": {
+    "display_name": "MiniMax: MiniMax M2.1",
+    "owner": "minimax",
+    "category": "minimax",
+    "url": "https://openrouter.ai/models/minimax/minimax-m2.1",
+    "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000012",
+      "input_cache_read": "0.00000003"
+    },
+    "top_provider": {
+      "context_length": 204800,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    }
+  }
+}

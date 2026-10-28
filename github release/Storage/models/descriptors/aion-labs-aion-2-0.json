@@ -1,0 +1,45 @@
+{
+  "name": "aion-labs-aion-2-0",
+  "model": "aion-labs/aion-2.0",
+  "display_name": "AionLabs: Aion-2.0",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-aion-labs-aion-2-0",
+  "details": {
+    "parent_model": "AionLabs: Aion-2.0",
+    "format": "openrouter",
+    "family": "aionlabs",
+    "families": [
+      "aionlabs",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "131k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "Aion-2.0 is a variant of DeepSeek V3.2 optimized for immersive roleplaying and storytelling. It is particularly strong at introducing tension, crises, and conflict into stories, making narratives feel more engaging....",
+  "context_length": 131072,
+  "metadata": {
+    "display_name": "AionLabs: Aion-2.0",
+    "owner": "aion-labs",
+    "category": "aion-labs",
+    "url": "https://openrouter.ai/models/aion-labs/aion-2.0",
+    "pricing": {
+      "prompt": "0.0000008",
+      "completion": "0.0000016",
+      "input_cache_read": "0.0000002"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 32768,
+      "is_moderated": false
+    }
+  }
+}

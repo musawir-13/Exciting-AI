@@ -1,0 +1,46 @@
+{
+  "name": "qwen-qwen3-8-omni-flash",
+  "model": "qwen/qwen3.8-omni-flash",
+  "display_name": "Qwen: Qwen3.8 Omni Flash",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "openrouter-qwen-qwen3-8-omni-flash",
+  "details": {
+    "parent_model": "Qwen: Qwen3.8 Omni Flash",
+    "format": "openrouter",
+    "family": "qwen",
+    "families": [
+      "qwen",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Qwen3.8 Omni Flash is an omni-modal reasoning model from Alibaba, the first Qwen model built around agentic capabilities with native audio-video understanding. It is suited for audio-video analysis and summarization,...",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "Qwen: Qwen3.8 Omni Flash",
+    "owner": "qwen",
+    "category": "qwen",
+    "url": "https://openrouter.ai/models/qwen/qwen3.8-omni-flash",
+    "pricing": {
+      "prompt": "0.00000015",
+      "completion": "0.00000047",
+      "input_cache_read": "0.000000016"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    }
+  }
+}

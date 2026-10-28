@@ -1,0 +1,45 @@
+{
+  "name": "inclusionai-ling-3-0-flash",
+  "model": "inclusionai/ling-3.0-flash",
+  "display_name": "inclusionAI: Ling 3.0 Flash",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-inclusionai-ling-3-0-flash",
+  "details": {
+    "parent_model": "inclusionAI: Ling 3.0 Flash",
+    "format": "openrouter",
+    "family": "inclusionai",
+    "families": [
+      "inclusionai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "*Ling-3.0-flash* is a *124B-parameter Mixture-of-Experts (MoE) model*, with approximately *5.1B parameters activated per token*. The model is designed with *token efficiency and production-scale agentic inference* as key priorities, enabling developers...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "inclusionAI: Ling 3.0 Flash",
+    "owner": "inclusionai",
+    "category": "inclusionai",
+    "url": "https://openrouter.ai/models/inclusionai/ling-3.0-flash",
+    "pricing": {
+      "prompt": "0.000000021",
+      "completion": "0.000000063",
+      "input_cache_read": "0.0000000042"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 32768,
+      "is_moderated": false
+    }
+  }
+}

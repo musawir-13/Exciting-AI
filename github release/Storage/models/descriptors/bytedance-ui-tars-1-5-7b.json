@@ -1,0 +1,44 @@
+{
+  "name": "bytedance-ui-tars-1-5-7b",
+  "model": "bytedance/ui-tars-1.5-7b",
+  "display_name": "ByteDance: UI-TARS 7B ",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-bytedance-ui-tars-1-5-7b",
+  "details": {
+    "parent_model": "ByteDance: UI-TARS 7B ",
+    "format": "openrouter",
+    "family": "bytedance",
+    "families": [
+      "bytedance",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "UI-TARS-1.5 is a multimodal vision-language agent optimized for GUI-based environments, including desktop interfaces, web browsers, mobile systems, and games. Built by ByteDance, it builds upon the UI-TARS framework with reinforcement...",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "ByteDance: UI-TARS 7B ",
+    "owner": "bytedance",
+    "category": "bytedance",
+    "url": "https://openrouter.ai/models/bytedance/ui-tars-1.5-7b",
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000002",
+      "input_cache_read": "0.0000001"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": 2048,
+      "is_moderated": false
+    }
+  }
+}

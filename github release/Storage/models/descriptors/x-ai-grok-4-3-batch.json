@@ -1,0 +1,55 @@
+{
+  "name": "x-ai-grok-4-3-batch",
+  "model": "x-ai/grok-4.3:batch",
+  "display_name": "SpaceXAI: Grok 4.3 (batch)",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-x-ai-grok-4-3-batch",
+  "details": {
+    "parent_model": "SpaceXAI: Grok 4.3 (batch)",
+    "format": "openrouter",
+    "family": "xai",
+    "families": [
+      "xai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Grok 4.3 is a reasoning model from SpaceXAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual...",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "SpaceXAI: Grok 4.3 (batch)",
+    "owner": "x-ai",
+    "category": "x-ai",
+    "url": "https://openrouter.ai/models/x-ai/grok-4.3:batch",
+    "pricing": {
+      "prompt": "0.000001",
+      "completion": "0.000002",
+      "web_search": "0.005",
+      "input_cache_read": "0.00000016",
+      "overrides": [
+        {
+          "min_prompt_tokens": 200000,
+          "prompt": "0.000002",
+          "completion": "0.000004",
+          "input_cache_read": "0.00000032"
+        }
+      ]
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 900000,
+      "is_moderated": false
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "elorian-glimpse",
+  "model": "elorian/glimpse",
+  "display_name": "Elorian: Glimpse",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "openrouter-elorian-glimpse",
+  "details": {
+    "parent_model": "Elorian: Glimpse",
+    "format": "openrouter",
+    "family": "elorian",
+    "families": [
+      "elorian",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Glimpse is a multimodal visual reasoning model from Elorian, built for visual understanding and complex visual reasoning in the physical world. It reasons directly over images and video rather than...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "Elorian: Glimpse",
+    "owner": "elorian",
+    "category": "elorian",
+    "url": "https://openrouter.ai/models/elorian/glimpse",
+    "pricing": {
+      "prompt": "0.0000006",
+      "completion": "0.000003",
+      "input_cache_read": "0.00000006"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 256000,
+      "is_moderated": false
+    }
+  }
+}

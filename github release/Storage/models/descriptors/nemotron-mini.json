@@ -1,0 +1,37 @@
+{
+  "name": "nemotron-mini",
+  "model": "nemotron-mini",
+  "display_name": "Nemotron Mini [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-nemotron-mini",
+  "details": {
+    "parent_model": "nemotron-mini",
+    "format": "ollama",
+    "family": "nvidia",
+    "families": [
+      "nvidia",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "4B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "tools"
+  ],
+  "description": "A commercial-friendly small language model by NVIDIA optimized for roleplay, RAG QA, and function calling.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Nemotron Mini [Local]",
+    "owner": "NVIDIA",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/nemotron-mini",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

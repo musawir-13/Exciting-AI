@@ -1,0 +1,43 @@
+{
+  "name": "openai-gpt-3-5-turbo-0613",
+  "model": "openai/gpt-3.5-turbo-0613",
+  "display_name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+  "modified_at": "2026-10-28T10:31:33.936Z",
+  "size": 0,
+  "digest": "openrouter-openai-gpt-3-5-turbo-0613",
+  "details": {
+    "parent_model": "OpenAI: GPT-3.5 Turbo (older v0613)",
+    "format": "openrouter",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
+  "context_length": 4095,
+  "metadata": {
+    "display_name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+    "owner": "openai",
+    "category": "openai",
+    "url": "https://openrouter.ai/models/openai/gpt-3.5-turbo-0613",
+    "pricing": {
+      "prompt": "0.000001",
+      "completion": "0.000002"
+    },
+    "top_provider": {
+      "context_length": 4095,
+      "max_completion_tokens": 3685,
+      "is_moderated": false
+    }
+  }
+}

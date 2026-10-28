@@ -1,0 +1,37 @@
+{
+  "name": "deepseek-coder-v2:16b",
+  "model": "deepseek-coder-v2:16b",
+  "display_name": "Deepseek Coder V2 (16B) [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-deepseek-coder-v2-16b",
+  "details": {
+    "parent_model": "deepseek-coder-v2",
+    "format": "ollama",
+    "family": "deepseek",
+    "families": [
+      "deepseek",
+      "local",
+      "ollama",
+      "16b"
+    ],
+    "parameter_size": "16B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "An open-source Mixture-of-Experts code language model that achieves performance comparable to GPT4-Turbo in code-specific tasks.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Deepseek Coder V2 (16B) [Local]",
+    "owner": "DeepSeek",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/deepseek-coder-v2",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

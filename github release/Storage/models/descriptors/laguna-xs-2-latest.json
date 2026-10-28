@@ -1,0 +1,38 @@
+{
+  "name": "laguna-xs.2:latest",
+  "model": "laguna-xs.2:latest",
+  "display_name": "Laguna Xs.2 [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-laguna-xs.2-latest",
+  "details": {
+    "parent_model": "laguna-xs.2",
+    "format": "ollama",
+    "family": "ollama",
+    "families": [
+      "ollama",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "Standard",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "tools",
+    "thinking"
+  ],
+  "description": "Laguna XS.2 is a 33B total parameter Mixture-of-Experts model with 3B activated parameters per token designed for agentic coding and long-horizon work on a local machine.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Laguna Xs.2 [Local]",
+    "owner": "Ollama Community",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/laguna-xs.2",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

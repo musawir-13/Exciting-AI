@@ -1,0 +1,37 @@
+{
+  "name": "notux:8x7b",
+  "model": "notux:8x7b",
+  "display_name": "Notux (8X7B) [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-notux-8x7b",
+  "details": {
+    "parent_model": "notux",
+    "format": "ollama",
+    "family": "ollama",
+    "families": [
+      "ollama",
+      "local",
+      "ollama",
+      "8x7b"
+    ],
+    "parameter_size": "8X7B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "A top-performing mixture of experts model, fine-tuned with high-quality data.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Notux (8X7B) [Local]",
+    "owner": "Ollama Community",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/notux",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

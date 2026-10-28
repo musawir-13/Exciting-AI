@@ -1,0 +1,35 @@
+{
+  "name": "stable-audio-2-0",
+  "model": "stable-audio-2.0",
+  "display_name": "Stable-Audio-2.0",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-stable-audio-2-0",
+  "details": {
+    "parent_model": "Stable-Audio-2.0",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Stable Audio 2.0 generates audio up to 3 minutes long from text prompts, supporting text-to-audio and audio-to-audio transformations with customizable settings like duration, steps, CFG scale, and more. It is ideal for creative professionals seeking detailed and extended outputs from simple prompts.\n\nNote: Audio-to-audio mode requires a prompt alongside an uploaded audio file for generation.\n\nParameter controls available:\n1. Basic\n- Generation Mode: Text to Audio, Audio to Audio (Transform)\n- Output format: WAV (high quality), MP3 (Compressed)\n\n2. Timing and Randomness\n- Duration [1-190 seconds] controls how long generated audio is\n- Seed [0-4294967294]' disables random seed generation. Use random seed must be toggled off to set.\n\n3. Advanced\n- Cfg scale [1-25]: Higher = closer to prompt (recommended 7-15)\n- Steps [4-8]`: Higher = better quality (recommended 6-8)\n\n4. Transformation control (only for audio-to-audio)\n- Strength [0-1]`: How much to change/transform (0.3-0.7 typical)",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Stable-Audio-2.0",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/stable-audio-2.0",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6383917-200-riplheayeyibttxnjsvsruvlepwbgxzr.jpeg"
+  }
+}

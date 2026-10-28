@@ -1,0 +1,36 @@
+{
+  "name": "dolphin-llama3:latest",
+  "model": "dolphin-llama3:latest",
+  "display_name": "Dolphin Llama3 [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-dolphin-llama3-latest",
+  "details": {
+    "parent_model": "dolphin-llama3",
+    "format": "ollama",
+    "family": "meta",
+    "families": [
+      "meta",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "8B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "Dolphin 2.9 is a new model with 8B and 70B sizes by Eric Hartford based on Llama 3 that has a variety of instruction, conversational, and coding skills.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Dolphin Llama3 [Local]",
+    "owner": "Meta AI",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/dolphin-llama3",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

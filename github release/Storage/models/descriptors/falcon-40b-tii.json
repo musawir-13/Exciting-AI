@@ -1,0 +1,35 @@
+{
+  "name": "falcon-40b-tii",
+  "model": "falcon-40b-tii",
+  "display_name": "Falcon 40B (TII)",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-falcon-40b-tii",
+  "details": {
+    "parent_model": "Falcon 40B (TII)",
+    "format": "poe",
+    "family": "tii",
+    "families": [
+      "tii",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "2.048k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Landmark open weights model with multiquery attention.",
+  "context_length": 2048,
+  "metadata": {
+    "display_name": "Falcon 40B (TII)",
+    "owner": "Open Source & Community Innovation",
+    "category": "Open Source & Community Innovation",
+    "url": null,
+    "pricing": null
+  }
+}

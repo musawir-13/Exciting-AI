@@ -1,0 +1,42 @@
+{
+  "name": "llama-3-3-70b-t",
+  "model": "llama-3.3-70b-t",
+  "display_name": "Llama-3.3-70B-T",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-llama-3-3-70b-t",
+  "details": {
+    "parent_model": "Llama-3.3-70B-T",
+    "format": "poe",
+    "family": "togetherai",
+    "families": [
+      "togetherai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "131k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Llama 3.3 70B – with similar performance as Llama 3.1 405B while being faster and much smaller! Llama 3.3 70B is a new open source model that delivers leading performance and quality across text-based use cases such as synthetic data generation at a fraction of the inference cost, improving over Llama 3.1 70B.",
+  "context_length": 131072,
+  "metadata": {
+    "display_name": "Llama-3.3-70B-T",
+    "owner": "Together AI",
+    "category": "Together AI",
+    "url": "https://poe.com/llama-3.3-70b-t",
+    "pricing": {
+      "prompt": null,
+      "completion": null,
+      "image": null,
+      "request": "0.0039",
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-5379836-200-dukgytytdbcbadvciccwxroveytrecrd.jpeg"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "amazon-nova-pro-v1",
+  "model": "amazon/nova-pro-v1",
+  "display_name": "Amazon: Nova Pro 1.0",
+  "modified_at": "2026-10-28T10:31:33.936Z",
+  "size": 0,
+  "digest": "openrouter-amazon-nova-pro-v1",
+  "details": {
+    "parent_model": "Amazon: Nova Pro 1.0",
+    "format": "openrouter",
+    "family": "amazon",
+    "families": [
+      "amazon",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "300k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Amazon Nova Pro 1.0 is a capable multimodal model from Amazon focused on providing a combination of accuracy, speed, and cost for a wide range of tasks. As of December...",
+  "context_length": 300000,
+  "metadata": {
+    "display_name": "Amazon: Nova Pro 1.0",
+    "owner": "amazon",
+    "category": "amazon",
+    "url": "https://openrouter.ai/models/amazon/nova-pro-v1",
+    "pricing": {
+      "prompt": "0.0000008",
+      "completion": "0.0000032"
+    },
+    "top_provider": {
+      "context_length": 300000,
+      "max_completion_tokens": 5120,
+      "is_moderated": true
+    }
+  }
+}

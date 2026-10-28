@@ -1,0 +1,46 @@
+{
+  "name": "qwen-qwen3-8-max-0902",
+  "model": "qwen/qwen3.8-max-0902",
+  "display_name": "Qwen: Qwen3.8 Max (0902)",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "openrouter-qwen-qwen3-8-max-0902",
+  "details": {
+    "parent_model": "Qwen: Qwen3.8 Max (0902)",
+    "format": "openrouter",
+    "family": "qwen",
+    "families": [
+      "qwen",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Qwen3.8 Max 0902 is an updated snapshot of Qwen3.8 Max from Alibaba's Qwen team. It is a 2.4-trillion-parameter mixture-of-experts model that accepts text, image, and video input and returns text,...",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "Qwen: Qwen3.8 Max (0902)",
+    "owner": "qwen",
+    "category": "qwen",
+    "url": "https://openrouter.ai/models/qwen/qwen3.8-max-0902",
+    "pricing": {
+      "prompt": "0.000002",
+      "completion": "0.000006",
+      "input_cache_read": "0.00000025"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    }
+  }
+}

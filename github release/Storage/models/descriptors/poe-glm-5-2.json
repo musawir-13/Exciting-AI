@@ -1,0 +1,43 @@
+{
+  "name": "poe-glm-5-2",
+  "model": "glm-5.2",
+  "display_name": "GLM-5.2",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-poe-glm-5-2",
+  "details": {
+    "parent_model": "GLM-5.2",
+    "format": "poe",
+    "family": "zai",
+    "families": [
+      "zai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "256k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "GLM 5.2 is Z.AI's flagship open-weight model for long-horizon coding and agentic engineering.",
+  "context_length": 256000,
+  "metadata": {
+    "display_name": "GLM-5.2",
+    "owner": "Z.ai",
+    "category": "Z.ai",
+    "url": "https://poe.com/glm-5.2",
+    "pricing": {
+      "prompt": "0.0000015152",
+      "completion": "0.0000045455",
+      "image": null,
+      "request": null,
+      "input_cache_read": "0.000000303",
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-7066089-200-kktbbrrbgxfxjujdesflclnavpgjyhwd.jpeg"
+  }
+}

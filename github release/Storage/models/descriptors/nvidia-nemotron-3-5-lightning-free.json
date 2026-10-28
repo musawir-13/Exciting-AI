@@ -1,0 +1,44 @@
+{
+  "name": "nvidia-nemotron-3-5-lightning-free",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "display_name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-nvidia-nemotron-3-5-lightning-free",
+  "details": {
+    "parent_model": "NVIDIA: Nemotron 3.5 Lightning (free)",
+    "format": "openrouter",
+    "family": "nvidia",
+    "families": [
+      "nvidia",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that...",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+    "owner": "nvidia",
+    "category": "nvidia",
+    "url": "https://openrouter.ai/models/nvidia/nemotron-3.5-lightning:free",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    }
+  }
+}

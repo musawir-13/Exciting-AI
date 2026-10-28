@@ -1,0 +1,47 @@
+{
+  "name": "openai-gpt-mini-latest",
+  "model": "~openai/gpt-mini-latest",
+  "display_name": "OpenAI: GPT Mini Latest",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-openai-gpt-mini-latest",
+  "details": {
+    "parent_model": "OpenAI: GPT Mini Latest",
+    "format": "openrouter",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "400k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "This model always redirects to the latest model in the GPT Mini family.",
+  "context_length": 400000,
+  "metadata": {
+    "display_name": "OpenAI: GPT Mini Latest",
+    "owner": "~openai",
+    "category": "~openai",
+    "url": "https://openrouter.ai/models/~openai/gpt-mini-latest",
+    "pricing": {
+      "prompt": "0.00000075",
+      "completion": "0.0000045",
+      "web_search": "0.01",
+      "input_cache_read": "0.000000075"
+    },
+    "top_provider": {
+      "context_length": 400000,
+      "max_completion_tokens": 128000,
+      "is_moderated": false
+    }
+  }
+}

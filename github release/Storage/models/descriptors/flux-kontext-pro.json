@@ -1,0 +1,36 @@
+{
+  "name": "flux-kontext-pro",
+  "model": "flux-kontext-pro",
+  "display_name": "Flux-Kontext-Pro",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-flux-kontext-pro",
+  "details": {
+    "parent_model": "Flux-Kontext-Pro",
+    "format": "poe",
+    "family": "fal",
+    "families": [
+      "fal",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "The FLUX.1 Kontext [pro] model delivers state-of-the-art image generation results with unprecedented prompt following, photorealistic rendering, flawless typography, and image editing capabilities. Send a prompt to generate an image, or send an image along with an instruction to edit the image. \n\nOptional parameters:\nSet the aspect ratio for text-to-image-generation. Available aspect ratio (21:9, 16:9, 4:3, 1:1, 3:4, 9:16, & 9:21)",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Flux-Kontext-Pro",
+    "owner": "fal",
+    "category": "fal",
+    "url": "https://poe.com/flux-kontext-pro",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6070828-200-dwbqeaiqasaxnpgxvcpxdumhunivnyos.jpeg"
+  }
+}

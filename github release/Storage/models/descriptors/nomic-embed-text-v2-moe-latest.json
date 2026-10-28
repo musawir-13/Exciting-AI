@@ -1,0 +1,37 @@
+{
+  "name": "nomic-embed-text-v2-moe:latest",
+  "model": "nomic-embed-text-v2-moe:latest",
+  "display_name": "Nomic Embed Text V2 Moe [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-nomic-embed-text-v2-moe-latest",
+  "details": {
+    "parent_model": "nomic-embed-text-v2-moe",
+    "format": "ollama",
+    "family": "ollama",
+    "families": [
+      "ollama",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "Standard",
+    "quantization_level": "Q4_K_M",
+    "context_window": "8k"
+  },
+  "capabilities": [
+    "completion",
+    "embedding"
+  ],
+  "description": "nomic-embed-text-v2-moe is a multilingual MoE text embedding model that excels at multilingual retrieval.",
+  "context_length": 8192,
+  "metadata": {
+    "display_name": "Nomic Embed Text V2 Moe [Local]",
+    "owner": "Ollama Community",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/nomic-embed-text-v2-moe",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

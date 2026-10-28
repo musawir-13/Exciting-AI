@@ -1,0 +1,40 @@
+{
+  "name": "minimax-m3:latest",
+  "model": "minimax-m3:latest",
+  "display_name": "Minimax M3 [Cloud]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-minimax-m3-latest",
+  "details": {
+    "parent_model": "minimax-m3",
+    "format": "ollama",
+    "family": "minimax",
+    "families": [
+      "minimax",
+      "cloud",
+      "ollama"
+    ],
+    "parameter_size": "Standard",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "vision",
+    "tools",
+    "thinking",
+    "cloud"
+  ],
+  "description": "MiniMax M3: Coding &amp; Agentic Frontier. 1M context window. Native Multimodality.",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "Minimax M3 [Cloud]",
+    "owner": "MiniMax",
+    "category": "Ollama Cloud",
+    "url": "https://ollama.com/library/minimax-m3",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

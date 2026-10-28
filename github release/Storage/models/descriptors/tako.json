@@ -1,0 +1,42 @@
+{
+  "name": "tako",
+  "model": "tako",
+  "display_name": "Tako",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-tako",
+  "details": {
+    "parent_model": "Tako",
+    "format": "poe",
+    "family": "trytako",
+    "families": [
+      "trytako",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "2k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Tako is a bot that transforms your questions about stocks, sports, economics or politics into interactive, shareable knowledge cards from trusted sources. Tako's knowledge graph is built exclusively from authoritative, real-time data providers, and is embeddable in your apps, research and storytelling. You can adjust the specificity threshold by typing `--specificity 30` (or a value between 0 - 100) at the end of your query/question; the default is 60.",
+  "context_length": 2048,
+  "metadata": {
+    "display_name": "Tako",
+    "owner": "TryTako",
+    "category": "TryTako",
+    "url": "https://poe.com/tako",
+    "pricing": {
+      "prompt": null,
+      "completion": null,
+      "image": null,
+      "request": "0.030",
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-4770366-200-bdcugycfrjdmfoxgwkmjsxvnfgjuzloq.jpeg"
+  }
+}

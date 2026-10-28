@@ -1,0 +1,35 @@
+{
+  "name": "gpt-researcher",
+  "model": "gpt-researcher",
+  "display_name": "GPT-Researcher",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-gpt-researcher",
+  "details": {
+    "parent_model": "GPT-Researcher",
+    "format": "poe",
+    "family": "gptresearcher",
+    "families": [
+      "gptresearcher",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "GPT Researcher is an agent that conducts deep research on any topic and generates a comprehensive report with citations. GPT Researcher is powered by Tavily's search engine.\n\nGPTR is based on the popular open source project: https://github.com/assafelovic/gpt-researcher -- by integrating Tavily search, it is optimized for curation and ranking of trusted research sources. Learn more at https://gptr.dev or https://tavily.com",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "GPT-Researcher",
+    "owner": "GPT Researcher",
+    "category": "GPT Researcher",
+    "url": "https://poe.com/gpt-researcher",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-5501226-200-wjbtjvlxkclsqobnmeolhcesjktjuzdg.jpeg"
+  }
+}

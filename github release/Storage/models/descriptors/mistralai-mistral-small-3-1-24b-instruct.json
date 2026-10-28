@@ -1,0 +1,44 @@
+{
+  "name": "mistralai-mistral-small-3-1-24b-instruct",
+  "model": "mistralai/mistral-small-3.1-24b-instruct",
+  "display_name": "Mistral: Mistral Small 3.1 24B",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-mistralai-mistral-small-3-1-24b-instruct",
+  "details": {
+    "parent_model": "Mistral: Mistral Small 3.1 24B",
+    "format": "openrouter",
+    "family": "mistralai",
+    "families": [
+      "mistralai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Mistral Small 3.1 24B Instruct is an upgraded variant of Mistral Small 3 (2501), featuring 24 billion parameters with advanced multimodal capabilities. It provides state-of-the-art performance in text-based reasoning and...",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "Mistral: Mistral Small 3.1 24B",
+    "owner": "mistralai",
+    "category": "mistralai",
+    "url": "https://openrouter.ai/models/mistralai/mistral-small-3.1-24b-instruct",
+    "pricing": {
+      "prompt": "0.000000351",
+      "completion": "0.000000555"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": 102400,
+      "is_moderated": false
+    }
+  }
+}

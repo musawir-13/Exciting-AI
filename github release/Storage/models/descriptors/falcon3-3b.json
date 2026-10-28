@@ -1,0 +1,37 @@
+{
+  "name": "falcon3:3b",
+  "model": "falcon3:3b",
+  "display_name": "Falcon3 (3B) [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-falcon3-3b",
+  "details": {
+    "parent_model": "falcon3",
+    "format": "ollama",
+    "family": "ollama",
+    "families": [
+      "ollama",
+      "local",
+      "ollama",
+      "3b"
+    ],
+    "parameter_size": "3B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "A family of efficient AI models under 10B parameters performant in science, math, and coding through innovative training techniques.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Falcon3 (3B) [Local]",
+    "owner": "Ollama Community",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/falcon3",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

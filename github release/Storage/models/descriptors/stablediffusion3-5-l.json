@@ -1,0 +1,35 @@
+{
+  "name": "stablediffusion3-5-l",
+  "model": "stablediffusion3.5-l",
+  "display_name": "StableDiffusion3.5-L",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-stablediffusion3-5-l",
+  "details": {
+    "parent_model": "StableDiffusion3.5-L",
+    "format": "poe",
+    "family": "fal",
+    "families": [
+      "fal",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Stability.ai's StableDiffusion3.5 Large, hosted by @fal, is the Stable Diffusion family's most powerful image generation model both in terms of image quality and prompt adherence. \n\nOptional parameters:\nAspect to select an aspect ratio. Valid aspect ratios are 16:9, 4:3, 1:1, 3:4, 9:16.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "StableDiffusion3.5-L",
+    "owner": "fal",
+    "category": "fal",
+    "url": "https://poe.com/stablediffusion3.5-l",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-5142246-200-vtsjthjjkbctjmqubwfbckzlywzttuat.jpeg"
+  }
+}

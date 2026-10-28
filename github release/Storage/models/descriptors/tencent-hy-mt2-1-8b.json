@@ -1,0 +1,42 @@
+{
+  "name": "tencent-hy-mt2-1-8b",
+  "model": "tencent/hy-mt2-1.8b",
+  "display_name": "Tencent: Hy-MT2-1.8B",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "openrouter-tencent-hy-mt2-1-8b",
+  "details": {
+    "parent_model": "Tencent: Hy-MT2-1.8B",
+    "format": "openrouter",
+    "family": "tencent",
+    "families": [
+      "tencent",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "8k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Hy-MT2-1.8B is a compact 1.8B-parameter translation model from Tencent. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, glossary-based, and style-guided...",
+  "context_length": 8192,
+  "metadata": {
+    "display_name": "Tencent: Hy-MT2-1.8B",
+    "owner": "tencent",
+    "category": "tencent",
+    "url": "https://openrouter.ai/models/tencent/hy-mt2-1.8b",
+    "pricing": {
+      "prompt": "0.000000044",
+      "completion": "0.000000177"
+    },
+    "top_provider": {
+      "context_length": 8192,
+      "max_completion_tokens": 4096,
+      "is_moderated": false
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "phi-1-5",
+  "model": "phi-1-5",
+  "display_name": "Phi-1.5",
+  "modified_at": "2026-10-28T09:07:40.412Z",
+  "size": 0,
+  "digest": "poe-phi-1-5",
+  "details": {
+    "parent_model": "Phi-1.5",
+    "format": "poe",
+    "family": "microsoft",
+    "families": [
+      "microsoft",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "2.048k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Transformer model for Python code and common sense reasoning.",
+  "context_length": 2048,
+  "metadata": {
+    "display_name": "Phi-1.5",
+    "owner": "Microsoft & Azure AI",
+    "category": "Microsoft & Azure AI",
+    "url": null,
+    "pricing": null
+  }
+}

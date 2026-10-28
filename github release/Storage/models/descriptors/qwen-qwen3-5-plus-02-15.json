@@ -1,0 +1,52 @@
+{
+  "name": "qwen-qwen3-5-plus-02-15",
+  "model": "qwen/qwen3.5-plus-02-15",
+  "display_name": "Qwen: Qwen3.5 Plus 2026-02-15",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-qwen-qwen3-5-plus-02-15",
+  "details": {
+    "parent_model": "Qwen: Qwen3.5 Plus 2026-02-15",
+    "format": "openrouter",
+    "family": "qwen",
+    "families": [
+      "qwen",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "The Qwen3.5 native vision-language series Plus models are built on a hybrid architecture that integrates linear attention mechanisms with sparse mixture-of-experts models, achieving higher inference efficiency. In a variety of...",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "Qwen: Qwen3.5 Plus 2026-02-15",
+    "owner": "qwen",
+    "category": "qwen",
+    "url": "https://openrouter.ai/models/qwen/qwen3.5-plus-02-15",
+    "pricing": {
+      "prompt": "0.00000026",
+      "completion": "0.00000156",
+      "overrides": [
+        {
+          "min_prompt_tokens": 256000,
+          "prompt": "0.000000325",
+          "completion": "0.00000195"
+        }
+      ]
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    }
+  }
+}

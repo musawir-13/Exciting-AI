@@ -1,0 +1,45 @@
+{
+  "name": "z-ai-glm-5-turbo",
+  "model": "z-ai/glm-5-turbo",
+  "display_name": "Z.ai: GLM 5 Turbo",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-z-ai-glm-5-turbo",
+  "details": {
+    "parent_model": "Z.ai: GLM 5 Turbo",
+    "format": "openrouter",
+    "family": "zai",
+    "families": [
+      "zai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "203k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "GLM-5 Turbo is a new model from Z.ai designed for fast inference and strong performance in agent-driven environments such as OpenClaw scenarios. It is deeply optimized for real-world agent workflows...",
+  "context_length": 202752,
+  "metadata": {
+    "display_name": "Z.ai: GLM 5 Turbo",
+    "owner": "z-ai",
+    "category": "z-ai",
+    "url": "https://openrouter.ai/models/z-ai/glm-5-turbo",
+    "pricing": {
+      "prompt": "0.0000012",
+      "completion": "0.000004",
+      "input_cache_read": "0.00000024"
+    },
+    "top_provider": {
+      "context_length": 202752,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    }
+  }
+}

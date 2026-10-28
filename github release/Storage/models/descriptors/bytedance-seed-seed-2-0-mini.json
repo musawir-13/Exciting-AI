@@ -1,0 +1,52 @@
+{
+  "name": "bytedance-seed-seed-2-0-mini",
+  "model": "bytedance-seed/seed-2.0-mini",
+  "display_name": "ByteDance Seed: Seed-2.0-Mini",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-bytedance-seed-seed-2-0-mini",
+  "details": {
+    "parent_model": "ByteDance Seed: Seed-2.0-Mini",
+    "format": "openrouter",
+    "family": "bytedanceseed",
+    "families": [
+      "bytedanceseed",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Seed-2.0-mini targets latency-sensitive, high-concurrency, and cost-sensitive scenarios, emphasizing fast response and flexible inference deployment. It delivers performance comparable to ByteDance-Seed-1.6, supports 256k context, four reasoning effort modes (minimal/low/medium/high), multimodal understanding,...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "ByteDance Seed: Seed-2.0-Mini",
+    "owner": "bytedance-seed",
+    "category": "bytedance-seed",
+    "url": "https://openrouter.ai/models/bytedance-seed/seed-2.0-mini",
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000004",
+      "overrides": [
+        {
+          "min_prompt_tokens": 128000,
+          "prompt": "0.0000002",
+          "completion": "0.0000008"
+        }
+      ]
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "o1-preview",
+  "model": "o1-preview",
+  "display_name": "o1-preview",
+  "modified_at": "2026-10-28T09:07:40.412Z",
+  "size": 0,
+  "digest": "poe-o1-preview",
+  "details": {
+    "parent_model": "o1-preview",
+    "format": "poe",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "Preview release of OpenAI reasoning model with internal thought process.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "o1-preview",
+    "owner": "OpenAI",
+    "category": "OpenAI",
+    "url": null,
+    "pricing": null
+  }
+}

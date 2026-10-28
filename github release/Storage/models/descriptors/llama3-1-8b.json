@@ -1,0 +1,38 @@
+{
+  "name": "llama3.1:8b",
+  "model": "llama3.1:8b",
+  "display_name": "Llama3.1 (8B) [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-llama3.1-8b",
+  "details": {
+    "parent_model": "llama3.1",
+    "format": "ollama",
+    "family": "meta",
+    "families": [
+      "meta",
+      "local",
+      "ollama",
+      "8b"
+    ],
+    "parameter_size": "8B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "tools"
+  ],
+  "description": "Llama 3.1 is a new state-of-the-art model from Meta available in 8B, 70B and 405B parameter sizes.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Llama3.1 (8B) [Local]",
+    "owner": "Meta AI",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/llama3.1",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

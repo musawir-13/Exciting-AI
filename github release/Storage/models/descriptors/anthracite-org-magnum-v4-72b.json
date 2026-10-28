@@ -1,0 +1,42 @@
+{
+  "name": "anthracite-org-magnum-v4-72b",
+  "model": "anthracite-org/magnum-v4-72b",
+  "display_name": "Magnum v4 72B",
+  "modified_at": "2026-10-28T10:31:33.936Z",
+  "size": 0,
+  "digest": "openrouter-anthracite-org-magnum-v4-72b",
+  "details": {
+    "parent_model": "Magnum v4 72B",
+    "format": "openrouter",
+    "family": "anthraciteorg",
+    "families": [
+      "anthraciteorg",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "This is a series of models designed to replicate the prose quality of the Claude 3 models, specifically Sonnet(https://openrouter.ai/anthropic/claude-3.5-sonnet) and Opus(https://openrouter.ai/anthropic/claude-3-opus).\n\nThe model is fine-tuned on top of [Qwen2.5 72B](https://openrouter.ai/qwen/qwen-2.5-72b-instruct).",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Magnum v4 72B",
+    "owner": "anthracite-org",
+    "category": "anthracite-org",
+    "url": "https://openrouter.ai/models/anthracite-org/magnum-v4-72b",
+    "pricing": {
+      "prompt": "0.0000025",
+      "completion": "0.000005"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": 4096,
+      "is_moderated": false
+    }
+  }
+}

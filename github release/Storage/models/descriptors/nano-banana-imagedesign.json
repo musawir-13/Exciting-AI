@@ -1,0 +1,36 @@
+{
+  "name": "nano-banana-imagedesign",
+  "model": "nano-banana-imagedesign",
+  "display_name": "Nano Banana (Image/Design)",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-nano-banana-imagedesign",
+  "details": {
+    "parent_model": "Nano Banana (Image/Design)",
+    "format": "poe",
+    "family": "generative-media",
+    "families": [
+      "generative-media",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "8.192k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Lightweight generative design and image compositing model.",
+  "context_length": 8192,
+  "metadata": {
+    "display_name": "Nano Banana (Image/Design)",
+    "owner": "Generative Media",
+    "category": "Generative Media",
+    "url": null,
+    "pricing": null
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "seedream-5-0-pro",
+  "model": "seedream-5.0-pro",
+  "display_name": "Seedream-5.0-Pro",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-seedream-5-0-pro",
+  "details": {
+    "parent_model": "Seedream-5.0-Pro",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Seedream 5.0 Pro creates premium images from text prompts and reference images, with strong detail, composition, and multi-reference fusion. Use it for product concepts, style exploration, image edits, and polished visual assets across 1K and 2K output.\n\nInput limits\n- Up to 10 reference images\n- One generated image is returned per request\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Seedream-5.0-Pro",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/seedream-5.0-pro",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-7057085-200-eysggbzunoffxjyaehtronkgxbevploh.jpeg"
+  }
+}

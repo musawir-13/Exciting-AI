@@ -1,0 +1,36 @@
+{
+  "name": "xwinlm",
+  "model": "xwinlm",
+  "display_name": "Xwinlm [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-xwinlm",
+  "details": {
+    "parent_model": "xwinlm",
+    "format": "ollama",
+    "family": "meta",
+    "families": [
+      "meta",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "7B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "Conversational model based on Llama 2 that performs competitively on various benchmarks.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Xwinlm [Local]",
+    "owner": "Meta AI",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/xwinlm",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

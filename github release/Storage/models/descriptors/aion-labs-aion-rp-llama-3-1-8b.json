@@ -1,0 +1,42 @@
+{
+  "name": "aion-labs-aion-rp-llama-3-1-8b",
+  "model": "aion-labs/aion-rp-llama-3.1-8b",
+  "display_name": "AionLabs: Aion-RP 1.0 (8B)",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-aion-labs-aion-rp-llama-3-1-8b",
+  "details": {
+    "parent_model": "AionLabs: Aion-RP 1.0 (8B)",
+    "format": "openrouter",
+    "family": "aionlabs",
+    "families": [
+      "aionlabs",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Aion-RP-Llama-3.1-8B ranks the highest in the character evaluation portion of the RPBench-Auto benchmark, a roleplaying-specific variant of Arena-Hard-Auto, where LLMs evaluate each other’s responses. It is a fine-tuned base model...",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "AionLabs: Aion-RP 1.0 (8B)",
+    "owner": "aion-labs",
+    "category": "aion-labs",
+    "url": "https://openrouter.ai/models/aion-labs/aion-rp-llama-3.1-8b",
+    "pricing": {
+      "prompt": "0.0000008",
+      "completion": "0.0000016"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": 29491,
+      "is_moderated": false
+    }
+  }
+}

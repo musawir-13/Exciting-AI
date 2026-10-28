@@ -1,0 +1,44 @@
+{
+  "name": "mistralai-devstral-2512",
+  "model": "mistralai/devstral-2512",
+  "display_name": "Mistral: Devstral 2 2512",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-mistralai-devstral-2512",
+  "details": {
+    "parent_model": "Mistral: Devstral 2 2512",
+    "format": "openrouter",
+    "family": "mistralai",
+    "families": [
+      "mistralai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding. It is a 123B-parameter dense transformer model supporting a 256K context window. Devstral 2 supports exploring...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "Mistral: Devstral 2 2512",
+    "owner": "mistralai",
+    "category": "mistralai",
+    "url": "https://openrouter.ai/models/mistralai/devstral-2512",
+    "pricing": {
+      "prompt": "0.0000004",
+      "completion": "0.000002",
+      "input_cache_read": "0.00000004"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 209715,
+      "is_moderated": false
+    }
+  }
+}

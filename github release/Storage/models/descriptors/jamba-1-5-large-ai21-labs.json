@@ -1,0 +1,36 @@
+{
+  "name": "jamba-1-5-large-ai21-labs",
+  "model": "jamba-1-5-large-ai21-labs",
+  "display_name": "Jamba 1.5 Large (AI21 Labs)",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-jamba-1-5-large-ai21-labs",
+  "details": {
+    "parent_model": "Jamba 1.5 Large (AI21 Labs)",
+    "format": "poe",
+    "family": "ai21",
+    "families": [
+      "ai21",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "256k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "Hybrid SSM-Transformer model delivering 256k context efficiency.",
+  "context_length": 256000,
+  "metadata": {
+    "display_name": "Jamba 1.5 Large (AI21 Labs)",
+    "owner": "Cohere & Specialized Enterprise Labs",
+    "category": "Cohere & Specialized Enterprise Labs",
+    "url": null,
+    "pricing": null
+  }
+}

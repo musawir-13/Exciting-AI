@@ -1,0 +1,37 @@
+{
+  "name": "qwen2.5vl:latest",
+  "model": "qwen2.5vl:latest",
+  "display_name": "Qwen2.5vl [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-qwen2.5vl-latest",
+  "details": {
+    "parent_model": "qwen2.5vl",
+    "format": "ollama",
+    "family": "alibaba",
+    "families": [
+      "alibaba",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "3B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "vision"
+  ],
+  "description": "Flagship vision-language model of Qwen and also a significant leap from the previous Qwen2-VL.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Qwen2.5vl [Local]",
+    "owner": "Alibaba Cloud",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/qwen2.5vl",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

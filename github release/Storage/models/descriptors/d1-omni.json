@@ -1,0 +1,39 @@
+{
+  "name": "d1-omni",
+  "model": "d1-omni",
+  "display_name": "D1 [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-d1-omni",
+  "details": {
+    "parent_model": "d1-omni",
+    "format": "ollama",
+    "family": "liquid",
+    "families": [
+      "liquid",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "600M",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "vision",
+    "decision",
+    "audio"
+  ],
+  "description": "d1-omni is a multimodal 600M decision model from Liquid AI",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "D1 [Local]",
+    "owner": "Liquid AI",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/d1-omni",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

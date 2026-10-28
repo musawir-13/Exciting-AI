@@ -1,0 +1,37 @@
+{
+  "name": "command-r7b:latest",
+  "model": "command-r7b:latest",
+  "display_name": "Command R7b [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-command-r7b-latest",
+  "details": {
+    "parent_model": "command-r7b",
+    "format": "ollama",
+    "family": "cohere",
+    "families": [
+      "cohere",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "7B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "tools"
+  ],
+  "description": "The smallest model in Cohere&#39;s R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Command R7b [Local]",
+    "owner": "Cohere",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/command-r7b",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+rootProject.name = "Exciting-AI"
+include ':app'

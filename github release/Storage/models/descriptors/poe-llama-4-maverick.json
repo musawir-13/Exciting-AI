@@ -1,0 +1,43 @@
+{
+  "name": "poe-llama-4-maverick",
+  "model": "llama-4-maverick",
+  "display_name": "Llama-4-Maverick",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-poe-llama-4-maverick",
+  "details": {
+    "parent_model": "Llama-4-Maverick",
+    "format": "poe",
+    "family": "meta",
+    "families": [
+      "meta",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "Meta’s Llama 4 Maverick model for text, coding, and image understanding, with a 128K-token context window.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "Llama-4-Maverick",
+    "owner": "Meta",
+    "category": "Meta",
+    "url": "https://poe.com/llama-4-maverick",
+    "pricing": {
+      "prompt": "0.0000002424",
+      "completion": "0.0000009798",
+      "image": null,
+      "request": null,
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-7169947-200-bjwtqdflftvcefpuoslfxopbqjnoqara.jpeg"
+  }
+}

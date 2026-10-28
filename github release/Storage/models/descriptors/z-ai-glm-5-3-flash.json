@@ -1,0 +1,46 @@
+{
+  "name": "z-ai-glm-5-3-flash",
+  "model": "z-ai/glm-5.3-flash",
+  "display_name": "Z.ai: GLM 5.3 Flash",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "openrouter-z-ai-glm-5-3-flash",
+  "details": {
+    "parent_model": "Z.ai: GLM 5.3 Flash",
+    "format": "openrouter",
+    "family": "zai",
+    "families": [
+      "zai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1049k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while...",
+  "context_length": 1048576,
+  "metadata": {
+    "display_name": "Z.ai: GLM 5.3 Flash",
+    "owner": "z-ai",
+    "category": "z-ai",
+    "url": "https://openrouter.ai/models/z-ai/glm-5.3-flash",
+    "pricing": {
+      "prompt": "0.00000015",
+      "completion": "0.0000005",
+      "input_cache_read": "0.00000003"
+    },
+    "top_provider": {
+      "context_length": 1048575,
+      "max_completion_tokens": 943717,
+      "is_moderated": false
+    }
+  }
+}

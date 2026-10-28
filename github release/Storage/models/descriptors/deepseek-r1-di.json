@@ -1,0 +1,42 @@
+{
+  "name": "deepseek-r1-di",
+  "model": "deepseek-r1-di",
+  "display_name": "DeepSeek-R1-DI",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-deepseek-r1-di",
+  "details": {
+    "parent_model": "DeepSeek-R1-DI",
+    "format": "poe",
+    "family": "deepinfra",
+    "families": [
+      "deepinfra",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "64k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Top open-source reasoning LLM rivaling OpenAI's o1 model; delivers top-tier performance across math, code, and reasoning tasks at a fraction of the cost. All data you provide this bot will not be used in training, and is sent only to DeepInfra, a US-based company. Bot does not accept attachment.\n\nSupports 64k tokens of input context and 8k tokens of output context. Quantization: FP8 (official).",
+  "context_length": 64000,
+  "metadata": {
+    "display_name": "DeepSeek-R1-DI",
+    "owner": "DeepInfra",
+    "category": "DeepInfra",
+    "url": "https://poe.com/deepseek-r1-di",
+    "pricing": {
+      "prompt": null,
+      "completion": null,
+      "image": null,
+      "request": "0.0061",
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-5709851-200-ncgvevamqnhuykdyksagzdekopkxkaan.jpeg"
+  }
+}

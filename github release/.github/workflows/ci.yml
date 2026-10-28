@@ -1,0 +1,42 @@
+name: Exciting AI - CI Automated Master Suite
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    name: Run Master Test Suite (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-latest, windows-latest ]
+        node-version: [ 20.x ]
+
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Validate 1,927 Model Catalogue Integrity
+        run: node -e "const catalog = require('./Storage/models/catalog.json'); if (catalog.length < 1900) throw new Error('Catalog corrupted: found ' + catalog.length + ' models'); console.log('Successfully validated ' + catalog.length + ' models in catalog.');"
+
+      - name: Run All 12 Automated Test Suites
+        run: npm test
+
+      - name: Build Web Application Package
+        run: npm run build:web
+
+      - name: Build & Stage Android Mobile Project
+        run: npm run build:android

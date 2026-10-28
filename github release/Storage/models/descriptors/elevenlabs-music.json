@@ -1,0 +1,35 @@
+{
+  "name": "elevenlabs-music",
+  "model": "elevenlabs-music",
+  "display_name": "ElevenLabs-Music",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-elevenlabs-music",
+  "details": {
+    "parent_model": "ElevenLabs-Music",
+    "format": "poe",
+    "family": "elevenlabs",
+    "families": [
+      "elevenlabs",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "2k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "The ElevenLabs music model is a generative AI system designed to compose original music from text prompts. It allows creators to specify genres, moods, instruments, and structure, producing royalty-free tracks tailored to their needs. The model emphasizes speed, creative flexibility, and high-quality audio output, making it suitable for use in videos, podcasts, games, and other multimedia projects. This bot can produce songs with suggested lyrics based on general descriptions, exact lyrics if specified as such, or instrumental ones, all via prompting.\n\nOptional parameters:\nMusic length to set the length of the song in milliseconds (10,000 to 300,000 ms).\n\nNote: Prompt input cannot exceed 2,000 characters.",
+  "context_length": 2000,
+  "metadata": {
+    "display_name": "ElevenLabs-Music",
+    "owner": "ElevenLabs",
+    "category": "ElevenLabs",
+    "url": "https://poe.com/elevenlabs-music",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6372089-200-yuwvwbjdljzmykjpdzbxizuqqgowdgzq.jpeg"
+  }
+}

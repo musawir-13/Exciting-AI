@@ -1,0 +1,36 @@
+{
+  "name": "codeqwen:latest",
+  "model": "codeqwen:latest",
+  "display_name": "Codeqwen [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-codeqwen-latest",
+  "details": {
+    "parent_model": "codeqwen",
+    "format": "ollama",
+    "family": "alibaba",
+    "families": [
+      "alibaba",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "7B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "CodeQwen1.5 is a large language model pretrained on a large amount of code data.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Codeqwen [Local]",
+    "owner": "Alibaba Cloud",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/codeqwen",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

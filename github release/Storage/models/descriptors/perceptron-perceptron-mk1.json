@@ -1,0 +1,44 @@
+{
+  "name": "perceptron-perceptron-mk1",
+  "model": "perceptron/perceptron-mk1",
+  "display_name": "Perceptron: Perceptron Mk1",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-perceptron-perceptron-mk1",
+  "details": {
+    "parent_model": "Perceptron: Perceptron Mk1",
+    "format": "openrouter",
+    "family": "perceptron",
+    "families": [
+      "perceptron",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision"
+  ],
+  "description": "Perceptron Mk1 (Mark One) is Perceptron's highest-quality vision-language model for video and embodied reasoning.** It accepts image and video inputs paired with natural language queries, and produces detailed visual understanding...",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Perceptron: Perceptron Mk1",
+    "owner": "perceptron",
+    "category": "perceptron",
+    "url": "https://openrouter.ai/models/perceptron/perceptron-mk1",
+    "pricing": {
+      "prompt": "0.00000015",
+      "completion": "0.0000015"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": 8192,
+      "is_moderated": false
+    }
+  }
+}

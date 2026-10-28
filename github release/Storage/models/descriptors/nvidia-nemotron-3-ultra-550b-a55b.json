@@ -1,0 +1,45 @@
+{
+  "name": "nvidia-nemotron-3-ultra-550b-a55b",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "display_name": "NVIDIA: Nemotron 3 Ultra",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-nvidia-nemotron-3-ultra-550b-a55b",
+  "details": {
+    "parent_model": "NVIDIA: Nemotron 3 Ultra",
+    "format": "openrouter",
+    "family": "nvidia",
+    "families": [
+      "nvidia",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "NVIDIA: Nemotron 3 Ultra",
+    "owner": "nvidia",
+    "category": "nvidia",
+    "url": "https://openrouter.ai/models/nvidia/nemotron-3-ultra-550b-a55b",
+    "pricing": {
+      "prompt": "0.0000006",
+      "completion": "0.0000024",
+      "input_cache_read": "0.00000012"
+    },
+    "top_provider": {
+      "context_length": 202800,
+      "max_completion_tokens": 182520,
+      "is_moderated": false
+    }
+  }
+}

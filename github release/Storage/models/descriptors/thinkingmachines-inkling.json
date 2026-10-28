@@ -1,0 +1,46 @@
+{
+  "name": "thinkingmachines-inkling",
+  "model": "thinkingmachines/inkling",
+  "display_name": "Thinking Machines: Inkling",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-thinkingmachines-inkling",
+  "details": {
+    "parent_model": "Thinking Machines: Inkling",
+    "format": "openrouter",
+    "family": "thinkingmachines",
+    "families": [
+      "thinkingmachines",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "524k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,...",
+  "context_length": 524288,
+  "metadata": {
+    "display_name": "Thinking Machines: Inkling",
+    "owner": "thinkingmachines",
+    "category": "thinkingmachines",
+    "url": "https://openrouter.ai/models/thinkingmachines/inkling",
+    "pricing": {
+      "prompt": "0.000001",
+      "completion": "0.00000405",
+      "input_cache_read": "0.00000017"
+    },
+    "top_provider": {
+      "context_length": 524288,
+      "max_completion_tokens": 471859,
+      "is_moderated": false
+    }
+  }
+}

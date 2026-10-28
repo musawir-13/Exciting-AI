@@ -1,0 +1,38 @@
+{
+  "name": "qwen2.5-coder:14b",
+  "model": "qwen2.5-coder:14b",
+  "display_name": "Qwen2.5 Coder (14B) [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-qwen2.5-coder-14b",
+  "details": {
+    "parent_model": "qwen2.5-coder",
+    "format": "ollama",
+    "family": "alibaba",
+    "families": [
+      "alibaba",
+      "local",
+      "ollama",
+      "14b"
+    ],
+    "parameter_size": "14B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "tools"
+  ],
+  "description": "The latest series of Code-Specific Qwen models, with significant improvements in code generation, code reasoning, and code fixing.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Qwen2.5 Coder (14B) [Local]",
+    "owner": "Alibaba Cloud",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/qwen2.5-coder",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

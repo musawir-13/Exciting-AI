@@ -1,0 +1,45 @@
+{
+  "name": "perplexity-sonar-deep-research",
+  "model": "perplexity/sonar-deep-research",
+  "display_name": "Perplexity: Sonar Deep Research",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-perplexity-sonar-deep-research",
+  "details": {
+    "parent_model": "Perplexity: Sonar Deep Research",
+    "format": "openrouter",
+    "family": "perplexity",
+    "families": [
+      "perplexity",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking"
+  ],
+  "description": "Sonar Deep Research is a research-focused model designed for multi-step retrieval, synthesis, and reasoning across complex topics. It autonomously searches, reads, and evaluates sources, refining its approach as it gathers...",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "Perplexity: Sonar Deep Research",
+    "owner": "perplexity",
+    "category": "perplexity",
+    "url": "https://openrouter.ai/models/perplexity/sonar-deep-research",
+    "pricing": {
+      "prompt": "0.000002",
+      "completion": "0.000008",
+      "web_search": "0.005",
+      "internal_reasoning": "0.000003"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": 115200,
+      "is_moderated": false
+    }
+  }
+}

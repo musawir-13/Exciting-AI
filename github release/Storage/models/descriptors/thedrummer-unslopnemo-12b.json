@@ -1,0 +1,42 @@
+{
+  "name": "thedrummer-unslopnemo-12b",
+  "model": "thedrummer/unslopnemo-12b",
+  "display_name": "TheDrummer: UnslopNemo 12B",
+  "modified_at": "2026-10-28T10:31:33.936Z",
+  "size": 0,
+  "digest": "openrouter-thedrummer-unslopnemo-12b",
+  "details": {
+    "parent_model": "TheDrummer: UnslopNemo 12B",
+    "format": "openrouter",
+    "family": "thedrummer",
+    "families": [
+      "thedrummer",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1024k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "UnslopNemo v4.1 is the latest addition from the creator of Rocinante, designed for adventure writing and role-play scenarios.",
+  "context_length": 1024000,
+  "metadata": {
+    "display_name": "TheDrummer: UnslopNemo 12B",
+    "owner": "thedrummer",
+    "category": "thedrummer",
+    "url": "https://openrouter.ai/models/thedrummer/unslopnemo-12b",
+    "pricing": {
+      "prompt": "0.0000004",
+      "completion": "0.0000004"
+    },
+    "top_provider": {
+      "context_length": 1024000,
+      "max_completion_tokens": 819200,
+      "is_moderated": false
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "cohere-command-a-plus",
+  "model": "cohere/command-a-plus",
+  "display_name": "Cohere: Command A+",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "openrouter-cohere-command-a-plus",
+  "details": {
+    "parent_model": "Cohere: Command A+",
+    "format": "openrouter",
+    "family": "cohere",
+    "families": [
+      "cohere",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "192k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Command A+ is Cohere's flagship model for enterprise agentic workflows. It accepts text and image inputs with a 192K context window, supports native tool calling with strict tool schemas, structured...",
+  "context_length": 192000,
+  "metadata": {
+    "display_name": "Cohere: Command A+",
+    "owner": "cohere",
+    "category": "cohere",
+    "url": "https://openrouter.ai/models/cohere/command-a-plus",
+    "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000015",
+      "input_cache_read": "0.00000015"
+    },
+    "top_provider": {
+      "context_length": 192000,
+      "max_completion_tokens": 64000,
+      "is_moderated": true
+    }
+  }
+}

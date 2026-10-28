@@ -1,0 +1,35 @@
+{
+  "name": "mythomax-l2-13b",
+  "model": "mythomax-l2-13b",
+  "display_name": "MythoMax-L2-13b",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-mythomax-l2-13b",
+  "details": {
+    "parent_model": "MythoMax-L2-13b",
+    "format": "poe",
+    "family": "gryphe",
+    "families": [
+      "gryphe",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4.096k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Popular community merge model for creative writing and storytelling.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "MythoMax-L2-13b",
+    "owner": "Open Source & Community Innovation",
+    "category": "Open Source & Community Innovation",
+    "url": null,
+    "pricing": null
+  }
+}

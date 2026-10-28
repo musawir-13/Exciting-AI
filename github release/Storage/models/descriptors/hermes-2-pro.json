@@ -1,0 +1,35 @@
+{
+  "name": "hermes-2-pro",
+  "model": "hermes-2-pro",
+  "display_name": "Hermes 2 Pro",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-hermes-2-pro",
+  "details": {
+    "parent_model": "Hermes 2 Pro",
+    "format": "poe",
+    "family": "nous",
+    "families": [
+      "nous",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "32.768k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Pioneering function-calling open model with structured JSON parsing.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Hermes 2 Pro",
+    "owner": "Open Source & Community Innovation",
+    "category": "Open Source & Community Innovation",
+    "url": null,
+    "pricing": null
+  }
+}

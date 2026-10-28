@@ -1,0 +1,45 @@
+{
+  "name": "gpt-5-2-pro",
+  "model": "gpt-5.2-pro",
+  "display_name": "GPT-5.2-Pro",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-gpt-5-2-pro",
+  "details": {
+    "parent_model": "GPT-5.2-Pro",
+    "format": "poe",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "400k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "A powerful reasoning model that is ideal for your most complex, highest difficulty tasks. On x-high reasoning effort, scores a 90.5% on ARC-AGI-1 benchmark, an incredibly difficult problem-solving benchmark where humans score 100%. Note: the model can take up to 30 minutes to think through a problem and is quite expensive. Supports 400k tokens of context and native vision.\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 400000,
+  "metadata": {
+    "display_name": "GPT-5.2-Pro",
+    "owner": "OpenAI",
+    "category": "OpenAI",
+    "url": "https://poe.com/gpt-5.2-pro",
+    "pricing": {
+      "prompt": "0.0000190909",
+      "completion": "0.0001527273",
+      "image": null,
+      "request": null,
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-3056-200-trsojldzaaamtvabegdoyylhrpbbmvhh.jpeg"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "scaledown-extract",
+  "model": "scaledown/extract",
+  "display_name": "ScaleDown: Extract",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "openrouter-scaledown-extract",
+  "details": {
+    "parent_model": "ScaleDown: Extract",
+    "format": "openrouter",
+    "family": "scaledown",
+    "families": [
+      "scaledown",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "Extract is a description-driven entity extraction model from ScaleDown. Instead of a fixed set of entity types, callers describe the fields they want in plain English through `provider.options.scaledown.entities`, and the...",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "ScaleDown: Extract",
+    "owner": "scaledown",
+    "category": "scaledown",
+    "url": "https://openrouter.ai/models/scaledown/extract",
+    "pricing": {
+      "prompt": "0.00000004",
+      "completion": "0"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 900000,
+      "is_moderated": false
+    }
+  }
+}

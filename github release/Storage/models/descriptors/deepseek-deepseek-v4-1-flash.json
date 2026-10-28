@@ -1,0 +1,46 @@
+{
+  "name": "deepseek-deepseek-v4-1-flash",
+  "model": "deepseek/deepseek-v4.1-flash",
+  "display_name": "DeepSeek: DeepSeek V4.1 Flash",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "openrouter-deepseek-deepseek-v4-1-flash",
+  "details": {
+    "parent_model": "DeepSeek: DeepSeek V4.1 Flash",
+    "format": "openrouter",
+    "family": "deepseek",
+    "families": [
+      "deepseek",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1049k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on...",
+  "context_length": 1048576,
+  "metadata": {
+    "display_name": "DeepSeek: DeepSeek V4.1 Flash",
+    "owner": "deepseek",
+    "category": "deepseek",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash",
+    "pricing": {
+      "prompt": "0.00000014",
+      "completion": "0.00000042",
+      "input_cache_read": "0.0000000042"
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    }
+  }
+}

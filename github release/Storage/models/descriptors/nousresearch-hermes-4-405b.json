@@ -1,0 +1,44 @@
+{
+  "name": "nousresearch-hermes-4-405b",
+  "model": "nousresearch/hermes-4-405b",
+  "display_name": "Nous: Hermes 4 405B",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-nousresearch-hermes-4-405b",
+  "details": {
+    "parent_model": "Nous: Hermes 4 405B",
+    "format": "openrouter",
+    "family": "nousresearch",
+    "families": [
+      "nousresearch",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "131k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking"
+  ],
+  "description": "Hermes 4 is a large-scale reasoning model built on Meta-Llama-3.1-405B and released by Nous Research. It introduces a hybrid reasoning mode, where the model can choose to deliberate internally with...",
+  "context_length": 131072,
+  "metadata": {
+    "display_name": "Nous: Hermes 4 405B",
+    "owner": "nousresearch",
+    "category": "nousresearch",
+    "url": "https://openrouter.ai/models/nousresearch/hermes-4-405b",
+    "pricing": {
+      "prompt": "0.000001",
+      "completion": "0.000003",
+      "input_cache_read": "0.0000002"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 117964,
+      "is_moderated": false
+    }
+  }
+}

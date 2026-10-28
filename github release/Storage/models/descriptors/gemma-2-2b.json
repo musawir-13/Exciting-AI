@@ -1,0 +1,35 @@
+{
+  "name": "gemma-2-2b",
+  "model": "gemma-2-2b",
+  "display_name": "Gemma 2 2B",
+  "modified_at": "2026-10-28T09:07:40.412Z",
+  "size": 0,
+  "digest": "poe-gemma-2-2b",
+  "details": {
+    "parent_model": "Gemma 2 2B",
+    "format": "poe",
+    "family": "google",
+    "families": [
+      "google",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "8.192k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Ultra-compact model designed for on-device applications.",
+  "context_length": 8192,
+  "metadata": {
+    "display_name": "Gemma 2 2B",
+    "owner": "Google DeepMind",
+    "category": "Google DeepMind",
+    "url": null,
+    "pricing": null
+  }
+}

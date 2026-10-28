@@ -1,0 +1,36 @@
+{
+  "name": "sketch-to-image",
+  "model": "sketch-to-image",
+  "display_name": "Sketch-to-Image",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-sketch-to-image",
+  "details": {
+    "parent_model": "Sketch-to-Image",
+    "format": "poe",
+    "family": "fal",
+    "families": [
+      "fal",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "Takes in sketches and converts them to colored images.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Sketch-to-Image",
+    "owner": "fal",
+    "category": "fal",
+    "url": "https://poe.com/sketch-to-image",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-5512529-200-vcsulapoifatrxmpnubzpmxwkcwkatvw.jpeg"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "clef-flash:latest",
+  "model": "clef-flash:latest",
+  "display_name": "Clef Flash [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-clef-flash-latest",
+  "details": {
+    "parent_model": "clef-flash",
+    "format": "ollama",
+    "family": "cloudflare",
+    "families": [
+      "cloudflare",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "9B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "vision",
+    "decision"
+  ],
+  "description": "Clef-Flash is a 9B multimodal model that turns a state and a schema of typed questions into decisions.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Clef Flash [Local]",
+    "owner": "Cloudflare",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/clef-flash",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

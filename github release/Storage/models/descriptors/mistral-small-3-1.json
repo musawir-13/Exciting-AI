@@ -1,0 +1,44 @@
+{
+  "name": "mistral-small-3-1",
+  "model": "mistral-small-3.1",
+  "display_name": "Mistral-Small-3.1",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-mistral-small-3-1",
+  "details": {
+    "parent_model": "Mistral-Small-3.1",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "127k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Mistral Small 3.1 24B Instruct is an upgraded variant of Mistral Small 3 (2501), featuring 24 billion parameters with advanced multimodal capabilities. It provides state-of-the-art performance in text-based reasoning and vision tasks, including image analysis, programming, mathematical reasoning, and multilingual support across dozens of languages. Equipped with an extensive 128k token context window and optimized for efficient local inference, it supports use cases such as conversational agents, function calling, long-document comprehension, and privacy-sensitive deployments.",
+  "context_length": 127000,
+  "metadata": {
+    "display_name": "Mistral-Small-3.1",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/mistral-small-3.1",
+    "pricing": {
+      "prompt": null,
+      "completion": null,
+      "image": null,
+      "request": null,
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-5809275-200-pvgssxtijpqzadxjnnfhdevhyvczdyyq.jpeg"
+  }
+}

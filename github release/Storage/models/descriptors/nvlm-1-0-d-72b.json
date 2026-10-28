@@ -1,0 +1,37 @@
+{
+  "name": "nvlm-1-0-d-72b",
+  "model": "nvlm-1-0-d-72b",
+  "display_name": "NVLM-1.0-D-72B",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-nvlm-1-0-d-72b",
+  "details": {
+    "parent_model": "NVLM-1.0-D-72B",
+    "format": "poe",
+    "family": "nvidia",
+    "families": [
+      "nvidia",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "72B multimodal vision-language model rivaling GPT-4o.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "NVLM-1.0-D-72B",
+    "owner": "NVIDIA & Hardware Pioneers",
+    "category": "NVIDIA & Hardware Pioneers",
+    "url": null,
+    "pricing": null
+  }
+}

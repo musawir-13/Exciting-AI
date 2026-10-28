@@ -1,0 +1,39 @@
+{
+  "name": "nimble:latest",
+  "model": "nimble:latest",
+  "display_name": "Nimble [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-nimble-latest",
+  "details": {
+    "parent_model": "nimble",
+    "format": "ollama",
+    "family": "ollama",
+    "families": [
+      "ollama",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "9B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "tools",
+    "decision",
+    "thinking"
+  ],
+  "description": "A 9B decision model from Bespoke Labs for fast, typed classification.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Nimble [Local]",
+    "owner": "Ollama Community",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/nimble",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

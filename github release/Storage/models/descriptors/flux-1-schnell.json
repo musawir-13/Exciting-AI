@@ -1,0 +1,36 @@
+{
+  "name": "flux-1-schnell",
+  "model": "flux-1-schnell",
+  "display_name": "FLUX.1 Schnell",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-flux-1-schnell",
+  "details": {
+    "parent_model": "FLUX.1 Schnell",
+    "format": "poe",
+    "family": "black-forest-labs",
+    "families": [
+      "black-forest-labs",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "8.192k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Ultra-fast 4-step image synthesis model for real-time generative workflows.",
+  "context_length": 8192,
+  "metadata": {
+    "display_name": "FLUX.1 Schnell",
+    "owner": "Generative Media",
+    "category": "Generative Media",
+    "url": null,
+    "pricing": null
+  }
+}

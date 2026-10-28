@@ -1,0 +1,44 @@
+{
+  "name": "grok-4-20-multi-agent",
+  "model": "grok-4.20-multi-agent",
+  "display_name": "Grok-4.20-Multi-Agent",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-grok-4-20-multi-agent",
+  "details": {
+    "parent_model": "Grok-4.20-Multi-Agent",
+    "format": "poe",
+    "family": "xai",
+    "families": [
+      "xai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Realtime Multi-agent Research enables Grok to orchestrate multiple AI agents that work together in real time to perform deep, multi-step research tasks. Each agent specializes in a particular aspect of the research (searching the web, analyzing data, synthesizing findings) and they collaborate to deliver comprehensive, well-sourced answers.\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "Grok-4.20-Multi-Agent",
+    "owner": "XAI",
+    "category": "XAI",
+    "url": "https://poe.com/grok-4.20-multi-agent",
+    "pricing": {
+      "prompt": "0.0000012626",
+      "completion": "0.0000025253",
+      "image": null,
+      "request": null,
+      "input_cache_read": "0.000000202",
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6874163-200-aomwgdhhcvvlzfvdzcfnpibugcpnzidf.jpeg"
+  }
+}

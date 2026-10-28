@@ -1,0 +1,36 @@
+{
+  "name": "starling-lm:latest",
+  "model": "starling-lm:latest",
+  "display_name": "Starling Lm [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-starling-lm-latest",
+  "details": {
+    "parent_model": "starling-lm",
+    "format": "ollama",
+    "family": "ollama",
+    "families": [
+      "ollama",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "7B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Starling Lm [Local]",
+    "owner": "Ollama Community",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/starling-lm",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

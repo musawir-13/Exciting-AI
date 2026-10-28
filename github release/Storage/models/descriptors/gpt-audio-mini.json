@@ -1,0 +1,35 @@
+{
+  "name": "gpt-audio-mini",
+  "model": "gpt-audio-mini",
+  "display_name": "GPT-Audio-Mini",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-gpt-audio-mini",
+  "details": {
+    "parent_model": "GPT-Audio-Mini",
+    "format": "poe",
+    "family": "binaai",
+    "families": [
+      "binaai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "OpenAI's gpt-audio-mini model, brought to Poe as a server bot! This model accepts text and audio inputs and can respond with natural-sounding speech. Learn more about this model at https://platform.openai.com/docs/models/gpt-audio-mini.\n\nWhen audio output is on, responses include both a voice recording and a text transcript. When audio output is off, one of the messages in the conversation must include an audio file attachment (audio in previous messages from either you or the bot is fine).\n\nOptional parameters:\n- enable_audio_output: either true or false to control whether responses are spoken aloud (default: true)\n- voice: the name of a voice for voice outputs: \"alloy\", \"ash\", \"ballad\", \"cedar\", \"coral\", \"echo\", \"fable\", \"marin\", \"nova\", \"onyx\", \"sage\", or \"shimmer\" (default: marin)\n-  model_snapshot: select a specific model version\n- auto_max_tokens: Let the model decide the max number of tokens to output (enabled by default). Disable this option to manually specify a token limit between 10 and 16,384 using the max_tokens parameter.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "GPT-Audio-Mini",
+    "owner": "Bina AI",
+    "category": "Bina AI",
+    "url": "https://poe.com/gpt-audio-mini",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6751774-200-gqqzmfvdzfzzfgttxqrxeegnkwhzyucd.jpeg"
+  }
+}

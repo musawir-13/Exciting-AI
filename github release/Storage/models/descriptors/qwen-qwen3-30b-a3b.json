@@ -1,0 +1,44 @@
+{
+  "name": "qwen-qwen3-30b-a3b",
+  "model": "qwen/qwen3-30b-a3b",
+  "display_name": "Qwen: Qwen3 30B A3B",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-qwen-qwen3-30b-a3b",
+  "details": {
+    "parent_model": "Qwen: Qwen3 30B A3B",
+    "format": "openrouter",
+    "family": "qwen",
+    "families": [
+      "qwen",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "41k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique...",
+  "context_length": 40960,
+  "metadata": {
+    "display_name": "Qwen: Qwen3 30B A3B",
+    "owner": "qwen",
+    "category": "qwen",
+    "url": "https://openrouter.ai/models/qwen/qwen3-30b-a3b",
+    "pricing": {
+      "prompt": "0.00000012",
+      "completion": "0.0000005"
+    },
+    "top_provider": {
+      "context_length": 40960,
+      "max_completion_tokens": 16384,
+      "is_moderated": false
+    }
+  }
+}

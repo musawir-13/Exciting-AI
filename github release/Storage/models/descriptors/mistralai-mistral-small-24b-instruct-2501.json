@@ -1,0 +1,42 @@
+{
+  "name": "mistralai-mistral-small-24b-instruct-2501",
+  "model": "mistralai/mistral-small-24b-instruct-2501",
+  "display_name": "Mistral: Mistral Small 3",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-mistralai-mistral-small-24b-instruct-2501",
+  "details": {
+    "parent_model": "Mistral: Mistral Small 3",
+    "format": "openrouter",
+    "family": "mistralai",
+    "families": [
+      "mistralai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Mistral Small 3 is a 24B-parameter language model optimized for low-latency performance across common AI tasks. Released under the Apache 2.0 license, it features both pre-trained and instruction-tuned versions designed...",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Mistral: Mistral Small 3",
+    "owner": "mistralai",
+    "category": "mistralai",
+    "url": "https://openrouter.ai/models/mistralai/mistral-small-24b-instruct-2501",
+    "pricing": {
+      "prompt": "0.00000005",
+      "completion": "0.00000008"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": 16384,
+      "is_moderated": false
+    }
+  }
+}

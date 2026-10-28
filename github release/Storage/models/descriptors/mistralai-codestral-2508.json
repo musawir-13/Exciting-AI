@@ -1,0 +1,44 @@
+{
+  "name": "mistralai-codestral-2508",
+  "model": "mistralai/codestral-2508",
+  "display_name": "Mistral: Codestral 2508",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-mistralai-codestral-2508",
+  "details": {
+    "parent_model": "Mistral: Codestral 2508",
+    "format": "openrouter",
+    "family": "mistralai",
+    "families": [
+      "mistralai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "256k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Mistral's cutting-edge language model for coding released end of July 2025. Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code correction and test generation.\n\n[Blog Post](https://mistral.ai/news/codestral-25-08)",
+  "context_length": 256000,
+  "metadata": {
+    "display_name": "Mistral: Codestral 2508",
+    "owner": "mistralai",
+    "category": "mistralai",
+    "url": "https://openrouter.ai/models/mistralai/codestral-2508",
+    "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000009",
+      "input_cache_read": "0.00000003"
+    },
+    "top_provider": {
+      "context_length": 256000,
+      "max_completion_tokens": 204800,
+      "is_moderated": false
+    }
+  }
+}

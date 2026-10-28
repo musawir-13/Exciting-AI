@@ -1,0 +1,37 @@
+{
+  "name": "phi4:14b",
+  "model": "phi4:14b",
+  "display_name": "Phi4 (14B) [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-phi4-14b",
+  "details": {
+    "parent_model": "phi4",
+    "format": "ollama",
+    "family": "microsoft",
+    "families": [
+      "microsoft",
+      "local",
+      "ollama",
+      "14b"
+    ],
+    "parameter_size": "14B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "Phi-4 is a 14B parameter, state-of-the-art open model from Microsoft.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Phi4 (14B) [Local]",
+    "owner": "Microsoft",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/phi4",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

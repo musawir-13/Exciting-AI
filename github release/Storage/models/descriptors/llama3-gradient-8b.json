@@ -1,0 +1,37 @@
+{
+  "name": "llama3-gradient:8b",
+  "model": "llama3-gradient:8b",
+  "display_name": "Llama3 Gradient (8B) [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-llama3-gradient-8b",
+  "details": {
+    "parent_model": "llama3-gradient",
+    "format": "ollama",
+    "family": "meta",
+    "families": [
+      "meta",
+      "local",
+      "ollama",
+      "8b"
+    ],
+    "parameter_size": "8B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "This model extends LLama-3 8B&#39;s context length from 8k to over 1m tokens.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Llama3 Gradient (8B) [Local]",
+    "owner": "Meta AI",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/llama3-gradient",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

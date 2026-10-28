@@ -1,0 +1,44 @@
+{
+  "name": "rekaai-reka-edge",
+  "model": "rekaai/reka-edge",
+  "display_name": "Reka Edge",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-rekaai-reka-edge",
+  "details": {
+    "parent_model": "Reka Edge",
+    "format": "openrouter",
+    "family": "rekaai",
+    "families": [
+      "rekaai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "16k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Reka Edge is an extremely efficient 7B multimodal vision-language model that accepts image/video+text inputs and generates text outputs. This model is optimized specifically to deliver industry-leading performance in image understanding,...",
+  "context_length": 16384,
+  "metadata": {
+    "display_name": "Reka Edge",
+    "owner": "rekaai",
+    "category": "rekaai",
+    "url": "https://openrouter.ai/models/rekaai/reka-edge",
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000001"
+    },
+    "top_provider": {
+      "context_length": 16384,
+      "max_completion_tokens": 14745,
+      "is_moderated": false
+    }
+  }
+}

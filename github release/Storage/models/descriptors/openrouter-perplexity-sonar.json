@@ -1,0 +1,44 @@
+{
+  "name": "openrouter-perplexity-sonar",
+  "model": "perplexity/sonar",
+  "display_name": "Perplexity: Sonar",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-openrouter-perplexity-sonar",
+  "details": {
+    "parent_model": "Perplexity: Sonar",
+    "format": "openrouter",
+    "family": "perplexity",
+    "families": [
+      "perplexity",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "127k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "Sonar is lightweight, affordable, fast, and simple to use — now featuring citations and the ability to customize sources. It is designed for companies seeking to integrate lightweight question-and-answer features...",
+  "context_length": 127072,
+  "metadata": {
+    "display_name": "Perplexity: Sonar",
+    "owner": "perplexity",
+    "category": "perplexity",
+    "url": "https://openrouter.ai/models/perplexity/sonar",
+    "pricing": {
+      "prompt": "0.000001",
+      "completion": "0.000001",
+      "web_search": "0.005"
+    },
+    "top_provider": {
+      "context_length": 127072,
+      "max_completion_tokens": 114364,
+      "is_moderated": false
+    }
+  }
+}

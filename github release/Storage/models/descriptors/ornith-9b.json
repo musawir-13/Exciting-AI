@@ -1,0 +1,39 @@
+{
+  "name": "ornith:9b",
+  "model": "ornith:9b",
+  "display_name": "Ornith (9B) [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-ornith-9b",
+  "details": {
+    "parent_model": "ornith",
+    "format": "ollama",
+    "family": "ollama",
+    "families": [
+      "ollama",
+      "local",
+      "ollama",
+      "9b"
+    ],
+    "parameter_size": "9B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "tools",
+    "thinking"
+  ],
+  "description": "A self-improving family of open-source models for agentic coding",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Ornith (9B) [Local]",
+    "owner": "Ollama Community",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/ornith",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

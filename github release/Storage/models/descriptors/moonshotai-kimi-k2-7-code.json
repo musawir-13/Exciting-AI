@@ -1,0 +1,46 @@
+{
+  "name": "moonshotai-kimi-k2-7-code",
+  "model": "moonshotai/kimi-k2.7-code",
+  "display_name": "MoonshotAI: Kimi K2.7 Code",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-moonshotai-kimi-k2-7-code",
+  "details": {
+    "parent_model": "MoonshotAI: Kimi K2.7 Code",
+    "format": "openrouter",
+    "family": "moonshotai",
+    "families": [
+      "moonshotai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "MoonshotAI: Kimi K2.7 Code",
+    "owner": "moonshotai",
+    "category": "moonshotai",
+    "url": "https://openrouter.ai/models/moonshotai/kimi-k2.7-code",
+    "pricing": {
+      "prompt": "0.00000056",
+      "completion": "0.0000031",
+      "input_cache_read": "0.00000015"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 235929,
+      "is_moderated": false
+    }
+  }
+}

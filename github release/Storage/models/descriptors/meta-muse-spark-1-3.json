@@ -1,0 +1,47 @@
+{
+  "name": "meta-muse-spark-1-3",
+  "model": "meta/muse-spark-1.3",
+  "display_name": "Meta: Muse Spark 1.3",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "openrouter-meta-muse-spark-1-3",
+  "details": {
+    "parent_model": "Meta: Muse Spark 1.3",
+    "format": "openrouter",
+    "family": "meta",
+    "families": [
+      "meta",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1049k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Muse Spark 1.3 is a multimodal reasoning model from Meta for long-running agentic, multi-agent, and coding workflows. It is designed to keep track of information across extended tasks, work through...",
+  "context_length": 1048576,
+  "metadata": {
+    "display_name": "Meta: Muse Spark 1.3",
+    "owner": "meta",
+    "category": "meta",
+    "url": "https://openrouter.ai/models/meta/muse-spark-1.3",
+    "pricing": {
+      "prompt": "0.00000125",
+      "completion": "0.00000425",
+      "web_search": "0.0025",
+      "input_cache_read": "0.00000015"
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 943718,
+      "is_moderated": true
+    }
+  }
+}

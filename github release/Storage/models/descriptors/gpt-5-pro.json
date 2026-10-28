@@ -1,0 +1,45 @@
+{
+  "name": "gpt-5-pro",
+  "model": "gpt-5-pro",
+  "display_name": "GPT-5-Pro",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-gpt-5-pro",
+  "details": {
+    "parent_model": "GPT-5-Pro",
+    "format": "poe",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "400k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "OpenAI’s latest flagship model with significantly improved coding skills, long context (400k tokens), and improved instruction following. Supports native vision, and generally has more intelligence than GPT-4.1.\n\nNote: \nGPT-5-Pro thinks long and hard. When using this bot through the API, consider increasing your request timeouts.",
+  "context_length": 400000,
+  "metadata": {
+    "display_name": "GPT-5-Pro",
+    "owner": "OpenAI",
+    "category": "OpenAI",
+    "url": "https://poe.com/gpt-5-pro",
+    "pricing": {
+      "prompt": "0.0000136364",
+      "completion": "0.0001090909",
+      "image": null,
+      "request": null,
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-3048-200-zdgatcscdmlcmyjoreojbddanjsmpmnu.jpeg"
+  }
+}

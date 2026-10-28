@@ -1,0 +1,35 @@
+{
+  "name": "kling-3-0-turbo",
+  "model": "kling-3.0-turbo",
+  "display_name": "Kling-3.0-Turbo",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-kling-3-0-turbo",
+  "details": {
+    "parent_model": "Kling-3.0-Turbo",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Kling 3.0 Turbo is a fast video generation model that produces high-quality videos with synchronized native audio, at 720p or 1080p resolution. It supports Text-to-Video and Image-to-Video, with multi-shot prompting for up to 6 sequential scenes in a single clip.\n\nMulti-Shot Mode\n- Generate up to 6 sequential shots in one video by formatting the prompt as `shot 1, <seconds>, <description>; shot 2, <seconds>, <description>;` — separate shots with a semicolon\n- n: shot sequence number (1 to 6 shots)\n- m: shot duration; each shot is at least 1 second, and the sum of shot durations equals the total video duration\n- words: the prompt for that shot, up to 512 characters\n- Per-shot timing is treated as guidance, so cuts may not land on the exact frame\n- Text-to-Video only\n\nPrompting\n- There is no separate negative prompt. To steer away from unwanted elements, describe them directly in your prompt, for example: a calm forest at dawn, avoid blurry motion, no on-screen text\n\nInput Limits & Requirements\n- Prompt length: up to 3,072 characters (2,500 recommended). Positive and negative descriptions can both go in the prompt\n- Resolution: 720p or 1080p. Duration: 3 to 15 seconds\n- Aspect ratio: 16:9, 9:16, or 1:1 for Text-to-Video; Image-to-Video follows the source image\n- Image inputs (Image-to-Video): JPEG or PNG only, up to 50MB. Width and height must each be at least 300px, and the aspect ratio must fall within 1:2.5 to 2.5:1\n- Native audio is generated automatically\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Kling-3.0-Turbo",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/kling-3.0-turbo",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-7032905-200-qkxbxebdfaejopgcffqqkuexeqdgdroe.jpeg"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "deepseek-r1-turbo-di",
+  "model": "deepseek-r1-turbo-di",
+  "display_name": "DeepSeek-R1-Turbo-DI",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-deepseek-r1-turbo-di",
+  "details": {
+    "parent_model": "DeepSeek-R1-Turbo-DI",
+    "format": "poe",
+    "family": "deepinfra",
+    "families": [
+      "deepinfra",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "32k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Top open-source reasoning LLM rivaling OpenAI's o1 model; delivers top-tier performance across math, code, and reasoning tasks at a fraction of the cost. Turbo model is quantized to achieve higher speeds. All data you provide this bot will not be used in training, and is sent only to DeepInfra, a US-based company.\n\nSupports 32k tokens of input context and 8k tokens of output context. Quantization: FP4 (turbo).",
+  "context_length": 32000,
+  "metadata": {
+    "display_name": "DeepSeek-R1-Turbo-DI",
+    "owner": "DeepInfra",
+    "category": "DeepInfra",
+    "url": "https://poe.com/deepseek-r1-turbo-di",
+    "pricing": {
+      "prompt": null,
+      "completion": null,
+      "image": null,
+      "request": "0.015",
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-5755292-200-xtvccqsbbpdrciwbcpfpplogqvlfdeqw.jpeg"
+  }
+}

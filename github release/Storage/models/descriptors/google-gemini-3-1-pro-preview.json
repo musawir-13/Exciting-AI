@@ -1,0 +1,62 @@
+{
+  "name": "google-gemini-3-1-pro-preview",
+  "model": "google/gemini-3.1-pro-preview",
+  "display_name": "Google: Gemini 3.1 Pro Preview",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-google-gemini-3-1-pro-preview",
+  "details": {
+    "parent_model": "Google: Gemini 3.1 Pro Preview",
+    "format": "openrouter",
+    "family": "google",
+    "families": [
+      "google",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1049k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Gemini 3.1 Pro Preview is Google’s frontier reasoning model, delivering enhanced software engineering performance, improved agentic reliability, and more efficient token usage across complex workflows. Building on the multimodal foundation...",
+  "context_length": 1048576,
+  "metadata": {
+    "display_name": "Google: Gemini 3.1 Pro Preview",
+    "owner": "google",
+    "category": "google",
+    "url": "https://openrouter.ai/models/google/gemini-3.1-pro-preview",
+    "pricing": {
+      "prompt": "0.000002",
+      "completion": "0.000012",
+      "image": "0.000002",
+      "audio": "0.000002",
+      "input_audio_cache": "0.0000002",
+      "web_search": "0.014",
+      "internal_reasoning": "0.000012",
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.000000375",
+      "overrides": [
+        {
+          "min_prompt_tokens": 200000,
+          "prompt": "0.000004",
+          "completion": "0.000018",
+          "audio": "0.000004",
+          "input_audio_cache": "0.0000004",
+          "input_cache_read": "0.0000004"
+        }
+      ]
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    }
+  }
+}

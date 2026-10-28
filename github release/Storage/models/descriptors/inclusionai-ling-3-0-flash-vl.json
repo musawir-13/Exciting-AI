@@ -1,0 +1,46 @@
+{
+  "name": "inclusionai-ling-3-0-flash-vl",
+  "model": "inclusionai/ling-3.0-flash-vl",
+  "display_name": "inclusionAI: Ling 3.0 Flash VL",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "openrouter-inclusionai-ling-3-0-flash-vl",
+  "details": {
+    "parent_model": "inclusionAI: Ling 3.0 Flash VL",
+    "format": "openrouter",
+    "family": "inclusionai",
+    "families": [
+      "inclusionai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "131k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual...",
+  "context_length": 131072,
+  "metadata": {
+    "display_name": "inclusionAI: Ling 3.0 Flash VL",
+    "owner": "inclusionai",
+    "category": "inclusionai",
+    "url": "https://openrouter.ai/models/inclusionai/ling-3.0-flash-vl",
+    "pricing": {
+      "prompt": "0.00000006",
+      "completion": "0.00000018",
+      "input_cache_read": "0.000000012"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 32768,
+      "is_moderated": false
+    }
+  }
+}

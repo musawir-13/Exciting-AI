@@ -1,0 +1,45 @@
+{
+  "name": "gpt-5-3-codex",
+  "model": "gpt-5.3-codex",
+  "display_name": "GPT-5.3-Codex",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-gpt-5-3-codex",
+  "details": {
+    "parent_model": "GPT-5.3-Codex",
+    "format": "poe",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "400k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "GPT‑5.3‑Codex excels in software development. It understands complex codebases, provides accurate completions, explains algorithms, and assists with debugging across modern programming languages. Designed for developers, it elevates productivity and supports full‑stack coding workflows with precision. Supports 400k tokens of input context.\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 400000,
+  "metadata": {
+    "display_name": "GPT-5.3-Codex",
+    "owner": "OpenAI",
+    "category": "OpenAI",
+    "url": "https://poe.com/gpt-5.3-codex",
+    "pricing": {
+      "prompt": "0.0000015909",
+      "completion": "0.0000127273",
+      "image": null,
+      "request": null,
+      "input_cache_read": "0.0000001591",
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-3058-200-nmhrgwkrbaduvcwwngbrkusuxkgtpunz.jpeg"
+  }
+}

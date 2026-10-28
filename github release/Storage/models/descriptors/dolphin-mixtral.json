@@ -1,0 +1,36 @@
+{
+  "name": "dolphin-mixtral",
+  "model": "dolphin-mixtral",
+  "display_name": "Dolphin Mixtral [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-dolphin-mixtral",
+  "details": {
+    "parent_model": "dolphin-mixtral",
+    "format": "ollama",
+    "family": "mistral",
+    "families": [
+      "mistral",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "8X7B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "Uncensored, 8x7b and 8x22b fine-tuned models based on the Mixtral mixture of experts models that excels at coding tasks. Created by Eric Hartford.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Dolphin Mixtral [Local]",
+    "owner": "Mistral AI",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/dolphin-mixtral",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

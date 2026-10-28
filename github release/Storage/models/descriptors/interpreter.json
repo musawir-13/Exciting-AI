@@ -1,0 +1,36 @@
+{
+  "name": "interpreter",
+  "model": "interpreter",
+  "display_name": "Interpreter",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-interpreter",
+  "details": {
+    "parent_model": "Interpreter",
+    "format": "poe",
+    "family": "poetools",
+    "families": [
+      "poetools",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "Interpreter for Poe Python",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Interpreter",
+    "owner": "Poe Tools",
+    "category": "Poe Tools",
+    "url": "https://poe.com/interpreter",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-4209681-200-ctejioamndxnxaiexyumnchuenumiehz.jpeg"
+  }
+}

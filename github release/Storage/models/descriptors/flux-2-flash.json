@@ -1,0 +1,35 @@
+{
+  "name": "flux-2-flash",
+  "model": "flux-2-flash",
+  "display_name": "Flux-2-Flash",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-flux-2-flash",
+  "details": {
+    "parent_model": "Flux-2-Flash",
+    "format": "poe",
+    "family": "fal",
+    "families": [
+      "fal",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Superfast Open-weight image gen (at 32B parameters) model, derived from the FLUX.2 base model. Send up to 3 images (jpeg/png/webp) to use for image editing/ as references.\n\nOptional parameters:\nSet aspect ratio: 16:9, 4:3, 1:1, 3:4, 9:16",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Flux-2-Flash",
+    "owner": "fal",
+    "category": "fal",
+    "url": "https://poe.com/flux-2-flash",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6722499-200-ywrdvxtwfnvagaapzhxsrzjcozknbjbd.jpeg"
+  }
+}

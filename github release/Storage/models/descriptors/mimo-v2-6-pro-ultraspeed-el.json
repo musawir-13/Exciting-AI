@@ -1,0 +1,44 @@
+{
+  "name": "mimo-v2-6-pro-ultraspeed-el",
+  "model": "mimo-v2.6-pro-ultraspeed-el",
+  "display_name": "MiMo-V2.6-Pro-UltraSpeed-EL",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-mimo-v2-6-pro-ultraspeed-el",
+  "details": {
+    "parent_model": "MiMo-V2.6-Pro-UltraSpeed-EL",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "1049k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "MiMo V2.6 Pro UltraSpeed serves Xiaomi's trillion-parameter flagship at substantially higher output speed. It accepts text, image, and video input with a 1M token context, and supports reasoning and function calling.\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 1048576,
+  "metadata": {
+    "display_name": "MiMo-V2.6-Pro-UltraSpeed-EL",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/mimo-v2.6-pro-ultraspeed-el",
+    "pricing": {
+      "prompt": "0.0000043939",
+      "completion": "0.0000087879",
+      "image": null,
+      "request": null,
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-7141133-200-ohylqwktmpmkbrzfcafxrdxapwshndet.jpeg"
+  }
+}

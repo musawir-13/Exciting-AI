@@ -1,0 +1,44 @@
+{
+  "name": "recursive-flint-v1-0-free",
+  "model": "recursive/flint-v1.0:free",
+  "display_name": "Recursive: Flint (free)",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "openrouter-recursive-flint-v1-0-free",
+  "details": {
+    "parent_model": "Recursive: Flint (free)",
+    "format": "openrouter",
+    "family": "recursive",
+    "families": [
+      "recursive",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "Flint is an open-weight mixture-of-experts model from Recursive, with about 2.5B active parameters out of 40B total, built by Recursive's autoresearch system Eureka Machine for coding agents. It is suited...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "Recursive: Flint (free)",
+    "owner": "recursive",
+    "category": "recursive",
+    "url": "https://openrouter.ai/models/recursive/flint-v1.0:free",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 235929,
+      "is_moderated": false
+    }
+  }
+}

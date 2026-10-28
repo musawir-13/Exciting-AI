@@ -1,0 +1,38 @@
+{
+  "name": "granite3.2-vision:latest",
+  "model": "granite3.2-vision:latest",
+  "display_name": "Granite3.2 Vision [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-granite3.2-vision-latest",
+  "details": {
+    "parent_model": "granite3.2-vision",
+    "format": "ollama",
+    "family": "microsoft",
+    "families": [
+      "microsoft",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "2B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "vision",
+    "tools"
+  ],
+  "description": "A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Granite3.2 Vision [Local]",
+    "owner": "Microsoft",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/granite3.2-vision",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

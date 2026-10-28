@@ -1,0 +1,43 @@
+{
+  "name": "deepseek-v4-pro-0813-el",
+  "model": "deepseek-v4-pro-0813-el",
+  "display_name": "DeepSeek-V4-Pro-0813-EL",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-deepseek-v4-pro-0813-el",
+  "details": {
+    "parent_model": "DeepSeek-V4-Pro-0813-EL",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "DeepSeek V4 Pro 0813 is the official DeepSeek Pro release with stronger agent, coding, and tool-use performance. It accepts text input with a 1M token context, hybrid thinking, and function calling.\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "DeepSeek-V4-Pro-0813-EL",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/deepseek-v4-pro-0813-el",
+    "pricing": {
+      "prompt": "0.0000013333",
+      "completion": "0.000004",
+      "image": null,
+      "request": null,
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-7094499-200-psbriowzxijczoapfjgjsrzgbrlszpkr.jpeg"
+  }
+}

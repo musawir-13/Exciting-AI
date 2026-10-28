@@ -1,0 +1,43 @@
+{
+  "name": "qwen-qwen3-coder-30b-a3b-instruct",
+  "model": "qwen/qwen3-coder-30b-a3b-instruct",
+  "display_name": "Qwen: Qwen3 Coder 30B A3B Instruct",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-qwen-qwen3-coder-30b-a3b-instruct",
+  "details": {
+    "parent_model": "Qwen: Qwen3 Coder 30B A3B Instruct",
+    "format": "openrouter",
+    "family": "qwen",
+    "families": [
+      "qwen",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Qwen3-Coder-30B-A3B-Instruct is a 30.5B parameter Mixture-of-Experts (MoE) model with 128 experts (8 active per forward pass), designed for advanced code generation, repository-scale understanding, and agentic tool use. Built on the...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "Qwen: Qwen3 Coder 30B A3B Instruct",
+    "owner": "qwen",
+    "category": "qwen",
+    "url": "https://openrouter.ai/models/qwen/qwen3-coder-30b-a3b-instruct",
+    "pricing": {
+      "prompt": "0.00000007",
+      "completion": "0.00000028"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 235929,
+      "is_moderated": false
+    }
+  }
+}

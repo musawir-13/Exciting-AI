@@ -1,0 +1,35 @@
+{
+  "name": "script-bot-creator",
+  "model": "script-bot-creator",
+  "display_name": "Script-Bot-Creator",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-script-bot-creator",
+  "details": {
+    "parent_model": "Script-Bot-Creator",
+    "format": "poe",
+    "family": "poetools",
+    "families": [
+      "poetools",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Specializes in building workflows that combine bots on Poe. Powered by Claude Code. Guide and tips: https://creator.poe.com/docs/script-bots/quick-start\n\nNote: Script-Bot-Creator cannot access messages sent to or from other bots.\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Script-Bot-Creator",
+    "owner": "Poe Tools",
+    "category": "Poe Tools",
+    "url": "https://poe.com/script-bot-creator",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6477437-200-gkfmvjyqszpvtqarbskdttwyimhmyqwj.jpeg"
+  }
+}

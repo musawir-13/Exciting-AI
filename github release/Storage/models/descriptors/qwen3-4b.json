@@ -1,0 +1,39 @@
+{
+  "name": "qwen3:4b",
+  "model": "qwen3:4b",
+  "display_name": "Qwen3 (4B) [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-qwen3-4b",
+  "details": {
+    "parent_model": "qwen3",
+    "format": "ollama",
+    "family": "alibaba",
+    "families": [
+      "alibaba",
+      "local",
+      "ollama",
+      "4b"
+    ],
+    "parameter_size": "4B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "tools",
+    "thinking"
+  ],
+  "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Qwen3 (4B) [Local]",
+    "owner": "Alibaba Cloud",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/qwen3",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

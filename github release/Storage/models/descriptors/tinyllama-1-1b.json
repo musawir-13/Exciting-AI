@@ -1,0 +1,37 @@
+{
+  "name": "tinyllama:1.1b",
+  "model": "tinyllama:1.1b",
+  "display_name": "Tinyllama (1.1B) [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-tinyllama-1.1b",
+  "details": {
+    "parent_model": "tinyllama",
+    "format": "ollama",
+    "family": "meta",
+    "families": [
+      "meta",
+      "local",
+      "ollama",
+      "1.1b"
+    ],
+    "parameter_size": "1.1B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "The TinyLlama project is an open endeavor to train a compact 1.1B Llama model on 3 trillion tokens.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Tinyllama (1.1B) [Local]",
+    "owner": "Meta AI",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/tinyllama",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

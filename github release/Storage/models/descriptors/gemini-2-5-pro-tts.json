@@ -1,0 +1,35 @@
+{
+  "name": "gemini-2-5-pro-tts",
+  "model": "gemini-2.5-pro-tts",
+  "display_name": "Gemini-2.5-Pro-TTS",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-gemini-2-5-pro-tts",
+  "details": {
+    "parent_model": "Gemini-2.5-Pro-TTS",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Gemini‑2.5‑Pro‑TTS is Google’s highest‑quality text‑to‑speech model preview, designed for complex workflows like podcasts, audiobooks, and customer support; it delivers expressive, accent‑ and style‑controllable single‑ or multi‑speaker speech, supporting over 23 languages, and built for state‑of‑the‑art output with the most powerful model architecture.\n\nNotes:\n- Text and style prompt limited to 4,000 bytes each (8,000 bytes combined)\n- Max output duration: approximately 10 minutes\n- Multi-speaker requires SpeakerName: text format (example: Alice: Hi! Bob: Hello, must be on new lines)\n- The model auto-detects the input language. The Language setting is a hint to help choose the right voice/accent, the model may override it if the text is in a different language.\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Gemini-2.5-Pro-TTS",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/gemini-2.5-pro-tts",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6451759-200-umglnxqtuzjaxusqhtpkeletxatkjifl.jpeg"
+  }
+}

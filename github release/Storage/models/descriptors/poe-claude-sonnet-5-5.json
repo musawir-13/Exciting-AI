@@ -1,0 +1,44 @@
+{
+  "name": "poe-claude-sonnet-5-5",
+  "model": "claude-sonnet-5.5",
+  "display_name": "Claude-Sonnet-5.5",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-poe-claude-sonnet-5-5",
+  "details": {
+    "parent_model": "Claude-Sonnet-5.5",
+    "format": "poe",
+    "family": "anthropic",
+    "families": [
+      "anthropic",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Anthropic's Claude Sonnet 5.5 for fast everyday work, coding, and document creation, with a 1M-token context window, image understanding, adjustable reasoning effort, and web search.",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "Claude-Sonnet-5.5",
+    "owner": "Anthropic",
+    "category": "Anthropic",
+    "url": "https://poe.com/claude-sonnet-5.5",
+    "pricing": {
+      "prompt": "0.0000020202",
+      "completion": "0.000010101",
+      "image": null,
+      "request": null,
+      "input_cache_read": "0.000000202",
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-7145685-200-wvcpjjjdsdzgsnphmojfvckpfumfxcld.jpeg"
+  }
+}

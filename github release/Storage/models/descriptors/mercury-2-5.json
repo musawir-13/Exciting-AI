@@ -1,0 +1,35 @@
+{
+  "name": "mercury-2-5",
+  "model": "mercury-2-5",
+  "display_name": "Mercury 2.5",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-mercury-2-5",
+  "details": {
+    "parent_model": "Mercury 2.5",
+    "format": "poe",
+    "family": "mercury",
+    "families": [
+      "mercury",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "65.536k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "High-speed reasoning engine for code and quantitative analysis.",
+  "context_length": 65536,
+  "metadata": {
+    "display_name": "Mercury 2.5",
+    "owner": "NVIDIA & Hardware Pioneers",
+    "category": "NVIDIA & Hardware Pioneers",
+    "url": null,
+    "pricing": null
+  }
+}

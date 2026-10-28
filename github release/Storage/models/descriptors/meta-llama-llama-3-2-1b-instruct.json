@@ -1,0 +1,42 @@
+{
+  "name": "meta-llama-llama-3-2-1b-instruct",
+  "model": "meta-llama/llama-3.2-1b-instruct",
+  "display_name": "Meta: Llama 3.2 1B Instruct",
+  "modified_at": "2026-10-28T10:31:33.936Z",
+  "size": 0,
+  "digest": "openrouter-meta-llama-llama-3-2-1b-instruct",
+  "details": {
+    "parent_model": "Meta: Llama 3.2 1B Instruct",
+    "format": "openrouter",
+    "family": "metallama",
+    "families": [
+      "metallama",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "60k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate...",
+  "context_length": 60000,
+  "metadata": {
+    "display_name": "Meta: Llama 3.2 1B Instruct",
+    "owner": "meta-llama",
+    "category": "meta-llama",
+    "url": "https://openrouter.ai/models/meta-llama/llama-3.2-1b-instruct",
+    "pricing": {
+      "prompt": "0.000000027",
+      "completion": "0.000000201"
+    },
+    "top_provider": {
+      "context_length": 60000,
+      "max_completion_tokens": 54000,
+      "is_moderated": false
+    }
+  }
+}

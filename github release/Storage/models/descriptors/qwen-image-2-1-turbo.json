@@ -1,0 +1,36 @@
+{
+  "name": "qwen-image-2-1-turbo",
+  "model": "qwen-image-2-1-turbo",
+  "display_name": "Qwen Image 2.1 Turbo",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-qwen-image-2-1-turbo",
+  "details": {
+    "parent_model": "Qwen Image 2.1 Turbo",
+    "format": "poe",
+    "family": "alibaba",
+    "families": [
+      "alibaba",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "32.768k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Rapid text-to-image and visual editing engine by Alibaba.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Qwen Image 2.1 Turbo",
+    "owner": "Alibaba Qwen",
+    "category": "Alibaba Qwen",
+    "url": null,
+    "pricing": null
+  }
+}

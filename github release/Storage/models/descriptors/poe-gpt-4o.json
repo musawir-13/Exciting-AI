@@ -1,0 +1,37 @@
+{
+  "name": "poe-gpt-4o",
+  "model": "gpt-4o",
+  "display_name": "GPT-4o",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-poe-gpt-4o",
+  "details": {
+    "parent_model": "GPT-4o",
+    "format": "poe",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "OpenAI's GPT-4o answers user prompts in a natural, engaging & tailored writing with strong overall world knowledge. Uses GPT-Image-1 to create and edit images conversationally. For fine-grained image generation control (e.g. image quality), use https://poe.com/GPT-Image-1. Supports context window of 128k tokens.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "GPT-4o",
+    "owner": "OpenAI",
+    "category": "OpenAI",
+    "url": "https://poe.com/gpt-4o",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-3015-200-orplgzxujhsekrpxvdagmkdsrhnvbhmv.jpeg"
+  }
+}

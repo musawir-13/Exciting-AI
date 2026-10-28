@@ -1,0 +1,42 @@
+{
+  "name": "qwen3-7-max-t",
+  "model": "qwen3.7-max-t",
+  "display_name": "Qwen3.7-Max-T",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-qwen3-7-max-t",
+  "details": {
+    "parent_model": "Qwen3.7-Max-T",
+    "format": "poe",
+    "family": "togetherai",
+    "families": [
+      "togetherai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Qwen3.7-Max is Qwen's flagship proprietary model built for the agent era, combining frontier reasoning with deep, generalizable agentic capabilities across coding, office automation, and long-horizon task execution. It leads on Terminal-Bench 2.0-Terminus (69.7) and achieves 92.4% GPQA Diamond, 80.4% SWE-Bench Verified, and 97.1% HMMT 2026 Feb. According to Qwen, the model maintained coherent execution across a ~35-hour autonomous session, generalizing across agent scaffolds without framework-specific tuning. Available on Together AI with a 1M token context window.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Qwen3.7-Max-T",
+    "owner": "Together AI",
+    "category": "Together AI",
+    "url": "https://poe.com/qwen3.7-max-t",
+    "pricing": {
+      "prompt": null,
+      "completion": null,
+      "image": null,
+      "request": "0.0061",
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6998471-200-yztdnhyvsolsmethtshlfnkngajwpwdr.jpeg"
+  }
+}

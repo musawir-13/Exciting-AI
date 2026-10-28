@@ -1,0 +1,37 @@
+{
+  "name": "bge-large",
+  "model": "bge-large",
+  "display_name": "Bge Large [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-bge-large",
+  "details": {
+    "parent_model": "bge-large",
+    "format": "ollama",
+    "family": "ollama",
+    "families": [
+      "ollama",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "335M",
+    "quantization_level": "Q4_K_M",
+    "context_window": "8k"
+  },
+  "capabilities": [
+    "completion",
+    "embedding"
+  ],
+  "description": "Embedding model from BAAI mapping texts to vectors.",
+  "context_length": 8192,
+  "metadata": {
+    "display_name": "Bge Large [Local]",
+    "owner": "Ollama Community",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/bge-large",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "upstage-solar-pro4",
+  "model": "upstage/solar-pro4",
+  "display_name": "Upstage: Solar Pro 4",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-upstage-solar-pro4",
+  "details": {
+    "parent_model": "Upstage: Solar Pro 4",
+    "format": "openrouter",
+    "family": "upstage",
+    "families": [
+      "upstage",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "524k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "Solar Pro 4 is Upstage's cost-efficient large language model, featuring a 524K context window. It is built for long-horizon tasks and agentic workflows, with strong capabilities in office productivity, document-intensive...",
+  "context_length": 524288,
+  "metadata": {
+    "display_name": "Upstage: Solar Pro 4",
+    "owner": "upstage",
+    "category": "upstage",
+    "url": "https://openrouter.ai/models/upstage/solar-pro4",
+    "pricing": {
+      "prompt": "0.00000015",
+      "completion": "0.0000006",
+      "input_cache_read": "0.00000003"
+    },
+    "top_provider": {
+      "context_length": 524288,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    }
+  }
+}

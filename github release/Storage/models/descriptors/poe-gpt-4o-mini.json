@@ -1,0 +1,44 @@
+{
+  "name": "poe-gpt-4o-mini",
+  "model": "gpt-4o-mini",
+  "display_name": "GPT-4o-mini",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-poe-gpt-4o-mini",
+  "details": {
+    "parent_model": "GPT-4o-mini",
+    "format": "poe",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "124k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "This intelligent small model from OpenAI is significantly smarter, cheaper, and just as fast as GPT-3.5 Turbo.",
+  "context_length": 124096,
+  "metadata": {
+    "display_name": "GPT-4o-mini",
+    "owner": "OpenAI",
+    "category": "OpenAI",
+    "url": "https://poe.com/gpt-4o-mini",
+    "pricing": {
+      "prompt": "0.0000001364",
+      "completion": "0.0000005455",
+      "image": null,
+      "request": null,
+      "input_cache_read": "0.0000000682",
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-3017-200-qeuixcziorfxpvkkkhzrmnljeukoxcpx.jpeg"
+  }
+}

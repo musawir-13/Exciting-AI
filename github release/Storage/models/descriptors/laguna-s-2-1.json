@@ -1,0 +1,38 @@
+{
+  "name": "laguna-s-2.1",
+  "model": "laguna-s-2.1",
+  "display_name": "Laguna S 2.1 [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-laguna-s-2.1",
+  "details": {
+    "parent_model": "laguna-s-2.1",
+    "format": "ollama",
+    "family": "ollama",
+    "families": [
+      "ollama",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "Standard",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "tools",
+    "thinking"
+  ],
+  "description": "Our most capable model to date, designed for long-horizon work. 70.2% on Terminal-Bench 2.1 at 118B-A8B.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Laguna S 2.1 [Local]",
+    "owner": "Ollama Community",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/laguna-s-2.1",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

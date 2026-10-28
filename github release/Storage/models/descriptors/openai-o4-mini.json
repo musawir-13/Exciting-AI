@@ -1,0 +1,47 @@
+{
+  "name": "openai-o4-mini",
+  "model": "openai/o4-mini",
+  "display_name": "OpenAI: o4 Mini",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-openai-o4-mini",
+  "details": {
+    "parent_model": "OpenAI: o4 Mini",
+    "format": "openrouter",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "200k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while retaining strong multimodal and agentic capabilities. It supports tool use and demonstrates competitive reasoning...",
+  "context_length": 200000,
+  "metadata": {
+    "display_name": "OpenAI: o4 Mini",
+    "owner": "openai",
+    "category": "openai",
+    "url": "https://openrouter.ai/models/openai/o4-mini",
+    "pricing": {
+      "prompt": "0.0000011",
+      "completion": "0.0000044",
+      "web_search": "0.01",
+      "input_cache_read": "0.000000275"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 100000,
+      "is_moderated": true
+    }
+  }
+}

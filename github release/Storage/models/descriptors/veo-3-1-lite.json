@@ -1,0 +1,36 @@
+{
+  "name": "veo-3-1-lite",
+  "model": "veo-3.1-lite",
+  "display_name": "Veo-3.1-Lite",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-veo-3-1-lite",
+  "details": {
+    "parent_model": "Veo-3.1-Lite",
+    "format": "poe",
+    "family": "google",
+    "families": [
+      "google",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "0k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "Google’s Veo 3.1 Lite is the most cost-efficient model in the Veo 3.1 family, delivering high-quality video generation with native audio at a fraction of the cost. It supports both text-to-video and image-to-video workflows, with synchronized dialogue, sound effects, and ambient audio. While optimized for affordability, it still benefits from the Veo 3.1 generation’s improved prompt adherence and cinematic understanding.\n\nThis bot supports optional parameters for additional customization.\n\nNote: 1080p requires 8s duration\nReference mode: Use up to 3 input images as references for video generation\nReference images require 8s duration\nPlease only upload photos that you own or have the right to use. Otherwise, the bot will return an error.",
+  "context_length": 480,
+  "metadata": {
+    "display_name": "Veo-3.1-Lite",
+    "owner": "Google",
+    "category": "Google",
+    "url": "https://poe.com/veo-3.1-lite",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6915732-200-ysfhzieddahakgceidzsedlsthcyyyvz.jpeg"
+  }
+}

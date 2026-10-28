@@ -1,0 +1,43 @@
+{
+  "name": "nano-banana-2-1",
+  "model": "nano-banana-2.1",
+  "display_name": "Nano-Banana-2.1",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-nano-banana-2-1",
+  "details": {
+    "parent_model": "Nano-Banana-2.1",
+    "format": "poe",
+    "family": "google",
+    "families": [
+      "google",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "Google’s Gemini Nano Banana 2.1 generates and edits images with precise text rendering and consistent subjects across edits. Supports 1K, 2K, and 4K output with adjustable aspect ratios. Upload an image to edit it.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Nano-Banana-2.1",
+    "owner": "Google",
+    "category": "Google",
+    "url": "https://poe.com/nano-banana-2.1",
+    "pricing": {
+      "prompt": "0.0000015152",
+      "completion": "0.0000075758",
+      "image": "0.000030303",
+      "request": null,
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-7153688-200-kzkkiafkemgyqplzzjwgeddqhtvgdmxw.jpeg"
+  }
+}

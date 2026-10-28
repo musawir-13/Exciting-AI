@@ -1,0 +1,45 @@
+{
+  "name": "aion-labs-aion-3-0-mini",
+  "model": "aion-labs/aion-3.0-mini",
+  "display_name": "AionLabs: Aion-3.0-Mini",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-aion-labs-aion-3-0-mini",
+  "details": {
+    "parent_model": "AionLabs: Aion-3.0-Mini",
+    "format": "openrouter",
+    "family": "aionlabs",
+    "families": [
+      "aionlabs",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "131k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "Aion-3.0 Mini is a multi-model roleplaying and storytelling system from AionLabs, built on the DeepSeek family of models. It uses a collaborative generation process in which multiple specialized models each...",
+  "context_length": 131072,
+  "metadata": {
+    "display_name": "AionLabs: Aion-3.0-Mini",
+    "owner": "aion-labs",
+    "category": "aion-labs",
+    "url": "https://openrouter.ai/models/aion-labs/aion-3.0-mini",
+    "pricing": {
+      "prompt": "0.0000007",
+      "completion": "0.0000014",
+      "input_cache_read": "0.00000018"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 32768,
+      "is_moderated": false
+    }
+  }
+}

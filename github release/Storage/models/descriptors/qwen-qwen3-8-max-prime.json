@@ -1,0 +1,46 @@
+{
+  "name": "qwen-qwen3-8-max-prime",
+  "model": "qwen/qwen3.8-max-prime",
+  "display_name": "Qwen: Qwen3.8 Max Prime",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "openrouter-qwen-qwen3-8-max-prime",
+  "details": {
+    "parent_model": "Qwen: Qwen3.8 Max Prime",
+    "format": "openrouter",
+    "family": "qwen",
+    "families": [
+      "qwen",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Qwen3.8 Max Prime is a higher-throughput variant of Qwen3.8 Max from Alibaba's Qwen team, served as a separate SKU at a higher price point. It accepts text, image, and video...",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "Qwen: Qwen3.8 Max Prime",
+    "owner": "qwen",
+    "category": "qwen",
+    "url": "https://openrouter.ai/models/qwen/qwen3.8-max-prime",
+    "pricing": {
+      "prompt": "0.000004",
+      "completion": "0.000012",
+      "input_cache_read": "0.0000005"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    }
+  }
+}

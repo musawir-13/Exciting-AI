@@ -1,0 +1,37 @@
+{
+  "name": "embeddinggemma",
+  "model": "embeddinggemma",
+  "display_name": "Embeddinggemma [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-embeddinggemma",
+  "details": {
+    "parent_model": "embeddinggemma",
+    "format": "ollama",
+    "family": "google",
+    "families": [
+      "google",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "300M",
+    "quantization_level": "Q4_K_M",
+    "context_window": "8k"
+  },
+  "capabilities": [
+    "completion",
+    "embedding"
+  ],
+  "description": "EmbeddingGemma is a 300M parameter embedding model from Google.",
+  "context_length": 8192,
+  "metadata": {
+    "display_name": "Embeddinggemma [Local]",
+    "owner": "Google DeepMind",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/embeddinggemma",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

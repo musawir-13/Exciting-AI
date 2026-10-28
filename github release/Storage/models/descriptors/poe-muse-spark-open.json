@@ -1,0 +1,44 @@
+{
+  "name": "poe-muse-spark-open",
+  "model": "muse-spark-open",
+  "display_name": "Muse-Spark-Open",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-poe-muse-spark-open",
+  "details": {
+    "parent_model": "Muse-Spark-Open",
+    "format": "poe",
+    "family": "meta",
+    "families": [
+      "meta",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "1049k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Meta’s open-weight reasoning model for coding and agentic workflows, served through Vercel AI Gateway. Supports text and image input with a 1M-token context window.",
+  "context_length": 1048576,
+  "metadata": {
+    "display_name": "Muse-Spark-Open",
+    "owner": "Meta",
+    "category": "Meta",
+    "url": "https://poe.com/muse-spark-open",
+    "pricing": {
+      "prompt": "0.0000012626",
+      "completion": "0.0000042929",
+      "image": null,
+      "request": null,
+      "input_cache_read": "0.0000001515",
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-7164202-200-onxyqpgykkjhmysjdhxqumuwkctegoho.jpeg"
+  }
+}

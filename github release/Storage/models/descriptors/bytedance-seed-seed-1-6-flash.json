@@ -1,0 +1,52 @@
+{
+  "name": "bytedance-seed-seed-1-6-flash",
+  "model": "bytedance-seed/seed-1.6-flash",
+  "display_name": "ByteDance Seed: Seed 1.6 Flash",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-bytedance-seed-seed-1-6-flash",
+  "details": {
+    "parent_model": "ByteDance Seed: Seed 1.6 Flash",
+    "format": "openrouter",
+    "family": "bytedanceseed",
+    "families": [
+      "bytedanceseed",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Seed 1.6 Flash is an ultra-fast multimodal deep thinking model by ByteDance Seed, supporting both text and visual understanding. It features a 256k context window and can generate outputs of...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "ByteDance Seed: Seed 1.6 Flash",
+    "owner": "bytedance-seed",
+    "category": "bytedance-seed",
+    "url": "https://openrouter.ai/models/bytedance-seed/seed-1.6-flash",
+    "pricing": {
+      "prompt": "0.000000075",
+      "completion": "0.0000003",
+      "overrides": [
+        {
+          "min_prompt_tokens": 128000,
+          "prompt": "0.0000001",
+          "completion": "0.0000008"
+        }
+      ]
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 32768,
+      "is_moderated": false
+    }
+  }
+}

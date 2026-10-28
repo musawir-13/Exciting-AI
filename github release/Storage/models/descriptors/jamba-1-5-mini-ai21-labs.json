@@ -1,0 +1,35 @@
+{
+  "name": "jamba-1-5-mini-ai21-labs",
+  "model": "jamba-1-5-mini-ai21-labs",
+  "display_name": "Jamba 1.5 Mini (AI21 Labs)",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-jamba-1-5-mini-ai21-labs",
+  "details": {
+    "parent_model": "Jamba 1.5 Mini (AI21 Labs)",
+    "format": "poe",
+    "family": "ai21",
+    "families": [
+      "ai21",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "256k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Fast, lightweight hybrid architecture model for document processing.",
+  "context_length": 256000,
+  "metadata": {
+    "display_name": "Jamba 1.5 Mini (AI21 Labs)",
+    "owner": "Cohere & Specialized Enterprise Labs",
+    "category": "Cohere & Specialized Enterprise Labs",
+    "url": null,
+    "pricing": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "moonshotai-kimi-k2-6",
+  "model": "moonshotai/kimi-k2.6",
+  "display_name": "MoonshotAI: Kimi K2.6",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-moonshotai-kimi-k2-6",
+  "details": {
+    "parent_model": "MoonshotAI: Kimi K2.6",
+    "format": "openrouter",
+    "family": "moonshotai",
+    "families": [
+      "moonshotai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust, and Go, and...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "MoonshotAI: Kimi K2.6",
+    "owner": "moonshotai",
+    "category": "moonshotai",
+    "url": "https://openrouter.ai/models/moonshotai/kimi-k2.6",
+    "pricing": {
+      "prompt": "0.00000065",
+      "completion": "0.00000341",
+      "input_cache_read": "0.00000015"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 235929,
+      "is_moderated": false
+    }
+  }
+}

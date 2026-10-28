@@ -1,0 +1,44 @@
+{
+  "name": "stepfun-step-3-5-flash",
+  "model": "stepfun/step-3.5-flash",
+  "display_name": "StepFun: Step 3.5 Flash",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-stepfun-step-3-5-flash",
+  "details": {
+    "parent_model": "StepFun: Step 3.5 Flash",
+    "format": "openrouter",
+    "family": "stepfun",
+    "families": [
+      "stepfun",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token....",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "StepFun: Step 3.5 Flash",
+    "owner": "stepfun",
+    "category": "stepfun",
+    "url": "https://openrouter.ai/models/stepfun/step-3.5-flash",
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000003"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "gpt-image-1-mini",
+  "model": "gpt-image-1-mini",
+  "display_name": "GPT-Image-1-Mini",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-gpt-image-1-mini",
+  "details": {
+    "parent_model": "GPT-Image-1-Mini",
+    "format": "poe",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "OpenAI's model that powers image generation in ChatGPT, offering exceptional prompt adherence, level of detail, and quality. It supports editing, restyling, and combining images attached to the latest user query. \n\nOptional parameters:\n- Aspect ratio of the output image (options: 1:1, 3:2, 2:3). \n- Quality. Image resolution (options: high, medium, low).\n- Mask. Indicates that the last attached image is a mask for in-painting (editing specific regions). The mask must match the dimensions of the base image, with transparent (zero-alpha) areas showing which parts to edit.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "GPT-Image-1-Mini",
+    "owner": "OpenAI",
+    "category": "OpenAI",
+    "url": "https://poe.com/gpt-image-1-mini",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6362921-200-qeyxhoaryufggsvpjxbhseajfbhyryia.jpeg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "veo-3-1-fast",
+  "model": "veo-3.1-fast",
+  "display_name": "Veo-3.1-Fast",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-veo-3-1-fast",
+  "details": {
+    "parent_model": "Veo-3.1-Fast",
+    "format": "poe",
+    "family": "google",
+    "families": [
+      "google",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "0k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "Google’s Veo 3.1 Fast is an updated version of the Veo family of models that's optimized for speed and cost, but still features richer native audio, from natural conversations to synchronized sound effects, and offer greater narrative control with an improved understanding of cinematic styles. Enhanced image-to-video capabilities ensure better prompt adherence while delivering superior audio and visual quality and maintaining character consistency across multiple scenes.\n\nOptional parameters:\n- Set the aspect ratio (either `16:9` or `9:16`), which defaults to `16:9`\n- Negative prompt can be set on elements to avoid\n- Set the duration (one of `4s`, `6s`, or `8s`), which defaults to `8s`\n- Seed to set the seed (set number value)\n- Resolution (set from 720p or 1080p)\n\nFor first & last frame video generation support, please use www.poe.com/Veo-v3.1-Fast",
+  "context_length": 480,
+  "metadata": {
+    "display_name": "Veo-3.1-Fast",
+    "owner": "Google",
+    "category": "Google",
+    "url": "https://poe.com/veo-3.1-fast",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6501541-200-ayjxcwkcfikkjicbsbhcywnxljitkxxv.jpeg"
+  }
+}

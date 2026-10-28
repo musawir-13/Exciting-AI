@@ -1,0 +1,43 @@
+{
+  "name": "gpt-4o-search",
+  "model": "gpt-4o-search",
+  "display_name": "GPT-4o-Search",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-gpt-4o-search",
+  "details": {
+    "parent_model": "GPT-4o-Search",
+    "format": "poe",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "OpenAI's fine-tuned model for searching the web for real-time information. For less expensive messages, consider https://poe.com/GPT-4o-mini-Search. Uses medium search context size, currently in preview, supports 128k tokens of context. Does not support image search.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "GPT-4o-Search",
+    "owner": "OpenAI",
+    "category": "OpenAI",
+    "url": "https://poe.com/gpt-4o-search",
+    "pricing": {
+      "prompt": "0.0000022727",
+      "completion": "0.0000090909",
+      "image": null,
+      "request": null,
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-3032-200-ecgvxxmyufqqghfmsmqgshptxyhfwqap.jpeg"
+  }
+}

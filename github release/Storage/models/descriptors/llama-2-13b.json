@@ -1,0 +1,35 @@
+{
+  "name": "llama-2-13b",
+  "model": "llama-2-13b",
+  "display_name": "Llama 2 13B",
+  "modified_at": "2026-10-28T09:07:40.412Z",
+  "size": 0,
+  "digest": "poe-llama-2-13b",
+  "details": {
+    "parent_model": "Llama 2 13B",
+    "format": "poe",
+    "family": "meta",
+    "families": [
+      "meta",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4.096k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Medium size open model suitable for mid-tier inference.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Llama 2 13B",
+    "owner": "Meta AI",
+    "category": "Meta AI",
+    "url": null,
+    "pricing": null
+  }
+}

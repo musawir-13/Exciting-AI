@@ -1,0 +1,46 @@
+{
+  "name": "z-ai-glm-5v-turbo",
+  "model": "z-ai/glm-5v-turbo",
+  "display_name": "Z.ai: GLM 5V Turbo",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-z-ai-glm-5v-turbo",
+  "details": {
+    "parent_model": "Z.ai: GLM 5V Turbo",
+    "format": "openrouter",
+    "family": "zai",
+    "families": [
+      "zai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "203k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "GLM-5V-Turbo is Z.ai’s first native multimodal agent foundation model, built for vision-based coding and agent-driven tasks. It natively handles image, video, and text inputs, excels at long-horizon planning, complex coding,...",
+  "context_length": 202752,
+  "metadata": {
+    "display_name": "Z.ai: GLM 5V Turbo",
+    "owner": "z-ai",
+    "category": "z-ai",
+    "url": "https://openrouter.ai/models/z-ai/glm-5v-turbo",
+    "pricing": {
+      "prompt": "0.0000012",
+      "completion": "0.000004",
+      "input_cache_read": "0.00000024"
+    },
+    "top_provider": {
+      "context_length": 202752,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    }
+  }
+}

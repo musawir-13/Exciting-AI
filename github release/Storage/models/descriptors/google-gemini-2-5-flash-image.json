@@ -1,0 +1,51 @@
+{
+  "name": "google-gemini-2-5-flash-image",
+  "model": "google/gemini-2.5-flash-image",
+  "display_name": "Google: Nano Banana (Gemini 2.5 Flash Image)",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-google-gemini-2-5-flash-image",
+  "details": {
+    "parent_model": "Google: Nano Banana (Gemini 2.5 Flash Image)",
+    "format": "openrouter",
+    "family": "google",
+    "families": [
+      "google",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "Gemini 2.5 Flash Image, a.k.a. \"Nano Banana,\" is now generally available. It is a state of the art image generation model with contextual understanding. It is capable of image generation,...",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Google: Nano Banana (Gemini 2.5 Flash Image)",
+    "owner": "google",
+    "category": "google",
+    "url": "https://openrouter.ai/models/google/gemini-2.5-flash-image",
+    "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000025",
+      "image": "0.0000003",
+      "image_output": "0.00003",
+      "audio": "0.000001",
+      "input_audio_cache": "0.0000001",
+      "web_search": "0.014",
+      "internal_reasoning": "0.0000025",
+      "input_cache_read": "0.00000003",
+      "input_cache_write": "0.0000000833333333333333"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": 8192,
+      "is_moderated": false
+    }
+  }
+}

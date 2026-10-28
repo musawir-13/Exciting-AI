@@ -1,0 +1,42 @@
+{
+  "name": "morph-morph-v3-fast",
+  "model": "morph/morph-v3-fast",
+  "display_name": "Morph: Morph V3 Fast",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-morph-morph-v3-fast",
+  "details": {
+    "parent_model": "Morph: Morph V3 Fast",
+    "format": "openrouter",
+    "family": "morph",
+    "families": [
+      "morph",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Morph's fastest apply model for code edits. ~10,500 tokens/sec with 96% accuracy for rapid code transformations. The model requires the prompt to be in the following format: <instruction>{instruction}</instruction> <code>{initial_code}</code> <update>{edit_snippet}</update>...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "Morph: Morph V3 Fast",
+    "owner": "morph",
+    "category": "morph",
+    "url": "https://openrouter.ai/models/morph/morph-v3-fast",
+    "pricing": {
+      "prompt": "0.0000008",
+      "completion": "0.0000012"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    }
+  }
+}

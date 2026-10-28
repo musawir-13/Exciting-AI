@@ -1,0 +1,40 @@
+{
+  "name": "nemotron-3.5-super:120b",
+  "model": "nemotron-3.5-super:120b",
+  "display_name": "Nemotron 3.5 Super (120B) [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-nemotron-3.5-super-120b",
+  "details": {
+    "parent_model": "nemotron-3.5-super",
+    "format": "ollama",
+    "family": "nvidia",
+    "families": [
+      "nvidia",
+      "local",
+      "ollama",
+      "120b"
+    ],
+    "parameter_size": "120B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "vision",
+    "tools",
+    "thinking"
+  ],
+  "description": "Nemotron 3.5 Super is NVIDIA’s vision-language model for coding, reasoning, tool use, and document understanding",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Nemotron 3.5 Super (120B) [Local]",
+    "owner": "NVIDIA",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/nemotron-3.5-super",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

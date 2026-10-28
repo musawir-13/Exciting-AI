@@ -1,0 +1,35 @@
+{
+  "name": "glm-4-7",
+  "model": "glm-4-7",
+  "display_name": "GLM 4.7",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-glm-4-7",
+  "details": {
+    "parent_model": "GLM 4.7",
+    "format": "poe",
+    "family": "zhipu",
+    "families": [
+      "zhipu",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "High-speed reasoning model with web search grounding.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "GLM 4.7",
+    "owner": "DeepSeek & Chinese Tech Labs",
+    "category": "DeepSeek & Chinese Tech Labs",
+    "url": null,
+    "pricing": null
+  }
+}

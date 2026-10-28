@@ -1,0 +1,36 @@
+{
+  "name": "kling-o3",
+  "model": "kling-o3",
+  "display_name": "Kling-O3",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-kling-o3",
+  "details": {
+    "parent_model": "Kling-O3",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "0k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "Kling O3 is a versatile AI video generation model capable of creating high-quality videos in Standard or Pro modes, with resolution varying by aspect ratio. It supports multiple workflows including Text-to-Video, Image-to-Video, Reference-to-Video, and Video Editing, with advanced features like native sound generation and multi-scene transitions.\n\nMulti-Scene Mode\n- Separate scenes with `|` in your prompt — automatically detected, no toggle needed (max 6 scenes)\n- Not compatible with video input workflows (video edit, reference with video)\n- Optional per-scene durations: `5s: Scene one | 3s: Scene two | 7s: Scene three`\n- Explicit per-scene durations override the total duration set\n- If no durations specified, the slider duration is distributed evenly across scenes\n- Per-scene duration may sometimes not be exact as the model treats them as guidance, not exact frame cuts\n\nInput Limits & Requirements\n- Prompt length: 3 characters minimum, 2,500 characters maximum\n- Image inputs: JPEG, PNG, or WEBP only. Max 10MB per file. Images below 300x300 are automatically upscaled; images outside the 1:2.5-2.5:1 aspect ratio range are automatically center-cropped to fit\n- Video inputs: MP4, MOV, or WEBM only. Videos longer than 10 seconds are automatically trimmed; videos outside the 720-2160px resolution range are automatically resized. Minimum 3 seconds (cannot be extended)\n- Video workflow duration: When a video input is used (Video Edit, Reference with video), output duration is automatically capped at 10 seconds\n- Image-to-Video: Max 2 images (first frame + optional last frame)\n- Reference-to-Video: Max 7 reference images (max 4 if a reference video is also included), max 1 reference video\n- Video Edit: Exactly 1 video, no images\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 256,
+  "metadata": {
+    "display_name": "Kling-O3",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/kling-o3",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6822349-200-kobsiommhqwgzlzgkhnaiogdkibicbsk.jpeg"
+  }
+}

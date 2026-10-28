@@ -1,0 +1,45 @@
+{
+  "name": "thinkingmachines-inkling-small-free",
+  "model": "thinkingmachines/inkling-small:free",
+  "display_name": "Thinking Machines: Inkling Small (free)",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-thinkingmachines-inkling-small-free",
+  "details": {
+    "parent_model": "Thinking Machines: Inkling Small (free)",
+    "format": "openrouter",
+    "family": "thinkingmachines",
+    "families": [
+      "thinkingmachines",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1049k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
+  "context_length": 1048576,
+  "metadata": {
+    "display_name": "Thinking Machines: Inkling Small (free)",
+    "owner": "thinkingmachines",
+    "category": "thinkingmachines",
+    "url": "https://openrouter.ai/models/thinkingmachines/inkling-small:free",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 262144,
+      "is_moderated": false
+    }
+  }
+}

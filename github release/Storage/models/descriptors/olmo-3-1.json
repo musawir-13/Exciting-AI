@@ -1,0 +1,38 @@
+{
+  "name": "olmo-3.1",
+  "model": "olmo-3.1",
+  "display_name": "Olmo 3.1 [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-olmo-3.1",
+  "details": {
+    "parent_model": "olmo-3.1",
+    "format": "ollama",
+    "family": "ollama",
+    "families": [
+      "ollama",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "32B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "tools",
+    "thinking"
+  ],
+  "description": "Olmo is a series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Olmo 3.1 [Local]",
+    "owner": "Ollama Community",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/olmo-3.1",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

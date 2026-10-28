@@ -1,0 +1,42 @@
+{
+  "name": "nvidia-switchyard",
+  "model": "nvidia/switchyard",
+  "display_name": "NVIDIA: Switchyard",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "openrouter-nvidia-switchyard",
+  "details": {
+    "parent_model": "NVIDIA: Switchyard",
+    "format": "openrouter",
+    "family": "nvidia",
+    "families": [
+      "nvidia",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Switchyard is an open-source model routing system that switches between multiple models to optimize the cost of requests. By default it will use OpenRouter market data to select the most...",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "NVIDIA: Switchyard",
+    "owner": "nvidia",
+    "category": "nvidia",
+    "url": "https://openrouter.ai/models/nvidia/switchyard",
+    "pricing": {
+      "prompt": "-1",
+      "completion": "-1"
+    },
+    "top_provider": {
+      "context_length": null,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "seededit-3-0",
+  "model": "seededit-3.0",
+  "display_name": "SeedEdit-3.0",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-seededit-3-0",
+  "details": {
+    "parent_model": "SeedEdit-3.0",
+    "format": "poe",
+    "family": "bytedance",
+    "families": [
+      "bytedance",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "SeedEdit 3.0 is an image editing model independently developed by ByteDance. It excels in accurately following editing instructions and effectively preserving image content, especially excelling in handling real images. Please send an image with a prompt to edit the image.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "SeedEdit-3.0",
+    "owner": "Bytedance",
+    "category": "Bytedance",
+    "url": "https://poe.com/seededit-3.0",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6299901-200-uryltyotomrywzvbcsichxzpppaxdljt.jpeg"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "nova-pro-1-0",
+  "model": "nova-pro-1.0",
+  "display_name": "Nova-Pro-1.0",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-nova-pro-1-0",
+  "details": {
+    "parent_model": "Nova-Pro-1.0",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Amazon Nova Pro 1.0 is a highly capable multimodal foundation model from Amazon Nova, offering a strong balance of accuracy, speed, and cost for processing text, images, and video. Its context window is 300,000 tokens, which enables handling very large inputs (including up to ~30 minutes of video input) in a single request.\n\nOptional parameter:\nLatency Optimized Inference to enable faster inference at a higher cost. It is `off` by default.\nNote that if enabled, costs may increase. Check the rate card for more information.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Nova-Pro-1.0",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/nova-pro-1.0",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-5389590-200-vegkdcsupcryqvnirxtllbfkvsqhmxjv.jpeg"
+  }
+}

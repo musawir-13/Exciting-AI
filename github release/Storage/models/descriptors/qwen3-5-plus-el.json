@@ -1,0 +1,44 @@
+{
+  "name": "qwen3-5-plus-el",
+  "model": "qwen3.5-plus-el",
+  "display_name": "Qwen3.5-Plus-EL",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-qwen3-5-plus-el",
+  "details": {
+    "parent_model": "Qwen3.5-Plus-EL",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "This model is retiring on 2027-01-19. Please switch to: https://poe.com/Qwen3.8-Flash-EL\nQwen3.5-Plus is a state-of-the-art multimodal model featuring a hybrid architecture designed for efficient deep thinking and robust visual understanding. It supports text, image, and video inputs within a massive 1M token context window, delivering performance comparable to leading global models across diverse tasks.\nThis model is served by Alibaba Cloud Int. from Singapore.\n\nNotes:\n- Save 10% on input tokens and 8% on output tokens compared to standard API rates.\n- Pricing is 3x when input tokens >256K\n- Context Window: 1,000,000\n- Text, Image, & Video input are supported\n- Built-in tool calls are not supported with video attachments\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "Qwen3.5-Plus-EL",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/qwen3.5-plus-el",
+    "pricing": {
+      "prompt": "0.0000003636",
+      "completion": "0.0000022303",
+      "image": null,
+      "request": null,
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6813257-200-qiwbimbiiywxnoppxmhwkcairtgdtxmy.jpeg"
+  }
+}

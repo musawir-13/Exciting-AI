@@ -1,0 +1,45 @@
+{
+  "name": "moonshotai-kimi-k2-thinking",
+  "model": "moonshotai/kimi-k2-thinking",
+  "display_name": "MoonshotAI: Kimi K2 Thinking",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-moonshotai-kimi-k2-thinking",
+  "details": {
+    "parent_model": "MoonshotAI: Kimi K2 Thinking",
+    "format": "openrouter",
+    "family": "moonshotai",
+    "families": [
+      "moonshotai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "Kimi K2 Thinking is Moonshot AI’s most advanced open reasoning model to date, extending the K2 series into agentic, long-horizon reasoning. Built on the trillion-parameter Mixture-of-Experts (MoE) architecture introduced in...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "MoonshotAI: Kimi K2 Thinking",
+    "owner": "moonshotai",
+    "category": "moonshotai",
+    "url": "https://openrouter.ai/models/moonshotai/kimi-k2-thinking",
+    "pricing": {
+      "prompt": "0.0000006",
+      "completion": "0.0000025",
+      "input_cache_read": "0.00000015"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 98304,
+      "is_moderated": false
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "mistrallite:7b",
+  "model": "mistrallite:7b",
+  "display_name": "Mistrallite (7B) [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-mistrallite-7b",
+  "details": {
+    "parent_model": "mistrallite",
+    "format": "ollama",
+    "family": "mistral",
+    "families": [
+      "mistral",
+      "local",
+      "ollama",
+      "7b"
+    ],
+    "parameter_size": "7B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "MistralLite is a fine-tuned model based on Mistral with enhanced capabilities of processing long contexts.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Mistrallite (7B) [Local]",
+    "owner": "Mistral AI",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/mistrallite",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

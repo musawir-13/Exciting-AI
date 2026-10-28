@@ -1,0 +1,43 @@
+{
+  "name": "moonshotai-kimi-k2-0905",
+  "model": "moonshotai/kimi-k2-0905",
+  "display_name": "MoonshotAI: Kimi K2 0905",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-moonshotai-kimi-k2-0905",
+  "details": {
+    "parent_model": "MoonshotAI: Kimi K2 0905",
+    "format": "openrouter",
+    "family": "moonshotai",
+    "families": [
+      "moonshotai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Kimi K2 0905 is the September update of [Kimi K2 0711](moonshotai/kimi-k2). It is a large-scale Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1 trillion total parameters with 32...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "MoonshotAI: Kimi K2 0905",
+    "owner": "moonshotai",
+    "category": "moonshotai",
+    "url": "https://openrouter.ai/models/moonshotai/kimi-k2-0905",
+    "pricing": {
+      "prompt": "0.0000006",
+      "completion": "0.0000025"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 98304,
+      "is_moderated": false
+    }
+  }
+}

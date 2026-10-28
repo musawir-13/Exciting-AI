@@ -1,0 +1,36 @@
+{
+  "name": "kling-avatar-pro",
+  "model": "kling-avatar-pro",
+  "display_name": "Kling-Avatar-Pro",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-kling-avatar-pro",
+  "details": {
+    "parent_model": "Kling-Avatar-Pro",
+    "format": "poe",
+    "family": "fal",
+    "families": [
+      "fal",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "Create lifelike avatar videos featuring realistic humans, animals, cartoons, or stylized characters. Simply upload an image and an audio file to generate a video of your character speaking.\n\nSupported file formats:\nImages: JPEG, PNG, WEBP\nAudio: MP3, WAV",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Kling-Avatar-Pro",
+    "owner": "fal",
+    "category": "fal",
+    "url": "https://poe.com/kling-avatar-pro",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6453747-200-awtrmzzgttzbitwqmingrunzbedkiahu.jpeg"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "inception-mercury-2",
+  "model": "inception/mercury-2",
+  "display_name": "Inception: Mercury 2",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-inception-mercury-2",
+  "details": {
+    "parent_model": "Inception: Mercury 2",
+    "format": "openrouter",
+    "family": "inception",
+    "families": [
+      "inception",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "Mercury 2 is an extremely fast reasoning LLM, and the first reasoning diffusion LLM (dLLM). Instead of generating tokens sequentially, Mercury 2 produces and refines multiple tokens in parallel, achieving...",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "Inception: Mercury 2",
+    "owner": "inception",
+    "category": "inception",
+    "url": "https://openrouter.ai/models/inception/mercury-2",
+    "pricing": {
+      "prompt": "0.00000025",
+      "completion": "0.00000075",
+      "input_cache_read": "0.000000025"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": 50000,
+      "is_moderated": false
+    }
+  }
+}

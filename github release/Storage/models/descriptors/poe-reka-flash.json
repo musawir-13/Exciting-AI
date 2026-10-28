@@ -1,0 +1,35 @@
+{
+  "name": "poe-reka-flash",
+  "model": "reka-flash",
+  "display_name": "Reka-Flash",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-poe-reka-flash",
+  "details": {
+    "parent_model": "Reka-Flash",
+    "format": "poe",
+    "family": "rekaai",
+    "families": [
+      "rekaai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Reka's efficient and capable 21B multimodal model optimized for fast workloads and amazing quality. Works with text, images and video inputs.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "Reka-Flash",
+    "owner": "Reka AI",
+    "category": "Reka AI",
+    "url": "https://poe.com/reka-flash",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-3607788-200-cfiokftcrqzusmywgzeibtkvpqtmmjpy.jpeg"
+  }
+}

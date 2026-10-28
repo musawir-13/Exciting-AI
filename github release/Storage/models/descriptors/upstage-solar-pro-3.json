@@ -1,0 +1,45 @@
+{
+  "name": "upstage-solar-pro-3",
+  "model": "upstage/solar-pro-3",
+  "display_name": "Upstage: Solar Pro 3",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-upstage-solar-pro-3",
+  "details": {
+    "parent_model": "Upstage: Solar Pro 3",
+    "format": "openrouter",
+    "family": "upstage",
+    "families": [
+      "upstage",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "131k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "Solar Pro 3 is Upstage's powerful Mixture-of-Experts (MoE) language model. With 102B total parameters and 12B active parameters per forward pass, it delivers exceptional performance while maintaining computational efficiency. Optimized...",
+  "context_length": 131072,
+  "metadata": {
+    "display_name": "Upstage: Solar Pro 3",
+    "owner": "upstage",
+    "category": "upstage",
+    "url": "https://openrouter.ai/models/upstage/solar-pro-3",
+    "pricing": {
+      "prompt": "0.00000015",
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000015"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 117964,
+      "is_moderated": false
+    }
+  }
+}

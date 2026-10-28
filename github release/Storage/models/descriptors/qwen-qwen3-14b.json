@@ -1,0 +1,44 @@
+{
+  "name": "qwen-qwen3-14b",
+  "model": "qwen/qwen3-14b",
+  "display_name": "Qwen: Qwen3 14B",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-qwen-qwen3-14b",
+  "details": {
+    "parent_model": "Qwen: Qwen3 14B",
+    "format": "openrouter",
+    "family": "qwen",
+    "families": [
+      "qwen",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "41k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for...",
+  "context_length": 40960,
+  "metadata": {
+    "display_name": "Qwen: Qwen3 14B",
+    "owner": "qwen",
+    "category": "qwen",
+    "url": "https://openrouter.ai/models/qwen/qwen3-14b",
+    "pricing": {
+      "prompt": "0.00000012",
+      "completion": "0.00000024"
+    },
+    "top_provider": {
+      "context_length": 40960,
+      "max_completion_tokens": 16384,
+      "is_moderated": false
+    }
+  }
+}
