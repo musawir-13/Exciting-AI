@@ -1,0 +1,35 @@
+Exciting AI Software License
+Copyright (c) 2026 Ubaid, IDeV. All rights reserved.
+
+Developer: Ubaid
+Organization: IDeV
+Repository: https://github.com/musawir-13/Exciting-AI.git
+
+1. GRANT OF LICENSE
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to inspect,
+download, install, run, and test the Software for personal, educational, and
+evaluation purposes, subject to the following conditions:
+
+2. CONDITIONS & RESTRICTIONS
+- The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+- Redistribution, sublicensing, reverse-engineering for the purpose of removing
+  attribution, or commercial resale of the Software without explicit written
+  authorization from Ubaid (IDeV) is strictly prohibited.
+- Modifications made for private local use are permitted provided that proprietary
+  notices, model descriptors, and authorship attribution remain intact.
+
+3. DISCLAIMER OF WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+Note on Open Source Licensing:
+If the maintainer elects to distribute subsequent versions under an OSI-approved
+license (such as MIT or Apache-2.0), this file may be superseded in future release tags.

@@ -46,7 +46,9 @@ $RECYCLE.BIN/
 .DS_Store
 .AppleDouble
 .LSOverride
-Icon?
+Icon$\r
+!assets/icons/
+!assets/icons/**
 
 # IDE & Editor caches
 .idea/

@@ -26,7 +26,7 @@
     "test": "node tests/runAll.js"
   },
   "devDependencies": {
-    "electron": "^35.0.0",
+    "electron": "35.7.5",
     "electron-builder": "^26.0.12"
   },
   "build": {
@@ -71,8 +71,7 @@
       ],
       "icon": "assets/icon.ico",
       "legalTrademarks": "Exciting AI™",
-      "requestedExecutionLevel": "asInvoker",
-      "artifactName": "Exciting-AI-Windows-${arch}-${version}.${ext}"
+      "requestedExecutionLevel": "asInvoker"
     },
     "nsis": {
       "oneClick": false,
@@ -91,7 +90,8 @@
       "installerHeaderIcon": "assets/installerIcon.ico",
       "installerSidebar": "assets/installerSidebar.bmp",
       "uninstallerSidebar": "assets/uninstallerSidebar.bmp",
-      "uninstallDisplayName": "Exciting AI ${version}"
+      "uninstallDisplayName": "Exciting AI ${version}",
+      "artifactName": "Exciting-AI-Windows-Setup-${arch}-${version}.${ext}"
     },
     "mac": {
       "target": [
@@ -140,6 +140,10 @@
       "category": "Utility",
       "icon": "assets/icons/icon.png",
       "artifactName": "Exciting-AI-Linux-${arch}-${version}.${ext}"
+    },
+    "electronVersion": "35.7.5",
+    "portable": {
+      "artifactName": "Exciting-AI-Windows-Portable-${arch}-${version}.${ext}"
     }
   },
   "keywords": [

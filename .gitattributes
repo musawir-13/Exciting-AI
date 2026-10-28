@@ -1,0 +1,33 @@
+# Auto-detect text files and normalize line endings
+* text=auto eol=lf
+
+# Explicit text file types
+*.js text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.svg text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary file types
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.bmp binary
+*.gif binary
+*.exe binary
+*.dmg binary
+*.AppImage binary
+*.deb binary
+*.rpm binary
+*.apk binary
+*.aab binary
+*.zip binary
+*.tar.gz binary
+*.asar binary
