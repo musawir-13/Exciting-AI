@@ -1,0 +1,43 @@
+{
+  "name": "hy3",
+  "model": "hy3",
+  "display_name": "Hy3",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-hy3",
+  "details": {
+    "parent_model": "Hy3",
+    "format": "poe",
+    "family": "tencent",
+    "families": [
+      "tencent",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Tencent Hy3 is a reasoning model for coding, tool use, and complex problem solving.",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "Hy3",
+    "owner": "Tencent",
+    "category": "Tencent",
+    "url": "https://poe.com/hy3",
+    "pricing": {
+      "prompt": "0.0000001414",
+      "completion": "0.0000005859",
+      "image": null,
+      "request": null,
+      "input_cache_read": "0.0000000354",
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-7076106-200-eualqxbtruemsbvukludmbpyajmoadsn.jpeg"
+  }
+}

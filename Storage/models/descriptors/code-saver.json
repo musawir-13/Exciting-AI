@@ -1,0 +1,35 @@
+{
+  "name": "code-saver",
+  "model": "code-saver",
+  "display_name": "Code-Saver",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-code-saver",
+  "details": {
+    "parent_model": "Code-Saver",
+    "format": "poe",
+    "family": "poetools",
+    "families": [
+      "poetools",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "A system bot that handles Poe scripts in chat.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Code-Saver",
+    "owner": "Poe Tools",
+    "category": "Poe Tools",
+    "url": "https://poe.com/code-saver",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6285092-200-qptmswkqmzhxcumbenmwpxfnudkxdcwh.jpeg"
+  }
+}

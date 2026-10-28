@@ -1,0 +1,35 @@
+{
+  "name": "qwen2-5-32b-instruct",
+  "model": "qwen2-5-32b-instruct",
+  "display_name": "Qwen2.5-32B-Instruct",
+  "modified_at": "2026-10-28T09:07:40.412Z",
+  "size": 0,
+  "digest": "poe-qwen2-5-32b-instruct",
+  "details": {
+    "parent_model": "Qwen2.5-32B-Instruct",
+    "format": "poe",
+    "family": "alibaba",
+    "families": [
+      "alibaba",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Balanced 32B model offering optimum speed-to-intelligence ratio.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "Qwen2.5-32B-Instruct",
+    "owner": "Alibaba Qwen",
+    "category": "Alibaba Qwen",
+    "url": null,
+    "pricing": null
+  }
+}

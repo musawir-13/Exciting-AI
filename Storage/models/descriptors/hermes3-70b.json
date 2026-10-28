@@ -1,0 +1,38 @@
+{
+  "name": "hermes3:70b",
+  "model": "hermes3:70b",
+  "display_name": "Hermes3 (70B) [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-hermes3-70b",
+  "details": {
+    "parent_model": "hermes3",
+    "format": "ollama",
+    "family": "nous",
+    "families": [
+      "nous",
+      "local",
+      "ollama",
+      "70b"
+    ],
+    "parameter_size": "70B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "tools"
+  ],
+  "description": "Hermes 3 is the latest version of the flagship Hermes series of LLMs by Nous Research",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Hermes3 (70B) [Local]",
+    "owner": "Nous Research",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/hermes3",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

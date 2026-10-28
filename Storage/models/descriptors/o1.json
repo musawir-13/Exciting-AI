@@ -1,0 +1,37 @@
+{
+  "name": "o1",
+  "model": "o1",
+  "display_name": "o1",
+  "modified_at": "2026-10-28T09:07:40.412Z",
+  "size": 0,
+  "digest": "poe-o1",
+  "details": {
+    "parent_model": "o1",
+    "format": "poe",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "200k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Deep reinforcement-learning reasoning model for STEM and coding.",
+  "context_length": 200000,
+  "metadata": {
+    "display_name": "o1",
+    "owner": "OpenAI",
+    "category": "OpenAI",
+    "url": null,
+    "pricing": null
+  }
+}

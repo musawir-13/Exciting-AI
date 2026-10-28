@@ -1,0 +1,35 @@
+{
+  "name": "hailuo-ai",
+  "model": "hailuo-ai",
+  "display_name": "Hailuo-AI",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-hailuo-ai",
+  "details": {
+    "parent_model": "Hailuo-AI",
+    "format": "poe",
+    "family": "fal",
+    "families": [
+      "fal",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Best-in-class text and image to video model by MiniMax.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Hailuo-AI",
+    "owner": "fal",
+    "category": "fal",
+    "url": "https://poe.com/hailuo-ai",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-5117435-200-poindnzhlfwddmannizkdudeofubxulg.jpeg"
+  }
+}

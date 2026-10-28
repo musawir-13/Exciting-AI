@@ -1,0 +1,35 @@
+{
+  "name": "elevenlabs-v2-5-turbo",
+  "model": "elevenlabs-v2.5-turbo",
+  "display_name": "ElevenLabs-v2.5-Turbo",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-elevenlabs-v2-5-turbo",
+  "details": {
+    "parent_model": "ElevenLabs-v2.5-Turbo",
+    "format": "poe",
+    "family": "elevenlabs",
+    "families": [
+      "elevenlabs",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "ElevenLabs' leading text-to-speech technology converts your text into natural-sounding speech, using the Turbo v2.5 model. Simply send a text prompt, and the bot will generate audio using your choice of available voices. If you link a URL or a PDF, it will do its best to read it aloud to you. The overall default voice is Jessica, an American-English female.\n\nOptional parameters:\nVoice Name. (e.g. \"Hello world --voice Eric\") to customize the voice used. \nLanguage. Language ISO-639-1 code to your message if you notice pronunciation errors; table of ISO-639-1 codes here: https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes (e.g. zh for Chinese, es for Spanish, hi for Hindi)\n\nThe following voices are supported and recommended for each language:\n\nEnglish -- Sarah, George, River, Matilda, Will, Jessica, Brian, Lily, Monika Sogam\nChinese -- James Gao, Martin Li, Will, River\nSpanish -- David Martin, Will, Efrayn, Alejandro, Sara Martin, Regina Martin\nHindi -- Ranga, Niraj, Liam, Raju, Leo, Manu, Vihana Huja, Kanika, River, Monika Sogam, Muskaan, Saanu, Riya, Devi\nArabic -- Bill, Mo Wiseman, Haytham, George, Mona, Sarah, Sana, Laura\nGerman -- Bill, Otto, Leon Stern, Mila, Emilia, Lea, Leonie\nIndonesian -- Jessica, Putra, Mahaputra\nPortuguese -- Will, Muhammad, Onildo, Lily, Jessica, Alice\nVietnamese -- Bill, Liam, Trung Caha, Van Phuc, Ca Dao, Trang, Jessica, Alice, Matilda\nFilipino -- Roger, Brian, Alice, Matilda\nFrench -- Roger, Louis, Emilie\nSwedish -- Will, Chris, Jessica, Charlotte\nTurkish -- Cavit Pancar, Sohbet Adami, Belma, Sultan, Mahidevran\nRomanian -- Eric, Bill, Brian, Charlotte, Lily\nItalian -- Carmelo, Luca, Alice, Lily\nPolish -- Robert, Rob, Eric, Pawel, Lily, Alice\nNorwegian -- Chris, Charlotte\nCzech -- Pawel\nFinnish -- Callum, River\nHungarian -- Brian, Sarah\nJapanese -- Alice\n\nPrompt input cannot exceed 40,000 characters.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "ElevenLabs-v2.5-Turbo",
+    "owner": "ElevenLabs",
+    "category": "ElevenLabs",
+    "url": "https://poe.com/elevenlabs-v2.5-turbo",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-5176044-200-ixsrhozcvbrhrvwgdxghshtrqpjjashv.jpeg"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "grok-4-5",
+  "model": "grok-4-5",
+  "display_name": "Grok 4.5",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-grok-4-5",
+  "details": {
+    "parent_model": "Grok 4.5",
+    "format": "poe",
+    "family": "xai",
+    "families": [
+      "xai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "256k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Advanced truth-seeking conversational AI by xAI with real-time knowledge.",
+  "context_length": 256000,
+  "metadata": {
+    "display_name": "Grok 4.5",
+    "owner": "Open Source & Community Innovation",
+    "category": "Open Source & Community Innovation",
+    "url": null,
+    "pricing": null
+  }
+}

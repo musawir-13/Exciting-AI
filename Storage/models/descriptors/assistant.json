@@ -1,0 +1,38 @@
+{
+  "name": "assistant",
+  "model": "assistant",
+  "display_name": "Assistant",
+  "modified_at": "2026-10-28T10:31:33.931Z",
+  "size": 0,
+  "digest": "poe-assistant",
+  "details": {
+    "parent_model": "Assistant",
+    "format": "poe",
+    "family": "poe",
+    "families": [
+      "poe",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "400k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "General-purpose assistant. Write, code, ask for real-time information, create images, and more.\n\nQueries are automatically routed based on the task and subscription status.\n\nFor subscribers:\n- General queries: @GPT-6.1-Sol\n- Image generation: @Nano-Banana-2\n- Video-input tasks: @Gemini-3.1-Pro\n\nFor non-subscribers:\n- General queries: @GPT-6-Luna\n- Image generation: @Nano-Banana-2\n- Video-input tasks: @Gemini-3-Flash",
+  "context_length": 400000,
+  "metadata": {
+    "display_name": "Assistant",
+    "owner": "Poe",
+    "category": "Poe",
+    "url": "https://poe.com/assistant",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-3002-200-vcmrcgoloaktppabmdfsgeczaixswmxt.jpeg"
+  }
+}

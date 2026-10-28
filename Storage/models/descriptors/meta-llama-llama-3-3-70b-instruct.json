@@ -1,0 +1,43 @@
+{
+  "name": "meta-llama-llama-3-3-70b-instruct",
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "display_name": "Meta: Llama 3.3 70B Instruct",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-meta-llama-llama-3-3-70b-instruct",
+  "details": {
+    "parent_model": "Meta: Llama 3.3 70B Instruct",
+    "format": "openrouter",
+    "family": "metallama",
+    "families": [
+      "metallama",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "131k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model...",
+  "context_length": 131072,
+  "metadata": {
+    "display_name": "Meta: Llama 3.3 70B Instruct",
+    "owner": "meta-llama",
+    "category": "meta-llama",
+    "url": "https://openrouter.ai/models/meta-llama/llama-3.3-70b-instruct",
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.00000032"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 16384,
+      "is_moderated": false
+    }
+  }
+}

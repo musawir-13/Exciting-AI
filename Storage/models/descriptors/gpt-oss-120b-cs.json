@@ -1,0 +1,43 @@
+{
+  "name": "gpt-oss-120b-cs",
+  "model": "gpt-oss-120b-cs",
+  "display_name": "GPT-OSS-120B-CS",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-gpt-oss-120b-cs",
+  "details": {
+    "parent_model": "GPT-OSS-120B-CS",
+    "format": "poe",
+    "family": "cerebrasai",
+    "families": [
+      "cerebrasai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "World’s fastest inference for GPT OSS 120B with Cerebras. OpenAI's GPT-OSS-120B delivers sophisticated chain-of-thought reasoning capabilities in a fully open model. The bot does not accept video, ppt, docx and excel files.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "GPT-OSS-120B-CS",
+    "owner": "CerebrasAI",
+    "category": "CerebrasAI",
+    "url": "https://poe.com/gpt-oss-120b-cs",
+    "pricing": {
+      "prompt": "0.0000003535",
+      "completion": "0.0000007576",
+      "image": null,
+      "request": null,
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6299377-200-ffqmlqigvwmqzddozfuvcrwcjrbmaeax.jpeg"
+  }
+}

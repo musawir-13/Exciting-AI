@@ -1,0 +1,36 @@
+{
+  "name": "nous-hermes2-mixtral:latest",
+  "model": "nous-hermes2-mixtral:latest",
+  "display_name": "Nous Hermes2 Mixtral [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-nous-hermes2-mixtral-latest",
+  "details": {
+    "parent_model": "nous-hermes2-mixtral",
+    "format": "ollama",
+    "family": "mistral",
+    "families": [
+      "mistral",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "8X7B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "The Nous Hermes 2 model from Nous Research, now trained over Mixtral.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Nous Hermes2 Mixtral [Local]",
+    "owner": "Mistral AI",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/nous-hermes2-mixtral",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

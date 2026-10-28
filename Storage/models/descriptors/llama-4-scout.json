@@ -1,0 +1,36 @@
+{
+  "name": "llama-4-scout",
+  "model": "llama-4-scout",
+  "display_name": "Llama 4 Scout",
+  "modified_at": "2026-10-28T09:07:40.412Z",
+  "size": 0,
+  "digest": "poe-llama-4-scout",
+  "details": {
+    "parent_model": "Llama 4 Scout",
+    "format": "poe",
+    "family": "meta",
+    "families": [
+      "meta",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "512k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "High-speed scouting and search-synthesis autonomous agent model.",
+  "context_length": 512000,
+  "metadata": {
+    "display_name": "Llama 4 Scout",
+    "owner": "Meta AI",
+    "category": "Meta AI",
+    "url": null,
+    "pricing": null
+  }
+}

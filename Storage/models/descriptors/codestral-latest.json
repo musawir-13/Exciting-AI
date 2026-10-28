@@ -1,0 +1,36 @@
+{
+  "name": "codestral:latest",
+  "model": "codestral:latest",
+  "display_name": "Codestral [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-codestral-latest",
+  "details": {
+    "parent_model": "codestral",
+    "format": "ollama",
+    "family": "mistral",
+    "families": [
+      "mistral",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "22B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Codestral [Local]",
+    "owner": "Mistral AI",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/codestral",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

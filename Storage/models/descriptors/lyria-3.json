@@ -1,0 +1,35 @@
+{
+  "name": "lyria-3",
+  "model": "lyria-3",
+  "display_name": "Lyria-3",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-lyria-3",
+  "details": {
+    "parent_model": "Lyria-3",
+    "format": "poe",
+    "family": "google",
+    "families": [
+      "google",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Google DeepMind’s Lyria 3 is an advanced AI music generation model that creates high-fidelity, up to three-minute tracks from text or image prompts, with detailed control over vocals, style, and composition.\n\nOptional parameters:\nFull song: Turn it on to generate a full-length track (up to 3 minutes).\n\nNotes:\nLyria blocks prompts that name specific artists or songs (artist-intent and recitation checks).",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Lyria-3",
+    "owner": "Google",
+    "category": "Google",
+    "url": "https://poe.com/lyria-3",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6903480-200-kjryamkevckydypfxrqyurkzduypqqmh.jpeg"
+  }
+}

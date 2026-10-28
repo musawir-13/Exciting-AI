@@ -1,0 +1,45 @@
+{
+  "name": "minimax-minimax-m2-5",
+  "model": "minimax/minimax-m2.5",
+  "display_name": "MiniMax: MiniMax M2.5",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-minimax-minimax-m2-5",
+  "details": {
+    "parent_model": "MiniMax: MiniMax M2.5",
+    "format": "openrouter",
+    "family": "minimax",
+    "families": [
+      "minimax",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "205k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1...",
+  "context_length": 204800,
+  "metadata": {
+    "display_name": "MiniMax: MiniMax M2.5",
+    "owner": "minimax",
+    "category": "minimax",
+    "url": "https://openrouter.ai/models/minimax/minimax-m2.5",
+    "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000012",
+      "input_cache_read": "0.00000003"
+    },
+    "top_provider": {
+      "context_length": 204800,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    }
+  }
+}

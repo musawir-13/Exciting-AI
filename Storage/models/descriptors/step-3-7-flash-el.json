@@ -1,0 +1,44 @@
+{
+  "name": "step-3-7-flash-el",
+  "model": "step-3.7-flash-el",
+  "display_name": "Step-3.7-Flash-EL",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-step-3-7-flash-el",
+  "details": {
+    "parent_model": "Step-3.7-Flash-EL",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "StepFun multimodal reasoning model with image and video input, tool calling, adjustable reasoning effort, and 256K context.\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "Step-3.7-Flash-EL",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/step-3.7-flash-el",
+    "pricing": {
+      "prompt": "0.000000202",
+      "completion": "0.0000011616",
+      "image": null,
+      "request": null,
+      "input_cache_read": "0.0000000404",
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-7057345-200-pogssgsksrsxdosfuueygdxndcpuvudh.jpeg"
+  }
+}

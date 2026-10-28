@@ -1,0 +1,44 @@
+{
+  "name": "poe-claude-opus-4-7",
+  "model": "claude-opus-4.7",
+  "display_name": "Claude-Opus-4.7",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-poe-claude-opus-4-7",
+  "details": {
+    "parent_model": "Claude-Opus-4.7",
+    "format": "poe",
+    "family": "anthropic",
+    "families": [
+      "anthropic",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "1049k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Anthropic’s flagship model for enterprise-grade knowledge work. Powered by an Extended Thinking Mode and an optimized Model Context Protocol (MCP), Opus 4.7 excels at multi-agent coordination, complex coding, and long-running autonomous tasks. It leverages a massive 1M-token context window to seamlessly execute intricate workflows with elite reasoning, safety, and reliability.\n\nThis bot supports optional parameters for advanced customization.",
+  "context_length": 1048576,
+  "metadata": {
+    "display_name": "Claude-Opus-4.7",
+    "owner": "Anthropic",
+    "category": "Anthropic",
+    "url": "https://poe.com/claude-opus-4.7",
+    "pricing": {
+      "prompt": "0.0000042929",
+      "completion": "0.0000214646",
+      "image": null,
+      "request": null,
+      "input_cache_read": "0.0000004293",
+      "input_cache_write": "0.0000053662"
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-1043-200-xgbmxupkrtpjhqaefdtnhaxjlswybrsc.jpeg"
+  }
+}

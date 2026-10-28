@@ -1,0 +1,35 @@
+{
+  "name": "poe-reka-core",
+  "model": "reka-core",
+  "display_name": "Reka-Core",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-poe-reka-core",
+  "details": {
+    "parent_model": "Reka-Core",
+    "format": "poe",
+    "family": "rekaai",
+    "families": [
+      "rekaai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Reka's largest and most capable multimodal language model. Works with text, images, and video inputs. 8k context length.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "Reka-Core",
+    "owner": "Reka AI",
+    "category": "Reka AI",
+    "url": "https://poe.com/reka-core",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-3999947-200-diobkezragtoakpszjrzxbovttmxiktj.jpeg"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "poolside-laguna-xs-2-1-free",
+  "model": "poolside/laguna-xs-2.1:free",
+  "display_name": "Poolside: Laguna XS 2.1 (free)",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-poolside-laguna-xs-2-1-free",
+  "details": {
+    "parent_model": "Poolside: Laguna XS 2.1 (free)",
+    "format": "openrouter",
+    "family": "poolside",
+    "families": [
+      "poolside",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "Poolside: Laguna XS 2.1 (free)",
+    "owner": "poolside",
+    "category": "poolside",
+    "url": "https://openrouter.ai/models/poolside/laguna-xs-2.1:free",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 32768,
+      "is_moderated": false
+    }
+  }
+}

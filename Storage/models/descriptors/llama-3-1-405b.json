@@ -1,0 +1,37 @@
+{
+  "name": "llama-3-1-405b",
+  "model": "llama-3-1-405b",
+  "display_name": "Llama 3.1 405B",
+  "modified_at": "2026-10-28T09:07:40.412Z",
+  "size": 0,
+  "digest": "poe-llama-3-1-405b",
+  "details": {
+    "parent_model": "Llama 3.1 405B",
+    "format": "poe",
+    "family": "meta",
+    "families": [
+      "meta",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Flagship open-weights foundation model rivaling leading proprietary APIs.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "Llama 3.1 405B",
+    "owner": "Meta AI",
+    "category": "Meta AI",
+    "url": null,
+    "pricing": null
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "openai-gpt-3-5-turbo-16k",
+  "model": "openai/gpt-3.5-turbo-16k",
+  "display_name": "OpenAI: GPT-3.5 Turbo 16k",
+  "modified_at": "2026-10-28T10:31:33.936Z",
+  "size": 0,
+  "digest": "openrouter-openai-gpt-3-5-turbo-16k",
+  "details": {
+    "parent_model": "OpenAI: GPT-3.5 Turbo 16k",
+    "format": "openrouter",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "16k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "This model offers four times the context length of gpt-3.5-turbo, allowing it to support approximately 20 pages of text in a single request at a higher cost. Training data: up...",
+  "context_length": 16385,
+  "metadata": {
+    "display_name": "OpenAI: GPT-3.5 Turbo 16k",
+    "owner": "openai",
+    "category": "openai",
+    "url": "https://openrouter.ai/models/openai/gpt-3.5-turbo-16k",
+    "pricing": {
+      "prompt": "0.000003",
+      "completion": "0.000004"
+    },
+    "top_provider": {
+      "context_length": 16385,
+      "max_completion_tokens": 4096,
+      "is_moderated": false
+    }
+  }
+}

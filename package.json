@@ -1,0 +1,155 @@
+{
+  "name": "exciting-ai",
+  "version": "1.0.0",
+  "description": "Exciting AI - Autonomous Multi-Platform AI Workspace & Research Engine",
+  "main": "main.js",
+  "author": "Ubaid <https://github.com/musawir-13>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/musawir-13/Exciting-AI.git"
+  },
+  "homepage": "https://github.com/musawir-13/Exciting-AI",
+  "scripts": {
+    "start": "node server.js",
+    "start:web": "node apps/web/server.js",
+    "electron": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder --win nsis",
+    "pack:win": "electron-builder --win --x64 --arm64",
+    "pack:win:portable": "electron-builder --win portable --x64",
+    "pack:mac": "electron-builder --mac --arm64 --x64",
+    "pack:linux": "electron-builder --linux AppImage deb rpm",
+    "pack:all": "electron-builder -mwl",
+    "build:web": "node scripts/buildWeb.js",
+    "build:android": "node scripts/buildAndroid.js",
+    "fetch-models": "node scripts/fetchModels.js",
+    "test": "node tests/runAll.js"
+  },
+  "devDependencies": {
+    "electron": "^35.0.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.exciting.ai",
+    "productName": "Exciting AI",
+    "copyright": "Copyright © 2026 Exciting AI / IDeV. All rights reserved.",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "server.js",
+      "engine/**/*",
+      "public/**/*",
+      "assets/**/*",
+      "Storage/models/**/*",
+      "package.json",
+      "README.md",
+      "!Storage/chats/**",
+      "!Storage/settings/**",
+      "!Storage/security/**",
+      "!Storage/profiles/**",
+      "!release/**",
+      "!dist/**"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "assets/icon.ico",
+      "legalTrademarks": "Exciting AI™",
+      "requestedExecutionLevel": "asInvoker",
+      "artifactName": "Exciting-AI-Windows-${arch}-${version}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "packElevateHelper": false,
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": "always",
+      "createStartMenuShortcut": true,
+      "shortcutName": "Exciting AI",
+      "runAfterFinish": true,
+      "deleteAppDataOnUninstall": false,
+      "installerIcon": "assets/installerIcon.ico",
+      "uninstallerIcon": "assets/uninstallerIcon.ico",
+      "installerHeader": "assets/installerHeader.bmp",
+      "installerHeaderIcon": "assets/installerIcon.ico",
+      "installerSidebar": "assets/installerSidebar.bmp",
+      "uninstallerSidebar": "assets/uninstallerSidebar.bmp",
+      "uninstallDisplayName": "Exciting AI ${version}"
+    },
+    "mac": {
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "arm64",
+            "x64"
+          ]
+        },
+        {
+          "target": "zip",
+          "arch": [
+            "arm64",
+            "x64"
+          ]
+        }
+      ],
+      "category": "public.app-category.productivity",
+      "icon": "assets/icon.ico",
+      "artifactName": "Exciting-AI-macOS-${arch}-${version}.${ext}"
+    },
+    "linux": {
+      "target": [
+        {
+          "target": "AppImage",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        },
+        {
+          "target": "deb",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        },
+        {
+          "target": "rpm",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "category": "Utility",
+      "icon": "assets/icons/icon.png",
+      "artifactName": "Exciting-AI-Linux-${arch}-${version}.${ext}"
+    }
+  },
+  "keywords": [
+    "exciting-ai",
+    "ai",
+    "desktop",
+    "mobile",
+    "web",
+    "workspace",
+    "web-research"
+  ],
+  "license": "UNLICENSED"
+}

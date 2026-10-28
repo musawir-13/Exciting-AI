@@ -1,0 +1,57 @@
+{
+  "name": "openai-gpt-6-astra-batch",
+  "model": "openai/gpt-6-astra:batch",
+  "display_name": "OpenAI: GPT-6 Astra (batch)",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "openrouter-openai-gpt-6-astra-batch",
+  "details": {
+    "parent_model": "OpenAI: GPT-6 Astra (batch)",
+    "format": "openrouter",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1050k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work. It is suited for advanced analysis, software engineering, deep research, scientific work, and document creation, with particular strengths in long-horizon...",
+  "context_length": 1050000,
+  "metadata": {
+    "display_name": "OpenAI: GPT-6 Astra (batch)",
+    "owner": "openai",
+    "category": "openai",
+    "url": "https://openrouter.ai/models/openai/gpt-6-astra:batch",
+    "pricing": {
+      "prompt": "0.000005",
+      "completion": "0.000025",
+      "web_search": "0.01",
+      "input_cache_read": "0.0000005",
+      "input_cache_write": "0.00000625",
+      "overrides": [
+        {
+          "min_prompt_tokens": 272000,
+          "prompt": "0.00001",
+          "completion": "0.0000375",
+          "input_cache_read": "0.000001",
+          "input_cache_write": "0.0000125"
+        }
+      ]
+    },
+    "top_provider": {
+      "context_length": 1050000,
+      "max_completion_tokens": 128000,
+      "is_moderated": true
+    }
+  }
+}

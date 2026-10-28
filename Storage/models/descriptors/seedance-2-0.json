@@ -1,0 +1,35 @@
+{
+  "name": "seedance-2-0",
+  "model": "seedance-2.0",
+  "display_name": "Seedance-2.0",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-seedance-2-0",
+  "details": {
+    "parent_model": "Seedance-2.0",
+    "format": "poe",
+    "family": "bytedance",
+    "families": [
+      "bytedance",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Seedance 2.0 delivers high‑quality video generation across text and image inputs — built for cinematic scenes, consistent characters, and detailed motion control.\nCost estimate - $0.1442 per second at 480p (10300 tokens per second), $0.3094 per second at 720p (22100 tokens per second) at a rate of $0.014 per 1000 tokens.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Seedance-2.0",
+    "owner": "Bytedance",
+    "category": "Bytedance",
+    "url": "https://poe.com/seedance-2.0",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6930463-200-mwttqrnjumnkclajylacpgimeaesoqsr.jpeg"
+  }
+}

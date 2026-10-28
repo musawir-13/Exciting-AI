@@ -1,0 +1,47 @@
+{
+  "name": "google-gemini-nano-banana-2-1",
+  "model": "google/gemini-nano-banana-2.1",
+  "display_name": "Google: Nano Banana 2.1",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "openrouter-google-gemini-nano-banana-2-1",
+  "details": {
+    "parent_model": "Google: Nano Banana 2.1",
+    "format": "openrouter",
+    "family": "google",
+    "families": [
+      "google",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "66k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Nano Banana 2.1 (Gemini Nano Banana 2.1) is Google's image generation and editing model on the Flash tier, succeeding Nano Banana 2 and Nano Banana Pro. It improves product recontextualization,...",
+  "context_length": 65536,
+  "metadata": {
+    "display_name": "Google: Nano Banana 2.1",
+    "owner": "google",
+    "category": "google",
+    "url": "https://openrouter.ai/models/google/gemini-nano-banana-2.1",
+    "pricing": {
+      "prompt": "0.0000015",
+      "completion": "0.0000075",
+      "image_output": "0.00003",
+      "web_search": "0.014"
+    },
+    "top_provider": {
+      "context_length": 65536,
+      "max_completion_tokens": 58982,
+      "is_moderated": false
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "north-mini-code-1.0:latest",
+  "model": "north-mini-code-1.0:latest",
+  "display_name": "North Mini Code 1.0 [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-north-mini-code-1.0-latest",
+  "details": {
+    "parent_model": "north-mini-code-1.0",
+    "format": "ollama",
+    "family": "cohere",
+    "families": [
+      "cohere",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "Standard",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "tools",
+    "thinking"
+  ],
+  "description": "North Mini Code is Cohere&#39;s first model for developers — a 30B Mixture-of-Experts model with 3B active parameters, built for agentic software engineering.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "North Mini Code 1.0 [Local]",
+    "owner": "Cohere",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/north-mini-code-1.0",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

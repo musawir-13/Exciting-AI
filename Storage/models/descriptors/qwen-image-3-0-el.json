@@ -1,0 +1,35 @@
+{
+  "name": "qwen-image-3-0-el",
+  "model": "qwen-image-3.0-el",
+  "display_name": "Qwen-Image-3.0-EL",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-qwen-image-3-0-el",
+  "details": {
+    "parent_model": "Qwen-Image-3.0-EL",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Qwen Image 3.0 supports image generation and editing with Base and Pro variants, multilingual typography, multi-image references, and controllable 1K or 2K output.\n\nGeneration & Editing\n- Generate from a text prompt\n- Edit or combine one to three attached images\n- Generate one to six images per request\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Qwen-Image-3.0-EL",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/qwen-image-3.0-el",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-7087804-200-ipkwippfmdprsymxnedjpnxravmjadjs.jpeg"
+  }
+}

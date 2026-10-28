@@ -1,0 +1,36 @@
+{
+  "name": "alfred:latest",
+  "model": "alfred:latest",
+  "display_name": "Alfred [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-alfred-latest",
+  "details": {
+    "parent_model": "alfred",
+    "format": "ollama",
+    "family": "ollama",
+    "families": [
+      "ollama",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "40B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "A robust conversational model designed to be used for both chat and instruct use cases.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Alfred [Local]",
+    "owner": "Ollama Community",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/alfred",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

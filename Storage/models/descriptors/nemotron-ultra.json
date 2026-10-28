@@ -1,0 +1,37 @@
+{
+  "name": "nemotron-ultra",
+  "model": "nemotron-ultra",
+  "display_name": "Nemotron Ultra",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-nemotron-ultra",
+  "details": {
+    "parent_model": "Nemotron Ultra",
+    "format": "poe",
+    "family": "nvidia",
+    "families": [
+      "nvidia",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "256k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Ultra-high parameter architecture with advanced synthetic alignment.",
+  "context_length": 256000,
+  "metadata": {
+    "display_name": "Nemotron Ultra",
+    "owner": "NVIDIA & Hardware Pioneers",
+    "category": "NVIDIA & Hardware Pioneers",
+    "url": null,
+    "pricing": null
+  }
+}

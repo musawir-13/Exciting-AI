@@ -1,0 +1,46 @@
+{
+  "name": "qwen-qwen3-8-flash",
+  "model": "qwen/qwen3.8-flash",
+  "display_name": "Qwen: Qwen3.8 Flash",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "openrouter-qwen-qwen3-8-flash",
+  "details": {
+    "parent_model": "Qwen: Qwen3.8 Flash",
+    "format": "openrouter",
+    "family": "qwen",
+    "families": [
+      "qwen",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Qwen3.8 Flash is a multimodal reasoning model from Alibaba. It is suited for coding assistance, agentic workflows, visual understanding, document and codebase analysis, desktop interaction, chart analysis, and long-video analysis.",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "Qwen: Qwen3.8 Flash",
+    "owner": "qwen",
+    "category": "qwen",
+    "url": "https://openrouter.ai/models/qwen/qwen3.8-flash",
+    "pricing": {
+      "prompt": "0.00000015",
+      "completion": "0.00000047",
+      "input_cache_read": "0.000000016"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    }
+  }
+}

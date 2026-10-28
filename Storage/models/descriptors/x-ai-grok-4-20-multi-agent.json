@@ -1,0 +1,54 @@
+{
+  "name": "x-ai-grok-4-20-multi-agent",
+  "model": "x-ai/grok-4.20-multi-agent",
+  "display_name": "SpaceXAI: Grok 4.20 Multi-Agent",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-x-ai-grok-4-20-multi-agent",
+  "details": {
+    "parent_model": "SpaceXAI: Grok 4.20 Multi-Agent",
+    "format": "openrouter",
+    "family": "xai",
+    "families": [
+      "xai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "2000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision"
+  ],
+  "description": "Grok 4.20 Multi-Agent is a variant of SpaceXAI’s Grok 4.20 designed for collaborative, agent-based workflows. Multiple agents operate in parallel to conduct deep research, coordinate tool use, and synthesize information...",
+  "context_length": 2000000,
+  "metadata": {
+    "display_name": "SpaceXAI: Grok 4.20 Multi-Agent",
+    "owner": "x-ai",
+    "category": "x-ai",
+    "url": "https://openrouter.ai/models/x-ai/grok-4.20-multi-agent",
+    "pricing": {
+      "prompt": "0.00000125",
+      "completion": "0.0000025",
+      "web_search": "0.005",
+      "input_cache_read": "0.0000002",
+      "overrides": [
+        {
+          "min_prompt_tokens": 200000,
+          "prompt": "0.0000025",
+          "completion": "0.000005",
+          "input_cache_read": "0.0000004"
+        }
+      ]
+    },
+    "top_provider": {
+      "context_length": 2000000,
+      "max_completion_tokens": 1800000,
+      "is_moderated": false
+    }
+  }
+}

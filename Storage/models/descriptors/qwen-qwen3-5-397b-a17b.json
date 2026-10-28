@@ -1,0 +1,46 @@
+{
+  "name": "qwen-qwen3-5-397b-a17b",
+  "model": "qwen/qwen3.5-397b-a17b",
+  "display_name": "Qwen: Qwen3.5 397B A17B",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-qwen-qwen3-5-397b-a17b",
+  "details": {
+    "parent_model": "Qwen: Qwen3.5 397B A17B",
+    "format": "openrouter",
+    "family": "qwen",
+    "families": [
+      "qwen",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "The Qwen3.5 series 397B-A17B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. It delivers...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "Qwen: Qwen3.5 397B A17B",
+    "owner": "qwen",
+    "category": "qwen",
+    "url": "https://openrouter.ai/models/qwen/qwen3.5-397b-a17b",
+    "pricing": {
+      "prompt": "0.0000005",
+      "completion": "0.0000036",
+      "input_cache_read": "0.0000003"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 235929,
+      "is_moderated": false
+    }
+  }
+}

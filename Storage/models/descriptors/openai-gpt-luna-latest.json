@@ -1,0 +1,57 @@
+{
+  "name": "openai-gpt-luna-latest",
+  "model": "~openai/gpt-luna-latest",
+  "display_name": "OpenAI: GPT Luna Latest",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "openrouter-openai-gpt-luna-latest",
+  "details": {
+    "parent_model": "OpenAI: GPT Luna Latest",
+    "format": "openrouter",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1050k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "This model always redirects to the latest model in the GPT Luna family.",
+  "context_length": 1050000,
+  "metadata": {
+    "display_name": "OpenAI: GPT Luna Latest",
+    "owner": "~openai",
+    "category": "~openai",
+    "url": "https://openrouter.ai/models/~openai/gpt-luna-latest",
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000005",
+      "web_search": "0.01",
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.000000125",
+      "overrides": [
+        {
+          "min_prompt_tokens": 272000,
+          "prompt": "0.0000002",
+          "completion": "0.00000075",
+          "input_cache_read": "0.00000002",
+          "input_cache_write": "0.00000025"
+        }
+      ]
+    },
+    "top_provider": {
+      "context_length": 1050000,
+      "max_completion_tokens": 128000,
+      "is_moderated": true
+    }
+  }
+}

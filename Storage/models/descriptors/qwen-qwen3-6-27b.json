@@ -1,0 +1,45 @@
+{
+  "name": "qwen-qwen3-6-27b",
+  "model": "qwen/qwen3.6-27b",
+  "display_name": "Qwen: Qwen3.6 27B",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-qwen-qwen3-6-27b",
+  "details": {
+    "parent_model": "Qwen: Qwen3.6 27B",
+    "format": "openrouter",
+    "family": "qwen",
+    "families": [
+      "qwen",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "Qwen: Qwen3.6 27B",
+    "owner": "qwen",
+    "category": "qwen",
+    "url": "https://openrouter.ai/models/qwen/qwen3.6-27b",
+    "pricing": {
+      "prompt": "0.00000045",
+      "completion": "0.0000027"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "stable-diffusion-xl",
+  "model": "stable-diffusion-xl",
+  "display_name": "Stable Diffusion XL",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-stable-diffusion-xl",
+  "details": {
+    "parent_model": "Stable Diffusion XL",
+    "format": "poe",
+    "family": "stability",
+    "families": [
+      "stability",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "8.192k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Industry-standard open generative image model for high-resolution output.",
+  "context_length": 8192,
+  "metadata": {
+    "display_name": "Stable Diffusion XL",
+    "owner": "Generative Media",
+    "category": "Generative Media",
+    "url": null,
+    "pricing": null
+  }
+}

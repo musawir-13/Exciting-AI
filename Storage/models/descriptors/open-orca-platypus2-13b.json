@@ -1,0 +1,37 @@
+{
+  "name": "open-orca-platypus2:13b",
+  "model": "open-orca-platypus2:13b",
+  "display_name": "Open Orca Platypus2 (13B) [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-open-orca-platypus2-13b",
+  "details": {
+    "parent_model": "open-orca-platypus2",
+    "format": "ollama",
+    "family": "ollama",
+    "families": [
+      "ollama",
+      "local",
+      "ollama",
+      "13b"
+    ],
+    "parameter_size": "13B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "Merge of the Open Orca OpenChat model and the Garage-bAInd Platypus 2 model. Designed for chat and code generation.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Open Orca Platypus2 (13B) [Local]",
+    "owner": "Ollama Community",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/open-orca-platypus2",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

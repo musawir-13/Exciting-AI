@@ -1,0 +1,44 @@
+{
+  "name": "openrouter-free",
+  "model": "openrouter/free",
+  "display_name": "Free Models Router",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-openrouter-free",
+  "details": {
+    "parent_model": "Free Models Router",
+    "format": "openrouter",
+    "family": "openrouter",
+    "families": [
+      "openrouter",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "200k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "The simplest way to get free inference. openrouter/free is a router that selects free models at random from the models available on OpenRouter. The router smartly filters for models that...",
+  "context_length": 200000,
+  "metadata": {
+    "display_name": "Free Models Router",
+    "owner": "openrouter",
+    "category": "openrouter",
+    "url": "https://openrouter.ai/models/openrouter/free",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    },
+    "top_provider": {
+      "context_length": null,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    }
+  }
+}

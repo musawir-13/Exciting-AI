@@ -1,0 +1,36 @@
+{
+  "name": "nemotron-3-5-bolt-74b",
+  "model": "nemotron-3-5-bolt-74b",
+  "display_name": "Nemotron 3.5 Bolt (74B)",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-nemotron-3-5-bolt-74b",
+  "details": {
+    "parent_model": "Nemotron 3.5 Bolt (74B)",
+    "format": "poe",
+    "family": "nvidia",
+    "families": [
+      "nvidia",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "74B high-throughput reasoning model tuned for NVIDIA enterprise GPUs.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "Nemotron 3.5 Bolt (74B)",
+    "owner": "NVIDIA & Hardware Pioneers",
+    "category": "NVIDIA & Hardware Pioneers",
+    "url": null,
+    "pricing": null
+  }
+}

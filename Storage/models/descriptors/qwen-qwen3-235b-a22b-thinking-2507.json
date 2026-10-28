@@ -1,0 +1,44 @@
+{
+  "name": "qwen-qwen3-235b-a22b-thinking-2507",
+  "model": "qwen/qwen3-235b-a22b-thinking-2507",
+  "display_name": "Qwen: Qwen3 235B A22B Thinking 2507",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-qwen-qwen3-235b-a22b-thinking-2507",
+  "details": {
+    "parent_model": "Qwen: Qwen3 235B A22B Thinking 2507",
+    "format": "openrouter",
+    "family": "qwen",
+    "families": [
+      "qwen",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks. It activates 22B of its 235B parameters per forward pass and natively supports up to 262,144...",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "Qwen: Qwen3 235B A22B Thinking 2507",
+    "owner": "qwen",
+    "category": "qwen",
+    "url": "https://openrouter.ai/models/qwen/qwen3-235b-a22b-thinking-2507",
+    "pricing": {
+      "prompt": "0.00000045",
+      "completion": "0.0000035"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": 16384,
+      "is_moderated": false
+    }
+  }
+}

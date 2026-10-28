@@ -1,0 +1,35 @@
+{
+  "name": "qwen-audio",
+  "model": "qwen-audio",
+  "display_name": "Qwen-Audio",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-qwen-audio",
+  "details": {
+    "parent_model": "Qwen-Audio",
+    "format": "poe",
+    "family": "alibaba",
+    "families": [
+      "alibaba",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "32.768k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Universal audio understanding and speech transcription model.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Qwen-Audio",
+    "owner": "Alibaba Qwen",
+    "category": "Alibaba Qwen",
+    "url": null,
+    "pricing": null
+  }
+}

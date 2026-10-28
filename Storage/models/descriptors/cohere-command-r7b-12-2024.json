@@ -1,0 +1,42 @@
+{
+  "name": "cohere-command-r7b-12-2024",
+  "model": "cohere/command-r7b-12-2024",
+  "display_name": "Cohere: Command R7B (12-2024)",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-cohere-command-r7b-12-2024",
+  "details": {
+    "parent_model": "Cohere: Command R7B (12-2024)",
+    "format": "openrouter",
+    "family": "cohere",
+    "families": [
+      "cohere",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Command R7B (12-2024) is a small, fast update of the Command R+ model, delivered in December 2024. It excels at RAG, tool use, agents, and similar tasks requiring complex reasoning...",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "Cohere: Command R7B (12-2024)",
+    "owner": "cohere",
+    "category": "cohere",
+    "url": "https://openrouter.ai/models/cohere/command-r7b-12-2024",
+    "pricing": {
+      "prompt": "0.0000000375",
+      "completion": "0.00000015"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": 4000,
+      "is_moderated": true
+    }
+  }
+}

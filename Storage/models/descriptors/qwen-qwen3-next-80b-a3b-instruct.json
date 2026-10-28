@@ -1,0 +1,43 @@
+{
+  "name": "qwen-qwen3-next-80b-a3b-instruct",
+  "model": "qwen/qwen3-next-80b-a3b-instruct",
+  "display_name": "Qwen: Qwen3 Next 80B A3B Instruct",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-qwen-qwen3-next-80b-a3b-instruct",
+  "details": {
+    "parent_model": "Qwen: Qwen3 Next 80B A3B Instruct",
+    "format": "openrouter",
+    "family": "qwen",
+    "families": [
+      "qwen",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces. It targets complex tasks across reasoning, code generation, knowledge QA, and multilingual...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "Qwen: Qwen3 Next 80B A3B Instruct",
+    "owner": "qwen",
+    "category": "qwen",
+    "url": "https://openrouter.ai/models/qwen/qwen3-next-80b-a3b-instruct",
+    "pricing": {
+      "prompt": "0.00000009",
+      "completion": "0.0000011"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 16384,
+      "is_moderated": false
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "lyria",
+  "model": "lyria",
+  "display_name": "Lyria",
+  "modified_at": "2026-10-28T09:07:40.412Z",
+  "size": 0,
+  "digest": "poe-lyria",
+  "details": {
+    "parent_model": "Lyria",
+    "format": "poe",
+    "family": "google",
+    "families": [
+      "google",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "32.768k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "DeepMind music and audio generation neural architecture.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Lyria",
+    "owner": "Google DeepMind",
+    "category": "Google DeepMind",
+    "url": null,
+    "pricing": null
+  }
+}

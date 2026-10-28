@@ -1,0 +1,35 @@
+{
+  "name": "reka-research",
+  "model": "reka-research",
+  "display_name": "Reka-Research",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-reka-research",
+  "details": {
+    "parent_model": "Reka-Research",
+    "format": "poe",
+    "family": "rekaai",
+    "families": [
+      "rekaai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Reka Research is a state-of-the-art agentic AI that answers complex questions by browsing the web. It excels at synthesizing information from multiple sources, performing work that usually takes hours in minutes",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Reka-Research",
+    "owner": "Reka AI",
+    "category": "Reka AI",
+    "url": "https://poe.com/reka-research",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6163035-200-yzioepxfsnyoouhzlpaubuvbarbvclob.jpeg"
+  }
+}

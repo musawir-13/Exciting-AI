@@ -1,0 +1,35 @@
+{
+  "name": "claude-instant-1-1",
+  "model": "claude-instant-1-1",
+  "display_name": "Claude Instant 1.1",
+  "modified_at": "2026-10-28T09:07:40.412Z",
+  "size": 0,
+  "digest": "poe-claude-instant-1-1",
+  "details": {
+    "parent_model": "Claude Instant 1.1",
+    "format": "poe",
+    "family": "anthropic",
+    "families": [
+      "anthropic",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "100k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Legacy low-latency version of Claude Instant.",
+  "context_length": 100000,
+  "metadata": {
+    "display_name": "Claude Instant 1.1",
+    "owner": "Anthropic",
+    "category": "Anthropic",
+    "url": null,
+    "pricing": null
+  }
+}

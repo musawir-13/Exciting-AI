@@ -1,0 +1,42 @@
+{
+  "name": "qwen3-6-plus-t",
+  "model": "qwen3.6-plus-t",
+  "display_name": "Qwen3.6-Plus-T",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-qwen3-6-plus-t",
+  "details": {
+    "parent_model": "Qwen3.6-Plus-T",
+    "format": "poe",
+    "family": "togetherai",
+    "families": [
+      "togetherai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Qwen3.6-Plus is Qwen's multimodal agentic model built on a hybrid architecture combining efficient linear attention with sparse MoE routing and a 1M token context window. It delivers strong agentic coding performance with 78.8% SWE-Bench Verified and 61.6 Terminal-Bench 2.0, alongside 90.4% GPQA Diamond for reasoning and 86.0% MMMU for multimodal understanding. The model supports visual coding from UI screenshots to production code, video understanding, and thinking mode with preserve_thinking for maintaining reasoning context across multi-turn agent sessions.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Qwen3.6-Plus-T",
+    "owner": "Together AI",
+    "category": "Together AI",
+    "url": "https://poe.com/qwen3.6-plus-t",
+    "pricing": {
+      "prompt": null,
+      "completion": null,
+      "image": null,
+      "request": "0.0061",
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6968357-200-ttlnlfgruoguaagpkcbqaoggcszcegyr.jpeg"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "x-ai-grok-latest",
+  "model": "~x-ai/grok-latest",
+  "display_name": "xAI: Grok Latest",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-x-ai-grok-latest",
+  "details": {
+    "parent_model": "xAI: Grok Latest",
+    "format": "openrouter",
+    "family": "xai",
+    "families": [
+      "xai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "500k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "This model always redirects to the latest Grok model from xAI.",
+  "context_length": 500000,
+  "metadata": {
+    "display_name": "xAI: Grok Latest",
+    "owner": "~x-ai",
+    "category": "~x-ai",
+    "url": "https://openrouter.ai/models/~x-ai/grok-latest",
+    "pricing": {
+      "prompt": "0.000002",
+      "completion": "0.000006",
+      "web_search": "0.005",
+      "input_cache_read": "0.0000005",
+      "overrides": [
+        {
+          "min_prompt_tokens": 200000,
+          "prompt": "0.000004",
+          "completion": "0.000012",
+          "input_cache_read": "0.000001"
+        }
+      ]
+    },
+    "top_provider": {
+      "context_length": 500000,
+      "max_completion_tokens": 450000,
+      "is_moderated": false
+    }
+  }
+}

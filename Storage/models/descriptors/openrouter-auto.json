@@ -1,0 +1,44 @@
+{
+  "name": "openrouter-auto",
+  "model": "openrouter/auto",
+  "display_name": "Auto Router",
+  "modified_at": "2026-10-28T10:31:33.936Z",
+  "size": 0,
+  "digest": "openrouter-openrouter-auto",
+  "details": {
+    "parent_model": "Auto Router",
+    "format": "openrouter",
+    "family": "openrouter",
+    "families": [
+      "openrouter",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "2000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "The Auto Router automatically selects the best model for your prompt, powered by the wisdom of the market. It routes you based on what the OpenRouter community collectively spends on...",
+  "context_length": 2000000,
+  "metadata": {
+    "display_name": "Auto Router",
+    "owner": "openrouter",
+    "category": "openrouter",
+    "url": "https://openrouter.ai/models/openrouter/auto",
+    "pricing": {
+      "prompt": "-1",
+      "completion": "-1"
+    },
+    "top_provider": {
+      "context_length": null,
+      "max_completion_tokens": null,
+      "is_moderated": false
+    }
+  }
+}

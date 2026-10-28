@@ -1,0 +1,35 @@
+{
+  "name": "perplexity-sonar",
+  "model": "perplexity-sonar",
+  "display_name": "Perplexity-Sonar",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-perplexity-sonar",
+  "details": {
+    "parent_model": "Perplexity-Sonar",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "127k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Sonar by Perplexity is a cutting-edge AI model that delivers real-time, web-connected search results with accurate citations. It's designed to provide up-to-date information and customizable search sources, making it a powerful tool for integrating AI search into various applications. Context Length: 127k \n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 127000,
+  "metadata": {
+    "display_name": "Perplexity-Sonar",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/perplexity-sonar",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-5585796-200-yvdacuxsdyietfdvzkczcwfwpdogeivt.jpeg"
+  }
+}

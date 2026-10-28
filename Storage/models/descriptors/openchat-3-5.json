@@ -1,0 +1,35 @@
+{
+  "name": "openchat-3-5",
+  "model": "openchat-3-5",
+  "display_name": "OpenChat 3.5",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-openchat-3-5",
+  "details": {
+    "parent_model": "OpenChat 3.5",
+    "format": "poe",
+    "family": "openchat",
+    "families": [
+      "openchat",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "8.192k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Open-source chat model aligned using C-RLFT on open datasets.",
+  "context_length": 8192,
+  "metadata": {
+    "display_name": "OpenChat 3.5",
+    "owner": "Open Source & Community Innovation",
+    "category": "Open Source & Community Innovation",
+    "url": null,
+    "pricing": null
+  }
+}

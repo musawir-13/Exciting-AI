@@ -1,0 +1,37 @@
+{
+  "name": "claude-opus-5-5",
+  "model": "claude-opus-5-5",
+  "display_name": "Claude Opus 5.5",
+  "modified_at": "2026-10-28T09:07:40.412Z",
+  "size": 0,
+  "digest": "poe-claude-opus-5-5",
+  "details": {
+    "parent_model": "Claude Opus 5.5",
+    "format": "poe",
+    "family": "anthropic",
+    "families": [
+      "anthropic",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "500k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Anthropic premier frontier cognitive model with unprecedented depth.",
+  "context_length": 500000,
+  "metadata": {
+    "display_name": "Claude Opus 5.5",
+    "owner": "Anthropic",
+    "category": "Anthropic",
+    "url": null,
+    "pricing": null
+  }
+}

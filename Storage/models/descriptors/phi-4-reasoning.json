@@ -1,0 +1,36 @@
+{
+  "name": "phi-4-reasoning",
+  "model": "phi-4-reasoning",
+  "display_name": "Phi-4 Reasoning",
+  "modified_at": "2026-10-28T09:07:40.412Z",
+  "size": 0,
+  "digest": "poe-phi-4-reasoning",
+  "details": {
+    "parent_model": "Phi-4 Reasoning",
+    "format": "poe",
+    "family": "microsoft",
+    "families": [
+      "microsoft",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "State-of-the-art synthetic-data trained reasoning small language model.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "Phi-4 Reasoning",
+    "owner": "Microsoft & Azure AI",
+    "category": "Microsoft & Azure AI",
+    "url": null,
+    "pricing": null
+  }
+}

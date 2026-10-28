@@ -1,0 +1,38 @@
+{
+  "name": "granite4.1-guardian",
+  "model": "granite4.1-guardian",
+  "display_name": "Granite4.1 Guardian [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-granite4.1-guardian",
+  "details": {
+    "parent_model": "granite4.1-guardian",
+    "format": "ollama",
+    "family": "ibm",
+    "families": [
+      "ibm",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "8B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "tools",
+    "thinking"
+  ],
+  "description": "Granite Guardian 4.1 is a specialized safety and judging model from IBM Research that evaluates whether LLM prompts and responses meet specified harm criteria.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Granite4.1 Guardian [Local]",
+    "owner": "IBM Granite",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/granite4.1-guardian",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

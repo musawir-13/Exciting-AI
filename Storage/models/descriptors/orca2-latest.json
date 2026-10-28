@@ -1,0 +1,36 @@
+{
+  "name": "orca2:latest",
+  "model": "orca2:latest",
+  "display_name": "Orca2 [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-orca2-latest",
+  "details": {
+    "parent_model": "orca2",
+    "format": "ollama",
+    "family": "meta",
+    "families": [
+      "meta",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "7B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "Orca 2 is built by Microsoft research, and are a fine-tuned version of Meta&#39;s Llama 2 models.  The model is designed to excel particularly in reasoning.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Orca2 [Local]",
+    "owner": "Meta AI",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/orca2",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

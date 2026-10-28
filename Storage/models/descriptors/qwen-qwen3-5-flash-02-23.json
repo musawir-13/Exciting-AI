@@ -1,0 +1,45 @@
+{
+  "name": "qwen-qwen3-5-flash-02-23",
+  "model": "qwen/qwen3.5-flash-02-23",
+  "display_name": "Qwen: Qwen3.5-Flash",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-qwen-qwen3-5-flash-02-23",
+  "details": {
+    "parent_model": "Qwen: Qwen3.5-Flash",
+    "format": "openrouter",
+    "family": "qwen",
+    "families": [
+      "qwen",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "The Qwen3.5 native vision-language Flash models are built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. Compared to the...",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "Qwen: Qwen3.5-Flash",
+    "owner": "qwen",
+    "category": "qwen",
+    "url": "https://openrouter.ai/models/qwen/qwen3.5-flash-02-23",
+    "pricing": {
+      "prompt": "0.000000065",
+      "completion": "0.00000026"
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    }
+  }
+}

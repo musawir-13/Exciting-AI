@@ -1,0 +1,45 @@
+{
+  "name": "aion-labs-aion-3-5",
+  "model": "aion-labs/aion-3.5",
+  "display_name": "AionLabs: Aion 3.5",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "openrouter-aion-labs-aion-3-5",
+  "details": {
+    "parent_model": "AionLabs: Aion 3.5",
+    "format": "openrouter",
+    "family": "aionlabs",
+    "families": [
+      "aionlabs",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "Aion 3.5 is a multi-model roleplaying and storytelling system from AionLabs, built on the GLM family of models. It uses a collaborative generation process in which multiple specialized models each...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "AionLabs: Aion 3.5",
+    "owner": "aion-labs",
+    "category": "aion-labs",
+    "url": "https://openrouter.ai/models/aion-labs/aion-3.5",
+    "pricing": {
+      "prompt": "0.000003",
+      "completion": "0.000006",
+      "input_cache_read": "0.00000075"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 32768,
+      "is_moderated": false
+    }
+  }
+}

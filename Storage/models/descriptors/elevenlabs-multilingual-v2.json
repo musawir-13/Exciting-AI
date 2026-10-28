@@ -1,0 +1,35 @@
+{
+  "name": "elevenlabs-multilingual-v2",
+  "model": "elevenlabs-multilingual-v2",
+  "display_name": "ElevenLabs Multilingual v2",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-elevenlabs-multilingual-v2",
+  "details": {
+    "parent_model": "ElevenLabs Multilingual v2",
+    "format": "poe",
+    "family": "elevenlabs",
+    "families": [
+      "elevenlabs",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "8.192k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Natural voice synthesis and text-to-speech across 29 languages.",
+  "context_length": 8192,
+  "metadata": {
+    "display_name": "ElevenLabs Multilingual v2",
+    "owner": "Generative Media",
+    "category": "Generative Media",
+    "url": null,
+    "pricing": null
+  }
+}

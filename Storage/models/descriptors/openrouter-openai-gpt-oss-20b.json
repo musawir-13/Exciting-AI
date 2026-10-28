@@ -1,0 +1,45 @@
+{
+  "name": "openrouter-openai-gpt-oss-20b",
+  "model": "openai/gpt-oss-20b",
+  "display_name": "OpenAI: gpt-oss-20b",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-openrouter-openai-gpt-oss-20b",
+  "details": {
+    "parent_model": "OpenAI: gpt-oss-20b",
+    "format": "openrouter",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "131k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for...",
+  "context_length": 131072,
+  "metadata": {
+    "display_name": "OpenAI: gpt-oss-20b",
+    "owner": "openai",
+    "category": "openai",
+    "url": "https://openrouter.ai/models/openai/gpt-oss-20b",
+    "pricing": {
+      "prompt": "0.000000018",
+      "completion": "0.00000009",
+      "input_cache_read": "0.000000009"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 32768,
+      "is_moderated": false
+    }
+  }
+}

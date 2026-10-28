@@ -1,0 +1,38 @@
+{
+  "name": "granite-embedding:30m",
+  "model": "granite-embedding:30m",
+  "display_name": "Granite Embedding (30M) [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-granite-embedding-30m",
+  "details": {
+    "parent_model": "granite-embedding",
+    "format": "ollama",
+    "family": "ibm",
+    "families": [
+      "ibm",
+      "local",
+      "ollama",
+      "30m"
+    ],
+    "parameter_size": "30M",
+    "quantization_level": "Q4_K_M",
+    "context_window": "8k"
+  },
+  "capabilities": [
+    "completion",
+    "embedding"
+  ],
+  "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
+  "context_length": 8192,
+  "metadata": {
+    "display_name": "Granite Embedding (30M) [Local]",
+    "owner": "IBM Granite",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/granite-embedding",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "bakllava",
+  "model": "bakllava",
+  "display_name": "Bakllava [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-bakllava",
+  "details": {
+    "parent_model": "bakllava",
+    "format": "ollama",
+    "family": "mistral",
+    "families": [
+      "mistral",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "7B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "vision"
+  ],
+  "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA  architecture.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Bakllava [Local]",
+    "owner": "Mistral AI",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/bakllava",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

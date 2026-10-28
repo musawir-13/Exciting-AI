@@ -1,0 +1,36 @@
+{
+  "name": "gemini-1-5-flash",
+  "model": "gemini-1-5-flash",
+  "display_name": "Gemini 1.5 Flash",
+  "modified_at": "2026-10-28T09:07:40.412Z",
+  "size": 0,
+  "digest": "poe-gemini-1-5-flash",
+  "details": {
+    "parent_model": "Gemini 1.5 Flash",
+    "format": "poe",
+    "family": "google",
+    "families": [
+      "google",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Fast, lightweight multimodal model built for speed and efficiency.",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "Gemini 1.5 Flash",
+    "owner": "Google DeepMind",
+    "category": "Google DeepMind",
+    "url": null,
+    "pricing": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "openai-gpt-oss-safeguard-20b",
+  "model": "openai/gpt-oss-safeguard-20b",
+  "display_name": "OpenAI: gpt-oss-safeguard-20b",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-openai-gpt-oss-safeguard-20b",
+  "details": {
+    "parent_model": "OpenAI: gpt-oss-safeguard-20b",
+    "format": "openrouter",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "131k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "gpt-oss-safeguard-20b is a safety reasoning model from OpenAI built upon gpt-oss-20b. This open-weight, 21B-parameter Mixture-of-Experts (MoE) model offers lower latency for safety tasks like content classification, LLM filtering, and trust...",
+  "context_length": 131072,
+  "metadata": {
+    "display_name": "OpenAI: gpt-oss-safeguard-20b",
+    "owner": "openai",
+    "category": "openai",
+    "url": "https://openrouter.ai/models/openai/gpt-oss-safeguard-20b",
+    "pricing": {
+      "prompt": "0.000000075",
+      "completion": "0.0000003",
+      "input_cache_read": "0.0000000375"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    }
+  }
+}

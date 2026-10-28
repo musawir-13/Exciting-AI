@@ -1,0 +1,51 @@
+{
+  "name": "google-gemini-3-1-flash-lite-batch",
+  "model": "google/gemini-3.1-flash-lite:batch",
+  "display_name": "Google: Gemini 3.1 Flash Lite (batch)",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-google-gemini-3-1-flash-lite-batch",
+  "details": {
+    "parent_model": "Google: Gemini 3.1 Flash Lite (batch)",
+    "format": "openrouter",
+    "family": "google",
+    "families": [
+      "google",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1049k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads. It supports text, image, video, audio, and PDF inputs, and is designed for lightweight agentic...",
+  "context_length": 1048576,
+  "metadata": {
+    "display_name": "Google: Gemini 3.1 Flash Lite (batch)",
+    "owner": "google",
+    "category": "google",
+    "url": "https://openrouter.ai/models/google/gemini-3.1-flash-lite:batch",
+    "pricing": {
+      "prompt": "0.000000125",
+      "completion": "0.00000075",
+      "image": "0.000000125",
+      "audio": "0.00000025",
+      "input_audio_cache": "0.000000025",
+      "web_search": "0.014",
+      "internal_reasoning": "0.00000075",
+      "input_cache_read": "0.0000000125"
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    }
+  }
+}

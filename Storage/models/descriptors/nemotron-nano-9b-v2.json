@@ -1,0 +1,35 @@
+{
+  "name": "nemotron-nano-9b-v2",
+  "model": "nemotron-nano-9b-v2",
+  "display_name": "Nemotron Nano 9B V2",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-nemotron-nano-9b-v2",
+  "details": {
+    "parent_model": "Nemotron Nano 9B V2",
+    "format": "poe",
+    "family": "nvidia",
+    "families": [
+      "nvidia",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "32.768k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Compact edge model optimized with TensorRT-LLM acceleration.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Nemotron Nano 9B V2",
+    "owner": "NVIDIA & Hardware Pioneers",
+    "category": "NVIDIA & Hardware Pioneers",
+    "url": null,
+    "pricing": null
+  }
+}

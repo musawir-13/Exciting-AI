@@ -1,0 +1,36 @@
+{
+  "name": "yarn-llama2:latest",
+  "model": "yarn-llama2:latest",
+  "display_name": "Yarn Llama2 [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-yarn-llama2-latest",
+  "details": {
+    "parent_model": "yarn-llama2",
+    "format": "ollama",
+    "family": "meta",
+    "families": [
+      "meta",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "7B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "An extension of Llama 2 that supports a context of up to 128k tokens.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "Yarn Llama2 [Local]",
+    "owner": "Meta AI",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/yarn-llama2",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

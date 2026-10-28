@@ -1,0 +1,45 @@
+{
+  "name": "deepseek-deepseek-r1-0528",
+  "model": "deepseek/deepseek-r1-0528",
+  "display_name": "DeepSeek: R1 0528",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-deepseek-deepseek-r1-0528",
+  "details": {
+    "parent_model": "DeepSeek: R1 0528",
+    "format": "openrouter",
+    "family": "deepseek",
+    "families": [
+      "deepseek",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "164k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "May 28th update to the [original DeepSeek R1](/deepseek/deepseek-r1) Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active...",
+  "context_length": 163840,
+  "metadata": {
+    "display_name": "DeepSeek: R1 0528",
+    "owner": "deepseek",
+    "category": "deepseek",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-r1-0528",
+    "pricing": {
+      "prompt": "0.0000005",
+      "completion": "0.00000215",
+      "input_cache_read": "0.00000035"
+    },
+    "top_provider": {
+      "context_length": 163840,
+      "max_completion_tokens": 32768,
+      "is_moderated": false
+    }
+  }
+}

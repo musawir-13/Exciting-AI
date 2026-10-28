@@ -1,0 +1,42 @@
+{
+  "name": "cohere-command-a",
+  "model": "cohere/command-a",
+  "display_name": "Cohere: Command A",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-cohere-command-a",
+  "details": {
+    "parent_model": "Cohere: Command A",
+    "format": "openrouter",
+    "family": "cohere",
+    "families": [
+      "cohere",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "256k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Command A is an open-weights 111B parameter model with a 256k context window focused on delivering great performance across agentic, multilingual, and coding use cases. Compared to other leading proprietary...",
+  "context_length": 256000,
+  "metadata": {
+    "display_name": "Cohere: Command A",
+    "owner": "cohere",
+    "category": "cohere",
+    "url": "https://openrouter.ai/models/cohere/command-a",
+    "pricing": {
+      "prompt": "0.0000025",
+      "completion": "0.00001"
+    },
+    "top_provider": {
+      "context_length": 256000,
+      "max_completion_tokens": 8192,
+      "is_moderated": true
+    }
+  }
+}

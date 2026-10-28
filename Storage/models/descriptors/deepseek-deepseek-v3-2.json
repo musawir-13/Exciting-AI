@@ -1,0 +1,45 @@
+{
+  "name": "deepseek-deepseek-v3-2",
+  "model": "deepseek/deepseek-v3.2",
+  "display_name": "DeepSeek: DeepSeek V3.2",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-deepseek-deepseek-v3-2",
+  "details": {
+    "parent_model": "DeepSeek: DeepSeek V3.2",
+    "format": "openrouter",
+    "family": "deepseek",
+    "families": [
+      "deepseek",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "164k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse attention mechanism...",
+  "context_length": 163840,
+  "metadata": {
+    "display_name": "DeepSeek: DeepSeek V3.2",
+    "owner": "deepseek",
+    "category": "deepseek",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2",
+    "pricing": {
+      "prompt": "0.00000028",
+      "completion": "0.00000042",
+      "input_cache_read": "0.000000028"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    }
+  }
+}

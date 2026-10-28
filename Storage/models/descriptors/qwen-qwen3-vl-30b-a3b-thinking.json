@@ -1,0 +1,45 @@
+{
+  "name": "qwen-qwen3-vl-30b-a3b-thinking",
+  "model": "qwen/qwen3-vl-30b-a3b-thinking",
+  "display_name": "Qwen: Qwen3 VL 30B A3B Thinking",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-qwen-qwen3-vl-30b-a3b-thinking",
+  "details": {
+    "parent_model": "Qwen: Qwen3 VL 30B A3B Thinking",
+    "format": "openrouter",
+    "family": "qwen",
+    "families": [
+      "qwen",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Qwen3-VL-30B-A3B-Thinking is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Thinking variant enhances reasoning in STEM, math, and complex tasks. It excels...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "Qwen: Qwen3 VL 30B A3B Thinking",
+    "owner": "qwen",
+    "category": "qwen",
+    "url": "https://openrouter.ai/models/qwen/qwen3-vl-30b-a3b-thinking",
+    "pricing": {
+      "prompt": "0.00000029",
+      "completion": "0.000001"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 235929,
+      "is_moderated": false
+    }
+  }
+}

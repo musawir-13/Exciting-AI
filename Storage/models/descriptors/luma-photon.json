@@ -1,0 +1,35 @@
+{
+  "name": "luma-photon",
+  "model": "luma-photon",
+  "display_name": "Luma-Photon",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-luma-photon",
+  "details": {
+    "parent_model": "Luma-Photon",
+    "format": "poe",
+    "family": "fal",
+    "families": [
+      "fal",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Luma Photon delivers industry-specific visual excellence, crafting images that align perfectly with professional standards - not just generic AI art. From marketing to creative design, each generation is purposefully tailored to your industry's unique requirements. \n\nOptional parameters:\nAspect ratio to change the aspect ratio of your generations (1:1, 16:9, 9:16, 4:3, 3:4, 21:9, 9:21 are supported). \n\nNote: Prompt input cannot exceed 5,000 characters.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Luma-Photon",
+    "owner": "fal",
+    "category": "fal",
+    "url": "https://poe.com/luma-photon",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-5360374-200-uwystravnvoonxzssimpworyoetjlvwy.jpeg"
+  }
+}

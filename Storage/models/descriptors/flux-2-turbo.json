@@ -1,0 +1,35 @@
+{
+  "name": "flux-2-turbo",
+  "model": "flux-2-turbo",
+  "display_name": "Flux-2-Turbo",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-flux-2-turbo",
+  "details": {
+    "parent_model": "Flux-2-Turbo",
+    "format": "poe",
+    "family": "fal",
+    "families": [
+      "fal",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "0k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Fast, open-weight image generation model (32B parameters), derived from the FLUX.2 base model. Send up to 3 images (jpeg/ png/ webp) to use for image editing or as references.\n\nOptional parameters:\nSet aspect ratio: 16:9, 4:3, 1:1, 3:4, 9:16",
+  "context_length": 256,
+  "metadata": {
+    "display_name": "Flux-2-Turbo",
+    "owner": "fal",
+    "category": "fal",
+    "url": "https://poe.com/flux-2-turbo",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6722483-200-womrguyyqmigycdaauyvujwijaiimuew.jpeg"
+  }
+}

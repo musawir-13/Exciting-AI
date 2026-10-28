@@ -1,0 +1,45 @@
+{
+  "name": "bytedance-seed-seed-2-1-turbo",
+  "model": "bytedance-seed/seed-2-1-turbo",
+  "display_name": "ByteDance Seed: Seed 2.1 Turbo",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-bytedance-seed-seed-2-1-turbo",
+  "details": {
+    "parent_model": "ByteDance Seed: Seed 2.1 Turbo",
+    "format": "openrouter",
+    "family": "bytedanceseed",
+    "families": [
+      "bytedanceseed",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Seed 2.1 Turbo is a multimodal model from ByteDance Seed for coding and long-horizon agent workflows. It is suited for end-to-end software delivery, multi-step task execution, and understanding visual and...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "ByteDance Seed: Seed 2.1 Turbo",
+    "owner": "bytedance-seed",
+    "category": "bytedance-seed",
+    "url": "https://openrouter.ai/models/bytedance-seed/seed-2-1-turbo",
+    "pricing": {
+      "prompt": "0.0000005",
+      "completion": "0.0000025"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 235929,
+      "is_moderated": false
+    }
+  }
+}

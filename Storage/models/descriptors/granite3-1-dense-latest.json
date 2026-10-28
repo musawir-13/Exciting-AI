@@ -1,0 +1,37 @@
+{
+  "name": "granite3.1-dense:latest",
+  "model": "granite3.1-dense:latest",
+  "display_name": "Granite3.1 Dense [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-granite3.1-dense-latest",
+  "details": {
+    "parent_model": "granite3.1-dense",
+    "format": "ollama",
+    "family": "ibm",
+    "families": [
+      "ibm",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "2B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "tools"
+  ],
+  "description": "The IBM Granite 2B and 8B models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Granite3.1 Dense [Local]",
+    "owner": "IBM Granite",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/granite3.1-dense",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "command-light",
+  "model": "command-light",
+  "display_name": "Command Light",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-command-light",
+  "details": {
+    "parent_model": "Command Light",
+    "format": "poe",
+    "family": "cohere",
+    "families": [
+      "cohere",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4.096k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Low-latency version of Command for high-volume customer service.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Command Light",
+    "owner": "Cohere & Specialized Enterprise Labs",
+    "category": "Cohere & Specialized Enterprise Labs",
+    "url": null,
+    "pricing": null
+  }
+}

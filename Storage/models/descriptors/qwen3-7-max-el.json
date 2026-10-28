@@ -1,0 +1,43 @@
+{
+  "name": "qwen3-7-max-el",
+  "model": "qwen3.7-max-el",
+  "display_name": "Qwen3.7-Max-EL",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-qwen3-7-max-el",
+  "details": {
+    "parent_model": "Qwen3.7-Max-EL",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Qwen3.7 Max is a next‑generation flagship model designed for the agent‑centric era, with its core strengths lying in the breadth and depth of its agent‑level capabilities: it excels at programming, office and productivity tasks, and long‑term autonomous execution.\nThis model is served by Alibaba Cloud Int. from Singapore.\n\nNotes:\n- Context Window: 1,000,000\n- Text only input\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "Qwen3.7-Max-EL",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/qwen3.7-max-el",
+    "pricing": {
+      "prompt": "0.0000025253",
+      "completion": "0.0000075758",
+      "image": null,
+      "request": null,
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6998003-200-wogoiajhsikxcwozjxarwrpuvidslpdx.jpeg"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "qwen3-8-max-el",
+  "model": "qwen3.8-max-el",
+  "display_name": "Qwen3.8-Max-EL",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-qwen3-8-max-el",
+  "details": {
+    "parent_model": "Qwen3.8-Max-EL",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Qwen3.8 Max is Alibaba's flagship Qwen3.8 model, a trillion-scale mixture-of-experts system built for coding, long-horizon agent work, and professional tasks, with deep thinking and text, image, and video input.\n\nNotes:\n- Context Window: 1,000,000\n- Text, Image, & Video input are supported\n- Tracks the latest Qwen3.8 Max build. For a pinned snapshot use Qwen3.8-Max-0902-EL.\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "Qwen3.8-Max-EL",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/qwen3.8-max-el",
+    "pricing": {
+      "prompt": "0.0000020202",
+      "completion": "0.0000060606",
+      "image": null,
+      "request": null,
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-7082875-200-grecsuzfhawoxuuhgzbcerxkmcnzbdca.jpeg"
+  }
+}

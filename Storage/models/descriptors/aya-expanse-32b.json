@@ -1,0 +1,38 @@
+{
+  "name": "aya-expanse:32b",
+  "model": "aya-expanse:32b",
+  "display_name": "Aya Expanse (32B) [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-aya-expanse-32b",
+  "details": {
+    "parent_model": "aya-expanse",
+    "format": "ollama",
+    "family": "cohere",
+    "families": [
+      "cohere",
+      "local",
+      "ollama",
+      "32b"
+    ],
+    "parameter_size": "32B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "tools"
+  ],
+  "description": "Cohere For AI&#39;s language models trained to perform well across 23 different languages.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Aya Expanse (32B) [Local]",
+    "owner": "Cohere",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/aya-expanse",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

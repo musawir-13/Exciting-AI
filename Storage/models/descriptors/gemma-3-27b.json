@@ -1,0 +1,44 @@
+{
+  "name": "gemma-3-27b",
+  "model": "gemma-3-27b",
+  "display_name": "Gemma-3-27B",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-gemma-3-27b",
+  "details": {
+    "parent_model": "Gemma-3-27B",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "127k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities, including structured outputs and function calling. Gemma 3 27B is Google's latest open source model, successor to Gemma 2",
+  "context_length": 127000,
+  "metadata": {
+    "display_name": "Gemma-3-27B",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/gemma-3-27b",
+    "pricing": {
+      "prompt": null,
+      "completion": null,
+      "image": null,
+      "request": null,
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-5801299-200-sskptvhsvjtbrmtkladcyctahhmxfsob.jpeg"
+  }
+}

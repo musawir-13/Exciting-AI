@@ -1,0 +1,35 @@
+{
+  "name": "cohere-embed-multilingual-v3-0",
+  "model": "cohere-embed-multilingual-v3-0",
+  "display_name": "Cohere Embed Multilingual v3.0",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-cohere-embed-multilingual-v3-0",
+  "details": {
+    "parent_model": "Cohere Embed Multilingual v3.0",
+    "format": "poe",
+    "family": "cohere",
+    "families": [
+      "cohere",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "8.192k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Cross-lingual semantic search embedding model for 100+ languages.",
+  "context_length": 8192,
+  "metadata": {
+    "display_name": "Cohere Embed Multilingual v3.0",
+    "owner": "Cohere & Specialized Enterprise Labs",
+    "category": "Cohere & Specialized Enterprise Labs",
+    "url": null,
+    "pricing": null
+  }
+}

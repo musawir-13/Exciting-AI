@@ -1,0 +1,35 @@
+{
+  "name": "seedream-3-0",
+  "model": "seedream-3.0",
+  "display_name": "Seedream-3.0",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-seedream-3-0",
+  "details": {
+    "parent_model": "Seedream-3.0",
+    "format": "poe",
+    "family": "bytedance",
+    "families": [
+      "bytedance",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Seedream 3.0 by ByteDance is a bilingual (Chinese and English) text-to-image model that excels at text-to-image generation.\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Seedream-3.0",
+    "owner": "Bytedance",
+    "category": "Bytedance",
+    "url": "https://poe.com/seedream-3.0",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6128545-200-rochnmkrsybmgzrthbcnzzebcerxhpcb.jpeg"
+  }
+}

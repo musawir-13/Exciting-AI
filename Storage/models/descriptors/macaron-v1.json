@@ -1,0 +1,35 @@
+{
+  "name": "macaron-v1",
+  "model": "macaron-v1",
+  "display_name": "Macaron V1",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-macaron-v1",
+  "details": {
+    "parent_model": "Macaron V1",
+    "format": "poe",
+    "family": "macaron",
+    "families": [
+      "macaron",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "32.768k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "High-speed sequence-to-sequence hardware co-designed model.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Macaron V1",
+    "owner": "NVIDIA & Hardware Pioneers",
+    "category": "NVIDIA & Hardware Pioneers",
+    "url": null,
+    "pricing": null
+  }
+}

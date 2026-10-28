@@ -1,0 +1,43 @@
+{
+  "name": "thedrummer-skyfall-36b-v2",
+  "model": "thedrummer/skyfall-36b-v2",
+  "display_name": "TheDrummer: Skyfall 36B V2",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-thedrummer-skyfall-36b-v2",
+  "details": {
+    "parent_model": "TheDrummer: Skyfall 36B V2",
+    "format": "openrouter",
+    "family": "thedrummer",
+    "families": [
+      "thedrummer",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Skyfall 36B v2 is an enhanced iteration of Mistral Small 2501, specifically fine-tuned for improved creativity, nuanced writing, role-playing, and coherent storytelling.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "TheDrummer: Skyfall 36B V2",
+    "owner": "thedrummer",
+    "category": "thedrummer",
+    "url": "https://openrouter.ai/models/thedrummer/skyfall-36b-v2",
+    "pricing": {
+      "prompt": "0.00000055",
+      "completion": "0.0000008",
+      "input_cache_read": "0.00000025"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": 29491,
+      "is_moderated": false
+    }
+  }
+}

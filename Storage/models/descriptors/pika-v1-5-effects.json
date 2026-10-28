@@ -1,0 +1,35 @@
+{
+  "name": "pika-v1-5-effects",
+  "model": "pika-v1.5-effects",
+  "display_name": "Pika-v1.5-Effects",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-pika-v1-5-effects",
+  "details": {
+    "parent_model": "Pika-v1.5-Effects",
+    "format": "poe",
+    "family": "fal",
+    "families": [
+      "fal",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Apply surprising, mind blowing effects to your photo with Pika-v1.5 Effects. Attach an image and be amazed by the effects like \"cakeify,\" \"crush\" and \"crumble\", open the parameter controls shelf for a full list of effects.\n\nFull list of effects:\nCake-ify, Crumble, Crush, Decapitate, Deflate, Dissolve, Explode, Eye-pop, Inflate, Levitate, Melt, Peel, Poke, Squish, Ta-da, Tear\n\nOptional parameters:\n- Seed. Random seed number for reproducible generation with fixed seed\n- Negative prompt. Type things to avoid in generated images",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Pika-v1.5-Effects",
+    "owner": "fal",
+    "category": "fal",
+    "url": "https://poe.com/pika-v1.5-effects",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6664398-200-zwmsvcahqehasuqjztxejzokyceapdfa.jpeg"
+  }
+}

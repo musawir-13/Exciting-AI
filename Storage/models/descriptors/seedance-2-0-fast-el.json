@@ -1,0 +1,35 @@
+{
+  "name": "seedance-2-0-fast-el",
+  "model": "seedance-2.0-fast-el",
+  "display_name": "Seedance-2.0-Fast-EL",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-seedance-2-0-fast-el",
+  "details": {
+    "parent_model": "Seedance-2.0-Fast-EL",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Seedance 2.0 Fast is the speed-optimized version of Seedance 2.0, designed to generate cinematic videos with native audio sync, camera control, and stable motion more quickly. It is a strong choice for rapid iteration and high-volume production because it is built to deliver faster results at a lower cost than the standard version.\nThis model is served from Malaysia.\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Seedance-2.0-Fast-EL",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/seedance-2.0-fast-el",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6930990-200-jegkeotdhlarpyycagpvdxazkjvgohpp.jpeg"
+  }
+}

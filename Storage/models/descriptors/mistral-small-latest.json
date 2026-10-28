@@ -1,0 +1,37 @@
+{
+  "name": "mistral-small:latest",
+  "model": "mistral-small:latest",
+  "display_name": "Mistral Small [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-mistral-small-latest",
+  "details": {
+    "parent_model": "mistral-small",
+    "format": "ollama",
+    "family": "mistral",
+    "families": [
+      "mistral",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "22B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "tools"
+  ],
+  "description": "Mistral Small 3 sets a new benchmark in the “small” Large Language Models category below 70B.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Mistral Small [Local]",
+    "owner": "Mistral AI",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/mistral-small",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

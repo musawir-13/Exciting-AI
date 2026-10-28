@@ -1,0 +1,47 @@
+{
+  "name": "openai-gpt-5-2-codex",
+  "model": "openai/gpt-5.2-codex",
+  "display_name": "OpenAI: GPT-5.2-Codex",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-openai-gpt-5-2-codex",
+  "details": {
+    "parent_model": "OpenAI: GPT-5.2-Codex",
+    "format": "openrouter",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "400k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "GPT-5.2-Codex is an upgraded version of GPT-5.1-Codex optimized for software engineering and coding workflows. It is designed for both interactive development sessions and long, independent execution of complex engineering tasks....",
+  "context_length": 400000,
+  "metadata": {
+    "display_name": "OpenAI: GPT-5.2-Codex",
+    "owner": "openai",
+    "category": "openai",
+    "url": "https://openrouter.ai/models/openai/gpt-5.2-codex",
+    "pricing": {
+      "prompt": "0.00000175",
+      "completion": "0.000014",
+      "web_search": "0.01",
+      "input_cache_read": "0.000000175"
+    },
+    "top_provider": {
+      "context_length": 400000,
+      "max_completion_tokens": 128000,
+      "is_moderated": false
+    }
+  }
+}

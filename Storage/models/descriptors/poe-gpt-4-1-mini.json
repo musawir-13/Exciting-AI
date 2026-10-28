@@ -1,0 +1,44 @@
+{
+  "name": "poe-gpt-4-1-mini",
+  "model": "gpt-4.1-mini",
+  "display_name": "GPT-4.1-mini",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-poe-gpt-4-1-mini",
+  "details": {
+    "parent_model": "GPT-4.1-mini",
+    "format": "poe",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "1048k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "GPT-4.1 mini is a small, fast & affordable model that matches or beats GPT-4o in many intelligence and vision-related tasks. Supports 1M tokens of context.",
+  "context_length": 1047576,
+  "metadata": {
+    "display_name": "GPT-4.1-mini",
+    "owner": "OpenAI",
+    "category": "OpenAI",
+    "url": "https://poe.com/gpt-4.1-mini",
+    "pricing": {
+      "prompt": "0.0000003636",
+      "completion": "0.0000014545",
+      "image": null,
+      "request": null,
+      "input_cache_read": "0.0000000909",
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-3037-200-ugzqbmdibsoxojbdujllgcuaiurzwxfn.jpeg"
+  }
+}

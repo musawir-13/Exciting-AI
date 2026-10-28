@@ -1,0 +1,36 @@
+{
+  "name": "kling-1-5-pro",
+  "model": "kling-1.5-pro",
+  "display_name": "Kling-1.5-Pro",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-kling-1-5-pro",
+  "details": {
+    "parent_model": "Kling-1.5-Pro",
+    "format": "poe",
+    "family": "fal",
+    "families": [
+      "fal",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "Kling-1.5-Pro video generation bot, hosted by fal.ai. For best results, upload an image attachment. \n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Kling-1.5-Pro",
+    "owner": "fal",
+    "category": "fal",
+    "url": "https://poe.com/kling-1.5-pro",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-5370453-200-dwfnlmyrxleyrknybkpspazdfuwxkqih.jpeg"
+  }
+}

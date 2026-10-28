@@ -1,0 +1,37 @@
+{
+  "name": "all-minilm",
+  "model": "all-minilm",
+  "display_name": "All Minilm [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-all-minilm",
+  "details": {
+    "parent_model": "all-minilm",
+    "format": "ollama",
+    "family": "ollama",
+    "families": [
+      "ollama",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "22M",
+    "quantization_level": "Q4_K_M",
+    "context_window": "8k"
+  },
+  "capabilities": [
+    "completion",
+    "embedding"
+  ],
+  "description": "Embedding models on very large sentence level datasets.",
+  "context_length": 8192,
+  "metadata": {
+    "display_name": "All Minilm [Local]",
+    "owner": "Ollama Community",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/all-minilm",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

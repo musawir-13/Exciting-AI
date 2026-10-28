@@ -1,0 +1,36 @@
+{
+  "name": "gemini-3-8-live",
+  "model": "gemini-3-8-live",
+  "display_name": "Gemini 3.8 Live",
+  "modified_at": "2026-10-28T09:07:40.412Z",
+  "size": 0,
+  "digest": "poe-gemini-3-8-live",
+  "details": {
+    "parent_model": "Gemini 3.8 Live",
+    "format": "poe",
+    "family": "google",
+    "families": [
+      "google",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Interactive real-time audio and visual dialogue agent.",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "Gemini 3.8 Live",
+    "owner": "Google DeepMind",
+    "category": "Google DeepMind",
+    "url": null,
+    "pricing": null
+  }
+}

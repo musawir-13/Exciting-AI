@@ -1,0 +1,45 @@
+{
+  "name": "dots-studio-dots-3-note-preview-free",
+  "model": "dots-studio/dots-3-note-preview:free",
+  "display_name": "Dots Studio: Dots3-Note Preview (free)",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-dots-studio-dots-3-note-preview-free",
+  "details": {
+    "parent_model": "Dots Studio: Dots3-Note Preview (free)",
+    "format": "openrouter",
+    "family": "dotsstudio",
+    "families": [
+      "dotsstudio",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "512k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is...",
+  "context_length": 512000,
+  "metadata": {
+    "display_name": "Dots Studio: Dots3-Note Preview (free)",
+    "owner": "dots-studio",
+    "category": "dots-studio",
+    "url": "https://openrouter.ai/models/dots-studio/dots-3-note-preview:free",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    },
+    "top_provider": {
+      "context_length": 512000,
+      "max_completion_tokens": 460800,
+      "is_moderated": false
+    }
+  }
+}

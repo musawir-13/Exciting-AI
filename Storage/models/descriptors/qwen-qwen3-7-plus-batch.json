@@ -1,0 +1,45 @@
+{
+  "name": "qwen-qwen3-7-plus-batch",
+  "model": "qwen/qwen3.7-plus:batch",
+  "display_name": "Qwen: Qwen3.7 Plus (batch)",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-qwen-qwen3-7-plus-batch",
+  "details": {
+    "parent_model": "Qwen: Qwen3.7 Plus (batch)",
+    "format": "openrouter",
+    "family": "qwen",
+    "families": [
+      "qwen",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series. It supports text and image input with text output, building on the series' text capabilities with a comprehensive upgrade to its...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "Qwen: Qwen3.7 Plus (batch)",
+    "owner": "qwen",
+    "category": "qwen",
+    "url": "https://openrouter.ai/models/qwen/qwen3.7-plus:batch",
+    "pricing": {
+      "prompt": "0.00000023",
+      "completion": "0.00000092"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    }
+  }
+}

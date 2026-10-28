@@ -1,0 +1,43 @@
+{
+  "name": "google-gemma-3-4b-it",
+  "model": "google/gemma-3-4b-it",
+  "display_name": "Google: Gemma 3 4B",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-google-gemma-3-4b-it",
+  "details": {
+    "parent_model": "Google: Gemma 3 4B",
+    "format": "openrouter",
+    "family": "google",
+    "families": [
+      "google",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "131k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities,...",
+  "context_length": 131072,
+  "metadata": {
+    "display_name": "Google: Gemma 3 4B",
+    "owner": "google",
+    "category": "google",
+    "url": "https://openrouter.ai/models/google/gemma-3-4b-it",
+    "pricing": {
+      "prompt": "0.00000005",
+      "completion": "0.0000001"
+    },
+    "top_provider": {
+      "context_length": 131072,
+      "max_completion_tokens": 16384,
+      "is_moderated": false
+    }
+  }
+}

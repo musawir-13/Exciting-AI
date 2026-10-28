@@ -1,0 +1,45 @@
+{
+  "name": "openai-gpt-audio",
+  "model": "openai/gpt-audio",
+  "display_name": "OpenAI: GPT Audio",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-openai-gpt-audio",
+  "details": {
+    "parent_model": "OpenAI: GPT Audio",
+    "format": "openrouter",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "The gpt-audio model is OpenAI's first generally available audio model. The new snapshot features an upgraded decoder for more natural sounding voices and maintains better voice consistency. Audio is priced...",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "OpenAI: GPT Audio",
+    "owner": "openai",
+    "category": "openai",
+    "url": "https://openrouter.ai/models/openai/gpt-audio",
+    "pricing": {
+      "prompt": "0.0000025",
+      "completion": "0.00001",
+      "audio": "0.000032",
+      "audio_output": "0.000064"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": 16384,
+      "is_moderated": true
+    }
+  }
+}

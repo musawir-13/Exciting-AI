@@ -1,0 +1,49 @@
+{
+  "name": "google-gemini-3-flash-preview-batch",
+  "model": "google/gemini-3-flash-preview:batch",
+  "display_name": "Google: Gemini 3 Flash Preview (batch)",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-google-gemini-3-flash-preview-batch",
+  "details": {
+    "parent_model": "Google: Gemini 3 Flash Preview (batch)",
+    "format": "openrouter",
+    "family": "google",
+    "families": [
+      "google",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1049k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Gemini 3 Flash Preview is a high speed, high value thinking model designed for agentic workflows, multi turn chat, and coding assistance. It delivers near Pro level reasoning and tool...",
+  "context_length": 1048576,
+  "metadata": {
+    "display_name": "Google: Gemini 3 Flash Preview (batch)",
+    "owner": "google",
+    "category": "google",
+    "url": "https://openrouter.ai/models/google/gemini-3-flash-preview:batch",
+    "pricing": {
+      "prompt": "0.00000025",
+      "completion": "0.0000015",
+      "image": "0.00000025",
+      "audio": "0.0000005",
+      "web_search": "0.014",
+      "internal_reasoning": "0.0000015"
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    }
+  }
+}

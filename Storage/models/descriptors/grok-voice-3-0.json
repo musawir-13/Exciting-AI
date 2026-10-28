@@ -1,0 +1,35 @@
+{
+  "name": "grok-voice-3-0",
+  "model": "grok-voice-3-0",
+  "display_name": "Grok Voice 3.0",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-grok-voice-3-0",
+  "details": {
+    "parent_model": "Grok Voice 3.0",
+    "format": "poe",
+    "family": "xai",
+    "families": [
+      "xai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "32.768k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Low-latency natural conversational voice model by xAI.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Grok Voice 3.0",
+    "owner": "Open Source & Community Innovation",
+    "category": "Open Source & Community Innovation",
+    "url": null,
+    "pricing": null
+  }
+}

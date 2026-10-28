@@ -1,0 +1,45 @@
+{
+  "name": "z-ai-glm-4-7",
+  "model": "z-ai/glm-4.7",
+  "display_name": "Z.ai: GLM 4.7",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-z-ai-glm-4-7",
+  "details": {
+    "parent_model": "Z.ai: GLM 4.7",
+    "format": "openrouter",
+    "family": "zai",
+    "families": [
+      "zai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "205k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "GLM-4.7 is Z.ai’s latest flagship model, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution. It demonstrates significant improvements in executing complex agent tasks while...",
+  "context_length": 204800,
+  "metadata": {
+    "display_name": "Z.ai: GLM 4.7",
+    "owner": "z-ai",
+    "category": "z-ai",
+    "url": "https://openrouter.ai/models/z-ai/glm-4.7",
+    "pricing": {
+      "prompt": "0.00000054",
+      "completion": "0.00000198",
+      "input_cache_read": "0.000000099"
+    },
+    "top_provider": {
+      "context_length": 204800,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    }
+  }
+}

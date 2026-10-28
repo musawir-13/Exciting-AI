@@ -1,0 +1,46 @@
+{
+  "name": "google-gemini-3-1-flash-image-preview",
+  "model": "google/gemini-3.1-flash-image-preview",
+  "display_name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-google-gemini-3-1-flash-image-preview",
+  "details": {
+    "parent_model": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+    "format": "openrouter",
+    "family": "google",
+    "families": [
+      "google",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "66k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision"
+  ],
+  "description": "Gemini 3.1 Flash Image Preview, a.k.a. \"Nano Banana 2,\" is Google’s latest state of the art image generation and editing model, delivering Pro-level visual quality at Flash speed. It combines...",
+  "context_length": 65536,
+  "metadata": {
+    "display_name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+    "owner": "google",
+    "category": "google",
+    "url": "https://openrouter.ai/models/google/gemini-3.1-flash-image-preview",
+    "pricing": {
+      "prompt": "0.0000005",
+      "completion": "0.000003",
+      "image_output": "0.00006",
+      "web_search": "0.014"
+    },
+    "top_provider": {
+      "context_length": 65536,
+      "max_completion_tokens": 58982,
+      "is_moderated": false
+    }
+  }
+}

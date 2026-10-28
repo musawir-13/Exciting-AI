@@ -1,0 +1,38 @@
+{
+  "name": "qwen3-embedding:8b",
+  "model": "qwen3-embedding:8b",
+  "display_name": "Qwen3 Embedding (8B) [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-qwen3-embedding-8b",
+  "details": {
+    "parent_model": "qwen3-embedding",
+    "format": "ollama",
+    "family": "alibaba",
+    "families": [
+      "alibaba",
+      "local",
+      "ollama",
+      "8b"
+    ],
+    "parameter_size": "8B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "8k"
+  },
+  "capabilities": [
+    "completion",
+    "embedding"
+  ],
+  "description": "Building upon the foundational models of the Qwen3 series, Qwen3 Embedding provides a comprehensive range of text embeddings models in various sizes",
+  "context_length": 8192,
+  "metadata": {
+    "display_name": "Qwen3 Embedding (8B) [Local]",
+    "owner": "Alibaba Cloud",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/qwen3-embedding",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

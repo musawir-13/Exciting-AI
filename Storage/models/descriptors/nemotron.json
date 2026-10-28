@@ -1,0 +1,37 @@
+{
+  "name": "nemotron",
+  "model": "nemotron",
+  "display_name": "Nemotron [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-nemotron",
+  "details": {
+    "parent_model": "nemotron",
+    "format": "ollama",
+    "family": "meta",
+    "families": [
+      "meta",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "70B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "tools"
+  ],
+  "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Nemotron [Local]",
+    "owner": "Meta AI",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/nemotron",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

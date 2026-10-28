@@ -1,0 +1,35 @@
+{
+  "name": "perplexity-deep-research",
+  "model": "perplexity-deep-research",
+  "display_name": "Perplexity-Deep-Research",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-perplexity-deep-research",
+  "details": {
+    "parent_model": "Perplexity-Deep-Research",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Perplexity Deep Research is a research-focused model designed for multi-step retrieval, synthesis, and reasoning across complex topics. It autonomously searches, reads, and evaluates sources, refining its approach as it gathers information. This enables comprehensive report generation across domains like finance, technology, health, and current events. Context Length: 128k\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "Perplexity-Deep-Research",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/perplexity-deep-research",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-5713235-200-nffkfdwpkxsrxhimceifpbbqldqbyqtg.jpeg"
+  }
+}

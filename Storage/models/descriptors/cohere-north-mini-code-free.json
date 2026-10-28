@@ -1,0 +1,44 @@
+{
+  "name": "cohere-north-mini-code-free",
+  "model": "cohere/north-mini-code:free",
+  "display_name": "Cohere: North Mini Code (free)",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-cohere-north-mini-code-free",
+  "details": {
+    "parent_model": "Cohere: North Mini Code (free)",
+    "format": "openrouter",
+    "family": "cohere",
+    "families": [
+      "cohere",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "256k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "North Mini Code is Cohere's first agentic coding model and the debut of its North family. A sparse mixture-of-experts model with 30B total parameters and 3B active, it is optimized...",
+  "context_length": 256000,
+  "metadata": {
+    "display_name": "Cohere: North Mini Code (free)",
+    "owner": "cohere",
+    "category": "cohere",
+    "url": "https://openrouter.ai/models/cohere/north-mini-code:free",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    },
+    "top_provider": {
+      "context_length": 256000,
+      "max_completion_tokens": 64000,
+      "is_moderated": true
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "qwen-qwen-2-5-coder-32b-instruct",
+  "model": "qwen/qwen-2.5-coder-32b-instruct",
+  "display_name": "Qwen2.5 Coder 32B Instruct",
+  "modified_at": "2026-10-28T10:31:33.936Z",
+  "size": 0,
+  "digest": "openrouter-qwen-qwen-2-5-coder-32b-instruct",
+  "details": {
+    "parent_model": "Qwen2.5 Coder 32B Instruct",
+    "format": "openrouter",
+    "family": "qwen",
+    "families": [
+      "qwen",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Qwen2.5-Coder is the latest series of Code-Specific Qwen large language models (formerly known as CodeQwen). Qwen2.5-Coder brings the following improvements upon CodeQwen1.5: - Significantly improvements in **code generation**, **code reasoning**...",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Qwen2.5 Coder 32B Instruct",
+    "owner": "qwen",
+    "category": "qwen",
+    "url": "https://openrouter.ai/models/qwen/qwen-2.5-coder-32b-instruct",
+    "pricing": {
+      "prompt": "0.00000066",
+      "completion": "0.000001"
+    },
+    "top_provider": {
+      "context_length": 32768,
+      "max_completion_tokens": 29491,
+      "is_moderated": false
+    }
+  }
+}

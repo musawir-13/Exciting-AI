@@ -1,0 +1,37 @@
+{
+  "name": "dbrx:132b",
+  "model": "dbrx:132b",
+  "display_name": "Dbrx (132B) [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-dbrx-132b",
+  "details": {
+    "parent_model": "dbrx",
+    "format": "ollama",
+    "family": "ollama",
+    "families": [
+      "ollama",
+      "local",
+      "ollama",
+      "132b"
+    ],
+    "parameter_size": "132B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "DBRX is an open, general-purpose LLM created by Databricks.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Dbrx (132B) [Local]",
+    "owner": "Ollama Community",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/dbrx",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

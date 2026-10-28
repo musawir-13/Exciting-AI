@@ -1,0 +1,37 @@
+{
+  "name": "gemma3n:latest",
+  "model": "gemma3n:latest",
+  "display_name": "Gemma3n [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-gemma3n-latest",
+  "details": {
+    "parent_model": "gemma3n",
+    "format": "ollama",
+    "family": "google",
+    "families": [
+      "google",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "E2B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "vision"
+  ],
+  "description": "Gemma 3n models are designed for efficient execution on everyday devices such as laptops, tablets or phones.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Gemma3n [Local]",
+    "owner": "Google DeepMind",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/gemma3n",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

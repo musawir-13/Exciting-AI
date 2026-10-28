@@ -1,0 +1,37 @@
+{
+  "name": "falcon:7b",
+  "model": "falcon:7b",
+  "display_name": "Falcon (7B) [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-falcon-7b",
+  "details": {
+    "parent_model": "falcon",
+    "format": "ollama",
+    "family": "ollama",
+    "families": [
+      "ollama",
+      "local",
+      "ollama",
+      "7b"
+    ],
+    "parameter_size": "7B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "A large language model built by the Technology Innovation Institute (TII) for use in summarization, text generation, and chat bots.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Falcon (7B) [Local]",
+    "owner": "Ollama Community",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/falcon",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

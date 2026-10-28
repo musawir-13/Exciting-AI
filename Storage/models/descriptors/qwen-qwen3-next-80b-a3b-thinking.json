@@ -1,0 +1,44 @@
+{
+  "name": "qwen-qwen3-next-80b-a3b-thinking",
+  "model": "qwen/qwen3-next-80b-a3b-thinking",
+  "display_name": "Qwen: Qwen3 Next 80B A3B Thinking",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-qwen-qwen3-next-80b-a3b-thinking",
+  "details": {
+    "parent_model": "Qwen: Qwen3 Next 80B A3B Thinking",
+    "format": "openrouter",
+    "family": "qwen",
+    "families": [
+      "qwen",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "Qwen3-Next-80B-A3B-Thinking is a reasoning-first chat model in the Qwen3-Next line that outputs structured “thinking” traces by default. It’s designed for hard multi-step problems; math proofs, code synthesis/debugging, logic, and agentic...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "Qwen: Qwen3 Next 80B A3B Thinking",
+    "owner": "qwen",
+    "category": "qwen",
+    "url": "https://openrouter.ai/models/qwen/qwen3-next-80b-a3b-thinking",
+    "pricing": {
+      "prompt": "0.00000015",
+      "completion": "0.0000012"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 235929,
+      "is_moderated": false
+    }
+  }
+}

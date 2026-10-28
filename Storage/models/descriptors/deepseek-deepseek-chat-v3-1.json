@@ -1,0 +1,45 @@
+{
+  "name": "deepseek-deepseek-chat-v3-1",
+  "model": "deepseek/deepseek-chat-v3.1",
+  "display_name": "DeepSeek: DeepSeek V3.1",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-deepseek-deepseek-chat-v3-1",
+  "details": {
+    "parent_model": "DeepSeek: DeepSeek V3.1",
+    "format": "openrouter",
+    "family": "deepseek",
+    "families": [
+      "deepseek",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "164k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "DeepSeek-V3.1 is a large hybrid reasoning model (671B parameters, 37B active) that supports both thinking and non-thinking modes via prompt templates. It extends the DeepSeek-V3 base with a two-phase long-context...",
+  "context_length": 163840,
+  "metadata": {
+    "display_name": "DeepSeek: DeepSeek V3.1",
+    "owner": "deepseek",
+    "category": "deepseek",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-chat-v3.1",
+    "pricing": {
+      "prompt": "0.00000025",
+      "completion": "0.00000095",
+      "input_cache_read": "0.00000013"
+    },
+    "top_provider": {
+      "context_length": 163840,
+      "max_completion_tokens": 32768,
+      "is_moderated": false
+    }
+  }
+}

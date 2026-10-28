@@ -1,0 +1,44 @@
+{
+  "name": "poe-kimi-k2-6",
+  "model": "kimi-k2.6",
+  "display_name": "Kimi-K2.6",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-poe-kimi-k2-6",
+  "details": {
+    "parent_model": "Kimi-K2.6",
+    "format": "poe",
+    "family": "moonshotai",
+    "families": [
+      "moonshotai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Moonshot AI Kimi K2.6 is a model for long-horizon coding, design-oriented development, and vision-enabled tasks.",
+  "context_length": 262000,
+  "metadata": {
+    "display_name": "Kimi-K2.6",
+    "owner": "Moonshot AI",
+    "category": "Moonshot AI",
+    "url": "https://poe.com/kimi-k2.6",
+    "pricing": {
+      "prompt": "0.0000009596",
+      "completion": "0.0000040404",
+      "image": null,
+      "request": null,
+      "input_cache_read": "0.0000001616",
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-7072541-200-evkhgkewbvuezyltdwrefgtvzqhvkgkc.jpeg"
+  }
+}

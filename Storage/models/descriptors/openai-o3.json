@@ -1,0 +1,47 @@
+{
+  "name": "openai-o3",
+  "model": "openai/o3",
+  "display_name": "OpenAI: o3",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-openai-o3",
+  "details": {
+    "parent_model": "OpenAI: o3",
+    "format": "openrouter",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "200k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "o3 is a well-rounded and powerful model across domains. It sets a new standard for math, science, coding, and visual reasoning tasks. It also excels at technical writing and instruction-following....",
+  "context_length": 200000,
+  "metadata": {
+    "display_name": "OpenAI: o3",
+    "owner": "openai",
+    "category": "openai",
+    "url": "https://openrouter.ai/models/openai/o3",
+    "pricing": {
+      "prompt": "0.000002",
+      "completion": "0.000008",
+      "web_search": "0.01",
+      "input_cache_read": "0.0000005"
+    },
+    "top_provider": {
+      "context_length": 200000,
+      "max_completion_tokens": 100000,
+      "is_moderated": true
+    }
+  }
+}

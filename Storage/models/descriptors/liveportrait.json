@@ -1,0 +1,35 @@
+{
+  "name": "liveportrait",
+  "model": "liveportrait",
+  "display_name": "LivePortrait",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-liveportrait",
+  "details": {
+    "parent_model": "LivePortrait",
+    "format": "poe",
+    "family": "fal",
+    "families": [
+      "fal",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Animates given portraits with the motion's in the video. Powered by fal.ai",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "LivePortrait",
+    "owner": "fal",
+    "category": "fal",
+    "url": "https://poe.com/liveportrait",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-4562355-200-keofzhrnpnyiglsjgftwqklymqhmhnyk.jpeg"
+  }
+}

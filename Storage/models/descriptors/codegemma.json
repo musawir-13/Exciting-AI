@@ -1,0 +1,36 @@
+{
+  "name": "codegemma",
+  "model": "codegemma",
+  "display_name": "Codegemma [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-codegemma",
+  "details": {
+    "parent_model": "codegemma",
+    "format": "ollama",
+    "family": "google",
+    "families": [
+      "google",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "2B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "CodeGemma is a collection of powerful, lightweight models that can perform a variety of coding tasks like fill-in-the-middle code completion, code generation, natural language understanding, mathematical reasoning, and instruction following.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Codegemma [Local]",
+    "owner": "Google DeepMind",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/codegemma",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

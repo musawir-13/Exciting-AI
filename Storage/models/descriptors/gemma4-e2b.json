@@ -1,0 +1,42 @@
+{
+  "name": "gemma4:e2b",
+  "model": "gemma4:e2b",
+  "display_name": "Gemma4 (E2B) [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-gemma4-e2b",
+  "details": {
+    "parent_model": "gemma4",
+    "format": "ollama",
+    "family": "google",
+    "families": [
+      "google",
+      "local",
+      "ollama",
+      "e2b"
+    ],
+    "parameter_size": "E2B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "vision",
+    "tools",
+    "thinking",
+    "audio",
+    "cloud"
+  ],
+  "description": "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Gemma4 (E2B) [Local]",
+    "owner": "Google DeepMind",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/gemma4",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "qwen3-7",
+  "model": "qwen3-7",
+  "display_name": "Qwen3.7",
+  "modified_at": "2026-10-28T09:07:40.412Z",
+  "size": 0,
+  "digest": "poe-qwen3-7",
+  "details": {
+    "parent_model": "Qwen3.7",
+    "format": "poe",
+    "family": "alibaba",
+    "families": [
+      "alibaba",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "512k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Next-generation multilingual and agentic reasoning model.",
+  "context_length": 512000,
+  "metadata": {
+    "display_name": "Qwen3.7",
+    "owner": "Alibaba Qwen",
+    "category": "Alibaba Qwen",
+    "url": null,
+    "pricing": null
+  }
+}

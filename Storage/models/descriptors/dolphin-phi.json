@@ -1,0 +1,36 @@
+{
+  "name": "dolphin-phi",
+  "model": "dolphin-phi",
+  "display_name": "Dolphin Phi [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-dolphin-phi",
+  "details": {
+    "parent_model": "dolphin-phi",
+    "format": "ollama",
+    "family": "microsoft",
+    "families": [
+      "microsoft",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "2.7B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "2.7B uncensored Dolphin model by Eric Hartford, based on the Phi language model by Microsoft Research.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Dolphin Phi [Local]",
+    "owner": "Microsoft",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/dolphin-phi",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

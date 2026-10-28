@@ -1,0 +1,35 @@
+{
+  "name": "upstage-solar-pro",
+  "model": "upstage-solar-pro",
+  "display_name": "Upstage Solar Pro",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-upstage-solar-pro",
+  "details": {
+    "parent_model": "Upstage Solar Pro",
+    "format": "poe",
+    "family": "upstage",
+    "families": [
+      "upstage",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "65.536k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "High-capability bilingual enterprise model with depth upscaling.",
+  "context_length": 65536,
+  "metadata": {
+    "display_name": "Upstage Solar Pro",
+    "owner": "Cohere & Specialized Enterprise Labs",
+    "category": "Cohere & Specialized Enterprise Labs",
+    "url": null,
+    "pricing": null
+  }
+}

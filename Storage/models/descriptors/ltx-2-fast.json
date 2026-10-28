@@ -1,0 +1,36 @@
+{
+  "name": "ltx-2-fast",
+  "model": "ltx-2-fast",
+  "display_name": "LTX-2-Fast",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-ltx-2-fast",
+  "details": {
+    "parent_model": "LTX-2-Fast",
+    "format": "poe",
+    "family": "fal",
+    "families": [
+      "fal",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "LTX-2 Fast is a video model by Lightricks that delivers exceptional quality and speed. It can generate videos at up to 50 FPS in high resolutions and supports both text-to-video and image-to-video generation.\n\nOptional Prompts:\nGenerate an audio with the video. This is disabled by default. \nSet. resolution with one of `1080p`, `1440p`, `2160p`. This is set to 1080p by default.\nSet the duration of the generated video (one of `6s, 8s, 10s`). This is set to 6s by default. \nSet the fps of the generated video to one of 25 or 50. This is set to 25 by default\n\nNotes: \nDuration and resolution values will change the price. \nFile attachment accepted: jpeg, png, webp",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "LTX-2-Fast",
+    "owner": "fal",
+    "category": "fal",
+    "url": "https://poe.com/ltx-2-fast",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6527895-200-uiestjlshdkekhndkdftqajxyyfwyyec.jpeg"
+  }
+}

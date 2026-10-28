@@ -1,0 +1,44 @@
+{
+  "name": "poe-kimi-k3",
+  "model": "kimi-k3",
+  "display_name": "Kimi-K3",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-poe-kimi-k3",
+  "details": {
+    "parent_model": "Kimi-K3",
+    "format": "poe",
+    "family": "moonshotai",
+    "families": [
+      "moonshotai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "For the newer model, try [Kimi-K3.1-Pro](https://poe.com/Kimi-K3.1-Pro). Kimi K3 supports long-horizon coding and end-to-end knowledge work with a 1M-token context window.",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "Kimi-K3",
+    "owner": "Moonshot AI",
+    "category": "Moonshot AI",
+    "url": "https://poe.com/kimi-k3",
+    "pricing": {
+      "prompt": "0.0000030303",
+      "completion": "0.0000151515",
+      "image": null,
+      "request": null,
+      "input_cache_read": "0.000000303",
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-7065999-200-jyxydakqlewteavdxmjrflwlicrnwlng.jpeg"
+  }
+}

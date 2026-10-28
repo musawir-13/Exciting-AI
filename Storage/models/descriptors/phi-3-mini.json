@@ -1,0 +1,35 @@
+{
+  "name": "phi-3-mini",
+  "model": "phi-3-mini",
+  "display_name": "Phi-3 Mini",
+  "modified_at": "2026-10-28T09:07:40.412Z",
+  "size": 0,
+  "digest": "poe-phi-3-mini",
+  "details": {
+    "parent_model": "Phi-3 Mini",
+    "format": "poe",
+    "family": "microsoft",
+    "families": [
+      "microsoft",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Compact 3.8B parameter model trained on textbook quality data.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "Phi-3 Mini",
+    "owner": "Microsoft & Azure AI",
+    "category": "Microsoft & Azure AI",
+    "url": null,
+    "pricing": null
+  }
+}

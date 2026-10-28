@@ -1,0 +1,35 @@
+{
+  "name": "glm-5-1",
+  "model": "glm-5-1",
+  "display_name": "GLM 5.1",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-glm-5-1",
+  "details": {
+    "parent_model": "GLM 5.1",
+    "format": "poe",
+    "family": "zhipu",
+    "families": [
+      "zhipu",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Optimized enterprise dialogue and document processing engine.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "GLM 5.1",
+    "owner": "DeepSeek & Chinese Tech Labs",
+    "category": "DeepSeek & Chinese Tech Labs",
+    "url": null,
+    "pricing": null
+  }
+}

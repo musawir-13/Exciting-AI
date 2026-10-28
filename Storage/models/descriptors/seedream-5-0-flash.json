@@ -1,0 +1,35 @@
+{
+  "name": "seedream-5-0-flash",
+  "model": "seedream-5.0-flash",
+  "display_name": "Seedream-5.0-Flash",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-seedream-5-0-flash",
+  "details": {
+    "parent_model": "Seedream-5.0-Flash",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Seedream 5.0 Flash creates and edits images quickly from text prompts and up to 10 reference images.\n\nGeneration & Editing\n- Generate from a text prompt\n- Edit or combine one to ten attached images\n- Mark an area with a sketch, arrow, or coordinates to edit it precisely\n- Separate one attached image into a base image plus up to 16 transparent layers\n- Render text in Chinese, English, and 14 other languages\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Seedream-5.0-Flash",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/seedream-5.0-flash",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-7146513-200-bvgveeaopwjvwjuwpwsllgbjoxvnnxop.jpeg"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "perceptron-perceptron-mk1-5",
+  "model": "perceptron/perceptron-mk1.5",
+  "display_name": "Perceptron: Perceptron Mk1.5",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "openrouter-perceptron-perceptron-mk1-5",
+  "details": {
+    "parent_model": "Perceptron: Perceptron Mk1.5",
+    "format": "openrouter",
+    "family": "perceptron",
+    "families": [
+      "perceptron",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "37k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Perceptron Mk1.5 is Perceptron's embodied reasoning model for physical agents. It accepts text, image, video, and audio input, and answers with text plus optional structured annotations: points, boxes, polygons, tracks,...",
+  "context_length": 36864,
+  "metadata": {
+    "display_name": "Perceptron: Perceptron Mk1.5",
+    "owner": "perceptron",
+    "category": "perceptron",
+    "url": "https://openrouter.ai/models/perceptron/perceptron-mk1.5",
+    "pricing": {
+      "prompt": "0.00000015",
+      "completion": "0.0000015"
+    },
+    "top_provider": {
+      "context_length": 36864,
+      "max_completion_tokens": 8192,
+      "is_moderated": false
+    }
+  }
+}

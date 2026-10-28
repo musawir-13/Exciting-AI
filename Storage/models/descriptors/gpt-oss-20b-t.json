@@ -1,0 +1,43 @@
+{
+  "name": "gpt-oss-20b-t",
+  "model": "gpt-oss-20b-t",
+  "display_name": "GPT-OSS-20B-T",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-gpt-oss-20b-t",
+  "details": {
+    "parent_model": "GPT-OSS-20B-T",
+    "format": "poe",
+    "family": "togetherai",
+    "families": [
+      "togetherai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "OpenAI's GPT-OSS-20B provides powerful chain-of-thought reasoning in an efficient 20B parameter model. Designed for single-GPU deployment while maintaining sophisticated reasoning capabilities, this Apache 2.0 licensed model offers the perfect balance of performance and resource efficiency for diverse applications.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "GPT-OSS-20B-T",
+    "owner": "Together AI",
+    "category": "Together AI",
+    "url": "https://poe.com/gpt-oss-20b-t",
+    "pricing": {
+      "prompt": null,
+      "completion": null,
+      "image": null,
+      "request": "0.00045",
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6299609-200-enarjfukkdmfvqhltcohzkxhyqjwmzvm.jpeg"
+  }
+}

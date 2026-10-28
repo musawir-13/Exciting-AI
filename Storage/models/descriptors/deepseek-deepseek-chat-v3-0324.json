@@ -1,0 +1,44 @@
+{
+  "name": "deepseek-deepseek-chat-v3-0324",
+  "model": "deepseek/deepseek-chat-v3-0324",
+  "display_name": "DeepSeek: DeepSeek V3 0324",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-deepseek-deepseek-chat-v3-0324",
+  "details": {
+    "parent_model": "DeepSeek: DeepSeek V3 0324",
+    "format": "openrouter",
+    "family": "deepseek",
+    "families": [
+      "deepseek",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "164k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team. It succeeds the [DeepSeek V3](/deepseek/deepseek-chat-v3) model and performs really well...",
+  "context_length": 163840,
+  "metadata": {
+    "display_name": "DeepSeek: DeepSeek V3 0324",
+    "owner": "deepseek",
+    "category": "deepseek",
+    "url": "https://openrouter.ai/models/deepseek/deepseek-chat-v3-0324",
+    "pricing": {
+      "prompt": "0.00000029",
+      "completion": "0.00000114",
+      "input_cache_read": "0.00000011"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": 115200,
+      "is_moderated": false
+    }
+  }
+}

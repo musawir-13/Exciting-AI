@@ -1,0 +1,45 @@
+{
+  "name": "o3-pro",
+  "model": "o3-pro",
+  "display_name": "o3-pro",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-o3-pro",
+  "details": {
+    "parent_model": "o3-pro",
+    "format": "poe",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "200k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "o3-pro is a well-rounded and powerful model across domains, with more capability than https://poe.com/o3 at the cost of higher price and lower speed. It is especially capable at math, science, coding, visual reasoning tasks, technical writing, and instruction-following. Use it to think through multi-step problems that involve analysis across text, code, and images. \n\nOptional parameters:\nSet reasoning effort: Select from `low`, `medium`, `high`. Medium reasoning effort is set by default.",
+  "context_length": 200000,
+  "metadata": {
+    "display_name": "o3-pro",
+    "owner": "OpenAI",
+    "category": "OpenAI",
+    "url": "https://poe.com/o3-pro",
+    "pricing": {
+      "prompt": "0.0000181818",
+      "completion": "0.0000727273",
+      "image": null,
+      "request": null,
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-3040-200-khprhxeahktuihupubqvghtxryzuevng.jpeg"
+  }
+}

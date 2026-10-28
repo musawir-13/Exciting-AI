@@ -1,0 +1,44 @@
+{
+  "name": "nova-lite-2",
+  "model": "nova-lite-2",
+  "display_name": "Nova-Lite-2",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-nova-lite-2",
+  "details": {
+    "parent_model": "Nova-Lite-2",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Amazon Nova 2 Lite is a fast, cost-effective multimodal reasoning model from Amazon that can process text, images, documents, and video, designed for everyday workloads like chatbots, document processing, and business automation. It offers a 1 million token context window, enabling very large, complex inputs in a single request, including long documents and extended video clips (~90 minutes).\n\nNotes: \n- Video file uploads are limited to ~1GB. Also note that reasoning traces are not exposed from AWS.\n- Supported file types: JPEG, PNG, GIF, WEBP, PDF, DOCX, TXT, MP4, MOV, MKV, WebM, FLV, MPEG, MPG, WMV, 3GP\n\nParameter controls available:\n- Enable Extended thinking. Enable step-by-step reasoning (default: on).\n- Set reasoning effort: Select from  low (faster), medium (balanced) , high (deep analysis). Default: medium (balanced)",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Nova-Lite-2",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/nova-lite-2",
+    "pricing": {
+      "prompt": "0.0000003838",
+      "completion": "0.0000031919",
+      "image": null,
+      "request": null,
+      "input_cache_read": "0.0000002111",
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6640726-200-ndgdrjlscsycabknxryewozpnkerfrta.jpeg"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "poe-lyria",
+  "model": "lyria",
+  "display_name": "Lyria",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-poe-lyria",
+  "details": {
+    "parent_model": "Lyria",
+    "format": "poe",
+    "family": "google",
+    "families": [
+      "google",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Google DeepMind's Lyria 2 delivers high-quality audio generation, capable of creating diverse soundscapes and musical pieces from text prompts.\n\nOptional parameters:\nNegative prompt. Allows users to specify elements to exclude in the audio. \nSeed for deterministic generation. e.g. \"An energetic electronic dance track `no vocals`, slow tempo 1seed 123`\". \n\nNotes: \nLyria blocks prompts that name specific artists or songs (artist-intent and recitation checks)\nThis bot does not support attachments. \nThis bot accepts input prompts of up to 480 tokens.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Lyria",
+    "owner": "Google",
+    "category": "Google",
+    "url": "https://poe.com/lyria",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6090541-200-loimwrwctofaadexurdsipsxnzhkdmqo.jpeg"
+  }
+}

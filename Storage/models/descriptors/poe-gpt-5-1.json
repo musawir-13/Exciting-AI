@@ -1,0 +1,45 @@
+{
+  "name": "poe-gpt-5-1",
+  "model": "gpt-5.1",
+  "display_name": "GPT-5.1",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-poe-gpt-5-1",
+  "details": {
+    "parent_model": "GPT-5.1",
+    "format": "poe",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "400k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "OpenAI’s flagship general‑purpose model, built for advanced reasoning, comprehension, and creativity. It delivers robust performance across text and code, with significant improvements in factual accuracy, long‑context understanding, and multilingual fluency. Ideal for research, content creation, analysis, and problem‑solving in any domain. \n\nSupports 400k of input context window.",
+  "context_length": 400000,
+  "metadata": {
+    "display_name": "GPT-5.1",
+    "owner": "OpenAI",
+    "category": "OpenAI",
+    "url": "https://poe.com/gpt-5.1",
+    "pricing": {
+      "prompt": "0.0000011364",
+      "completion": "0.0000090909",
+      "image": null,
+      "request": null,
+      "input_cache_read": "0.0000001136",
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-3049-200-khzrgexjrnngfcpmxpaxznhtitilhxqd.jpeg"
+  }
+}

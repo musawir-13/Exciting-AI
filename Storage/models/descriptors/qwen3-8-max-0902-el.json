@@ -1,0 +1,44 @@
+{
+  "name": "qwen3-8-max-0902-el",
+  "model": "qwen3.8-max-0902-el",
+  "display_name": "Qwen3.8-Max-0902-EL",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-qwen3-8-max-0902-el",
+  "details": {
+    "parent_model": "Qwen3.8-Max-0902-EL",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Qwen3.8 Max 0902 is the upgraded September 2026 snapshot of Alibaba's flagship Qwen3.8 Max, with stronger coding, steadier multi-tool agent work, and sharper chart and document understanding. It accepts text, image, and video input with a 1M token context, and supports deep thinking, function calling, and structured JSON output.\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "Qwen3.8-Max-0902-EL",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/qwen3.8-max-0902-el",
+    "pricing": {
+      "prompt": "0.0000020202",
+      "completion": "0.0000060606",
+      "image": null,
+      "request": null,
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-7113401-200-ehutrqtvymcvhpqlnprtwbnuaqlqruhh.jpeg"
+  }
+}

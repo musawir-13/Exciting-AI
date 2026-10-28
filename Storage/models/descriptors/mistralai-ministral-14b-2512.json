@@ -1,0 +1,45 @@
+{
+  "name": "mistralai-ministral-14b-2512",
+  "model": "mistralai/ministral-14b-2512",
+  "display_name": "Mistral: Ministral 3 14B 2512",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-mistralai-ministral-14b-2512",
+  "details": {
+    "parent_model": "Mistral: Ministral 3 14B 2512",
+    "format": "openrouter",
+    "family": "mistralai",
+    "families": [
+      "mistralai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "The largest model in the Ministral 3 family, Ministral 3 14B offers frontier capabilities and performance comparable to its larger Mistral Small 3.2 24B counterpart. A powerful and efficient language...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "Mistral: Ministral 3 14B 2512",
+    "owner": "mistralai",
+    "category": "mistralai",
+    "url": "https://openrouter.ai/models/mistralai/ministral-14b-2512",
+    "pricing": {
+      "prompt": "0.0000002",
+      "completion": "0.0000002",
+      "input_cache_read": "0.00000002"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 209715,
+      "is_moderated": false
+    }
+  }
+}

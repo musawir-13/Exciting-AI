@@ -1,0 +1,36 @@
+{
+  "name": "notus:latest",
+  "model": "notus:latest",
+  "display_name": "Notus [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-notus-latest",
+  "details": {
+    "parent_model": "notus",
+    "format": "ollama",
+    "family": "ollama",
+    "families": [
+      "ollama",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "7B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "A 7B chat model fine-tuned with high-quality data and based on Zephyr.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Notus [Local]",
+    "owner": "Ollama Community",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/notus",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

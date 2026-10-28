@@ -1,0 +1,36 @@
+{
+  "name": "reka-edge-2603",
+  "model": "reka-edge-2603",
+  "display_name": "Reka Edge 2603",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-reka-edge-2603",
+  "details": {
+    "parent_model": "Reka Edge 2603",
+    "format": "poe",
+    "family": "reka",
+    "families": [
+      "reka",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "32.768k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Compact on-device multimodal model for edge vision-language reasoning.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Reka Edge 2603",
+    "owner": "Cohere & Specialized Enterprise Labs",
+    "category": "Cohere & Specialized Enterprise Labs",
+    "url": null,
+    "pricing": null
+  }
+}

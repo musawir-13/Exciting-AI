@@ -1,0 +1,35 @@
+{
+  "name": "hailuo-director-01",
+  "model": "hailuo-director-01",
+  "display_name": "Hailuo-Director-01",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-hailuo-director-01",
+  "details": {
+    "parent_model": "Hailuo-Director-01",
+    "format": "poe",
+    "family": "fal",
+    "families": [
+      "fal",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Generate video clips more accurately with respect to natural language descriptions and using camera movement instructions for shot control. Both text-to-video and image-to-video are supported. \nCamera movement instructions can be added using square brackets (e.g. [Pan left] or [Zoom in]). \nYou can use up to 3 combined movements per prompt. Duration is fixed to 5 seconds. \nSupported movements: Truck left/right, Pan left/right, Push in/Pull out, Pedestal up/down, Tilt up/down, Zoom in/out, Shake, Tracking shot, Static shot. For example: [Truck left, Pan right, Zoom in]. \nFor a more detailed guide, refer https://sixth-switch-2ac.notion.site/T2V-01-Director-Model-Tutorial-with-camera-movement-1886c20a98eb80f395b8e05291ad8645",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Hailuo-Director-01",
+    "owner": "fal",
+    "category": "fal",
+    "url": "https://poe.com/hailuo-director-01",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6107505-200-wyfxlankxkygcftfdbdudlhbgldrllgq.jpeg"
+  }
+}

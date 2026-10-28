@@ -1,0 +1,45 @@
+{
+  "name": "openai-gpt-audio-mini",
+  "model": "openai/gpt-audio-mini",
+  "display_name": "OpenAI: GPT Audio Mini",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-openai-gpt-audio-mini",
+  "details": {
+    "parent_model": "OpenAI: GPT Audio Mini",
+    "format": "openrouter",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "A cost-efficient version of GPT Audio. The new snapshot features an upgraded decoder for more natural sounding voices and maintains better voice consistency. Input is priced at $0.60 per million...",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "OpenAI: GPT Audio Mini",
+    "owner": "openai",
+    "category": "openai",
+    "url": "https://openrouter.ai/models/openai/gpt-audio-mini",
+    "pricing": {
+      "prompt": "0.0000006",
+      "completion": "0.0000024",
+      "audio": "0.0000006",
+      "audio_output": "0.0000024"
+    },
+    "top_provider": {
+      "context_length": 128000,
+      "max_completion_tokens": 16384,
+      "is_moderated": true
+    }
+  }
+}

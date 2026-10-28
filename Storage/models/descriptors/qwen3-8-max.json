@@ -1,0 +1,37 @@
+{
+  "name": "qwen3-8-max",
+  "model": "qwen3-8-max",
+  "display_name": "Qwen3.8 Max",
+  "modified_at": "2026-10-28T09:07:40.412Z",
+  "size": 0,
+  "digest": "poe-qwen3-8-max",
+  "details": {
+    "parent_model": "Qwen3.8 Max",
+    "format": "poe",
+    "family": "alibaba",
+    "families": [
+      "alibaba",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Flagship trillion-token cognitive system with comprehensive domain mastery.",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "Qwen3.8 Max",
+    "owner": "Alibaba Qwen",
+    "category": "Alibaba Qwen",
+    "url": null,
+    "pricing": null
+  }
+}

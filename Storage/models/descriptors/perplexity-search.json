@@ -1,0 +1,35 @@
+{
+  "name": "perplexity-search",
+  "model": "perplexity-search",
+  "display_name": "Perplexity-Search",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-perplexity-search",
+  "details": {
+    "parent_model": "Perplexity-Search",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Utilize Perplexity's technology for real-time web search with filtering by domain, language, date and more.\nNote: This endpoint does not return an LLM-style response. File upload is not supported.\n\nParameter Controls Available:\n1. General\n   - `query` (required): Your search query as a single string\n   - `multi_query`: Up to 5 queries separated by newlines for batch searching\n   - `max_results` [1-20]: Number of search results to return (default 5)\n   - `max_tokens` [5000-100000]: Total content token budget across all results\n   - `max_tokens_per_page` [256-8192]: Maximum tokens extracted per individual page\n\n2. Filters\n   - `search_domain_filter`: Allow or deny specific domains (prefix with `-` to deny, max 20, no mixing allow/deny)\n   - `search_language_filter`: Restrict results by language using ISO 639-1 codes (e.g. `en`, `fr`), comma-separated, max 10\n   - `country`: Restrict results by country using ISO 3166-1 alpha-2 code (e.g. `US`, `GB`)\n\n3. Date & Recency\n   - `search_recency_filter`: Limit results to `hour`, `day`, `week`, `month`, or `year`\n   - `search_after_date_filter` (MM/DD/YYYY): Only return results published after this date (overrides recency)\n   - `search_before_date_filter` (MM/DD/YYYY): Only return results published before this date (overrides recency)\n   - `last_updated_after_filter` (MM/DD/YYYY): Only return results last updated after this date\n   - `last_updated_before_filter` (MM/DD/YYYY): Only return results last updated before this date\n   - `display_server_time`: Toggle to include the server timestamp in the response",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Perplexity-Search",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/perplexity-search",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6824178-200-emrwrxuurgkbjyukiwkmzfokhvbkbwfr.jpeg"
+  }
+}

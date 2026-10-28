@@ -1,0 +1,45 @@
+{
+  "name": "z-ai-glm-4-6",
+  "model": "z-ai/glm-4.6",
+  "display_name": "Z.ai: GLM 4.6",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-z-ai-glm-4-6",
+  "details": {
+    "parent_model": "Z.ai: GLM 4.6",
+    "format": "openrouter",
+    "family": "zai",
+    "families": [
+      "zai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "205k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "Compared with GLM-4.5, this generation brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex...",
+  "context_length": 204800,
+  "metadata": {
+    "display_name": "Z.ai: GLM 4.6",
+    "owner": "z-ai",
+    "category": "z-ai",
+    "url": "https://openrouter.ai/models/z-ai/glm-4.6",
+    "pricing": {
+      "prompt": "0.00000055",
+      "completion": "0.0000022",
+      "input_cache_read": "0.00000011"
+    },
+    "top_provider": {
+      "context_length": 204800,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    }
+  }
+}

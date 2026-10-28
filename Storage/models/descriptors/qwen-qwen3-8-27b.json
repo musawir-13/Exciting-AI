@@ -1,0 +1,46 @@
+{
+  "name": "qwen-qwen3-8-27b",
+  "model": "qwen/qwen3.8-27b",
+  "display_name": "Qwen: Qwen3.8 27B",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-qwen-qwen3-8-27b",
+  "details": {
+    "parent_model": "Qwen: Qwen3.8 27B",
+    "format": "openrouter",
+    "family": "qwen",
+    "families": [
+      "qwen",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be...",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "Qwen: Qwen3.8 27B",
+    "owner": "qwen",
+    "category": "qwen",
+    "url": "https://openrouter.ai/models/qwen/qwen3.8-27b",
+    "pricing": {
+      "prompt": "0.000000039",
+      "completion": "0.00000125",
+      "input_cache_read": "0.0000000039"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 65536,
+      "is_moderated": false
+    }
+  }
+}

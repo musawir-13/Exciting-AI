@@ -1,0 +1,43 @@
+{
+  "name": "poe-mistral-large-2",
+  "model": "mistral-large-2",
+  "display_name": "Mistral-Large-2",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-poe-mistral-large-2",
+  "details": {
+    "parent_model": "Mistral-Large-2",
+    "format": "poe",
+    "family": "mistral",
+    "families": [
+      "mistral",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "Mistral's latest text generation model (Mistral-Large-2407) with top-tier reasoning capabilities. It can be used for complex multilingual reasoning tasks, including text understanding, transformation, and code generation. This bot has the full 128k context window supported by the model.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "Mistral-Large-2",
+    "owner": "Mistral",
+    "category": "Mistral",
+    "url": "https://poe.com/mistral-large-2",
+    "pricing": {
+      "prompt": "0.0000030303",
+      "completion": "0.0000090909",
+      "image": null,
+      "request": null,
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-7010-200-jaspeixxffhayqwvhydkkjjmjwtjzgrv.jpeg"
+  }
+}

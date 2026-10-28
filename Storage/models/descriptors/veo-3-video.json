@@ -1,0 +1,36 @@
+{
+  "name": "veo-3-video",
+  "model": "veo-3-video",
+  "display_name": "Veo 3 (Video)",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-veo-3-video",
+  "details": {
+    "parent_model": "Veo 3 (Video)",
+    "format": "poe",
+    "family": "google",
+    "families": [
+      "google",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "16.384k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "High-definition cinematic video synthesis model by Google DeepMind.",
+  "context_length": 16384,
+  "metadata": {
+    "display_name": "Veo 3 (Video)",
+    "owner": "Generative Media",
+    "category": "Generative Media",
+    "url": null,
+    "pricing": null
+  }
+}

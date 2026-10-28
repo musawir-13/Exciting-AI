@@ -1,0 +1,46 @@
+{
+  "name": "openai-gpt-4-1-batch",
+  "model": "openai/gpt-4.1:batch",
+  "display_name": "OpenAI: GPT-4.1 (batch)",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-openai-gpt-4-1-batch",
+  "details": {
+    "parent_model": "OpenAI: GPT-4.1 (batch)",
+    "format": "openrouter",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1048k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning. It supports a 1 million token context window and outperforms GPT-4o and...",
+  "context_length": 1047576,
+  "metadata": {
+    "display_name": "OpenAI: GPT-4.1 (batch)",
+    "owner": "openai",
+    "category": "openai",
+    "url": "https://openrouter.ai/models/openai/gpt-4.1:batch",
+    "pricing": {
+      "prompt": "0.000001",
+      "completion": "0.000004",
+      "web_search": "0.01",
+      "input_cache_read": "0.00000025"
+    },
+    "top_provider": {
+      "context_length": 1047576,
+      "max_completion_tokens": 32768,
+      "is_moderated": true
+    }
+  }
+}

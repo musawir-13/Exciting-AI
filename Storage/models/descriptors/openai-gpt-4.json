@@ -1,0 +1,43 @@
+{
+  "name": "openai-gpt-4",
+  "model": "openai/gpt-4",
+  "display_name": "OpenAI: GPT-4",
+  "modified_at": "2026-10-28T10:31:33.936Z",
+  "size": 0,
+  "digest": "openrouter-openai-gpt-4",
+  "details": {
+    "parent_model": "OpenAI: GPT-4",
+    "format": "openrouter",
+    "family": "openai",
+    "families": [
+      "openai",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "8k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "OpenAI's flagship model, GPT-4 is a large-scale multimodal language model capable of solving difficult problems with greater accuracy than previous models due to its broader general knowledge and advanced reasoning...",
+  "context_length": 8191,
+  "metadata": {
+    "display_name": "OpenAI: GPT-4",
+    "owner": "openai",
+    "category": "openai",
+    "url": "https://openrouter.ai/models/openai/gpt-4",
+    "pricing": {
+      "prompt": "0.00003",
+      "completion": "0.00006"
+    },
+    "top_provider": {
+      "context_length": 8191,
+      "max_completion_tokens": 4096,
+      "is_moderated": false
+    }
+  }
+}

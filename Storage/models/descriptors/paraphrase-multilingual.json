@@ -1,0 +1,37 @@
+{
+  "name": "paraphrase-multilingual",
+  "model": "paraphrase-multilingual",
+  "display_name": "Paraphrase Multilingual [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-paraphrase-multilingual",
+  "details": {
+    "parent_model": "paraphrase-multilingual",
+    "format": "ollama",
+    "family": "ollama",
+    "families": [
+      "ollama",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "278M",
+    "quantization_level": "Q4_K_M",
+    "context_window": "8k"
+  },
+  "capabilities": [
+    "completion",
+    "embedding"
+  ],
+  "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
+  "context_length": 8192,
+  "metadata": {
+    "display_name": "Paraphrase Multilingual [Local]",
+    "owner": "Ollama Community",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/paraphrase-multilingual",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

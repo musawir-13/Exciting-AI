@@ -1,0 +1,46 @@
+{
+  "name": "qwen-qwen3-5-35b-a3b",
+  "model": "qwen/qwen3.5-35b-a3b",
+  "display_name": "Qwen: Qwen3.5-35B-A3B",
+  "modified_at": "2026-10-28T10:31:33.935Z",
+  "size": 0,
+  "digest": "openrouter-qwen-qwen3-5-35b-a3b",
+  "details": {
+    "parent_model": "Qwen: Qwen3.5-35B-A3B",
+    "format": "openrouter",
+    "family": "qwen",
+    "families": [
+      "qwen",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency. Its overall...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "Qwen: Qwen3.5-35B-A3B",
+    "owner": "qwen",
+    "category": "qwen",
+    "url": "https://openrouter.ai/models/qwen/qwen3.5-35b-a3b",
+    "pricing": {
+      "prompt": "0.00000014",
+      "completion": "0.000001",
+      "input_cache_read": "0.00000005"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 81920,
+      "is_moderated": false
+    }
+  }
+}

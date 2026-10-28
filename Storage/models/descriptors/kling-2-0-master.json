@@ -1,0 +1,35 @@
+{
+  "name": "kling-2-0-master",
+  "model": "kling-2.0-master",
+  "display_name": "Kling-2.0-Master",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-kling-2-0-master",
+  "details": {
+    "parent_model": "Kling-2.0-Master",
+    "format": "poe",
+    "family": "fal",
+    "families": [
+      "fal",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Generate high-quality videos from text or images using Kling 2.0 Master. Use `--negative_prompt` to send a negative prompt, and `--cfg_scale` to send a classifier-free guidance scale between 0.0 and 1.0 (inclusive). Use `--aspect` to set the aspect ratio (One of `16:9`, `9:16` and `1:1`). Use `--duration` to set either 5 or 10 second video.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Kling-2.0-Master",
+    "owner": "fal",
+    "category": "fal",
+    "url": "https://poe.com/kling-2.0-master",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-5918230-200-zeuncibludpfobwdjkbcfdypdfkuipem.jpeg"
+  }
+}

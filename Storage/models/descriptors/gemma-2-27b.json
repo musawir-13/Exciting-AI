@@ -1,0 +1,35 @@
+{
+  "name": "gemma-2-27b",
+  "model": "gemma-2-27b",
+  "display_name": "Gemma 2 27B",
+  "modified_at": "2026-10-28T09:07:40.412Z",
+  "size": 0,
+  "digest": "poe-gemma-2-27b",
+  "details": {
+    "parent_model": "Gemma 2 27B",
+    "format": "poe",
+    "family": "google",
+    "families": [
+      "google",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "8.192k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "High-performance 27B parameter open-weights model.",
+  "context_length": 8192,
+  "metadata": {
+    "display_name": "Gemma 2 27B",
+    "owner": "Google DeepMind",
+    "category": "Google DeepMind",
+    "url": null,
+    "pricing": null
+  }
+}

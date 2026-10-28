@@ -1,0 +1,36 @@
+{
+  "name": "seedance-1-0-pro-fast",
+  "model": "seedance-1.0-pro-fast",
+  "display_name": "Seedance-1.0-Pro-Fast",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-seedance-1-0-pro-fast",
+  "details": {
+    "parent_model": "Seedance-1.0-Pro-Fast",
+    "format": "poe",
+    "family": "bytedance",
+    "families": [
+      "bytedance",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "Seedance Pro Fast is a faster version of Seedance 1.0 Pro that balances speed, quality and cost. Seedance is a video generation model with text-to-video and image-to-video capabilities. It achieves breakthroughs in semantic understanding and prompt following.\n\nOptional prompts:\nSet the aspect ratio (available values: `21:9`, `16:9`, `4:3`, `1:1`, `3:4`, `9:16`). Set to `16:9` as default.\nSet resolution (one of `480p`,`720p`,`1080p` to set the video resolution. Set to `1080p` as default.\nSet video duration (3s to 12s). Set to `5s` as default.\n\nNotes:\nNumber of video tokens calculated for pricing is approximately: `height * width * fps * duration / 1024).\nFile attachment accepted: jpeg, png, webp",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Seedance-1.0-Pro-Fast",
+    "owner": "Bytedance",
+    "category": "Bytedance",
+    "url": "https://poe.com/seedance-1.0-pro-fast",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6527652-200-khbstcxheeudjqxzuzwfdquxbbivgwzw.jpeg"
+  }
+}

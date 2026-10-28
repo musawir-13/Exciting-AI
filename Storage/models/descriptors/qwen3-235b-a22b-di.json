@@ -1,0 +1,42 @@
+{
+  "name": "qwen3-235b-a22b-di",
+  "model": "qwen3-235b-a22b-di",
+  "display_name": "Qwen3-235B-A22B-DI",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-qwen3-235b-a22b-di",
+  "details": {
+    "parent_model": "Qwen3-235B-A22B-DI",
+    "format": "poe",
+    "family": "deepinfra",
+    "families": [
+      "deepinfra",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "32k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, instruction-following, agent capabilities, and multilingual support.\n\nSupports 32k tokens of input context and 8k tokens of output context. Quantization: FP8.",
+  "context_length": 32000,
+  "metadata": {
+    "display_name": "Qwen3-235B-A22B-DI",
+    "owner": "DeepInfra",
+    "category": "DeepInfra",
+    "url": "https://poe.com/qwen3-235b-a22b-di",
+    "pricing": {
+      "prompt": null,
+      "completion": null,
+      "image": null,
+      "request": "0.0019",
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-5972218-200-opylaawgkyzvdvtpntebszciqksfhvmg.jpeg"
+  }
+}

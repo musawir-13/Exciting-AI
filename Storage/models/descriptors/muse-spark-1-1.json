@@ -1,0 +1,44 @@
+{
+  "name": "muse-spark-1-1",
+  "model": "muse-spark-1-1",
+  "display_name": "Muse-Spark-1.1",
+  "modified_at": "2026-10-28T10:31:33.932Z",
+  "size": 0,
+  "digest": "poe-muse-spark-1-1",
+  "details": {
+    "parent_model": "Muse-Spark-1.1",
+    "format": "poe",
+    "family": "meta",
+    "families": [
+      "meta",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "1049k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Muse Spark 1.1 is Meta’s fast reasoning model for everyday questions, science, math, planning, and coding. For Meta’s newer model for advanced coding and complex reasoning, try [Muse-Wonder-1.0](https://poe.com/Muse-Wonder-1.0).",
+  "context_length": 1048576,
+  "metadata": {
+    "display_name": "Muse-Spark-1.1",
+    "owner": "Meta",
+    "category": "Meta",
+    "url": "https://poe.com/muse-spark-1-1",
+    "pricing": {
+      "prompt": "0.0000012626",
+      "completion": "0.0000042929",
+      "image": null,
+      "request": null,
+      "input_cache_read": "0.0000001515",
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-7057796-200-plidrdziczauduopdsxjnpyeagggzvqr.jpeg"
+  }
+}

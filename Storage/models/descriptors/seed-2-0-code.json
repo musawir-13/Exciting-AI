@@ -1,0 +1,44 @@
+{
+  "name": "seed-2-0-code",
+  "model": "seed-2.0-code",
+  "display_name": "Seed-2.0-Code",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-seed-2-0-code",
+  "details": {
+    "parent_model": "Seed-2.0-Code",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "256k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "Seed 2.0 Code is optimized for enterprise-grade coding scenarios. Building on the strong agentic and VLM capabilities of Seed 2.0, it further strengthens code generation and software engineering performance. It delivers particularly strong front-end results and is also optimized for multilingual coding needs commonly found in enterprise environments, making it well suited for integration with a wide range of AI coding tools.\n\nNotes:\n- Pricing is 2x when input tokens >128k\n- Context Window: 256k\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 256000,
+  "metadata": {
+    "display_name": "Seed-2.0-Code",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/seed-2.0-code",
+    "pricing": {
+      "prompt": "0.0000006313",
+      "completion": "0.0000037879",
+      "image": null,
+      "request": null,
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6952763-200-whehtmjatuthltkbczubjwzgjtjotgeo.jpeg"
+  }
+}

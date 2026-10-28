@@ -1,0 +1,39 @@
+{
+  "name": "qwen3.8-flash-next:latest",
+  "model": "qwen3.8-flash-next:latest",
+  "display_name": "Qwen3.8 Flash Next [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-qwen3.8-flash-next-latest",
+  "details": {
+    "parent_model": "qwen3.8-flash-next",
+    "format": "ollama",
+    "family": "alibaba",
+    "families": [
+      "alibaba",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "Standard",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "vision",
+    "tools",
+    "thinking"
+  ],
+  "description": "This experimental preview of the architecture that will underpin Qwen4.",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Qwen3.8 Flash Next [Local]",
+    "owner": "Alibaba Cloud",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/qwen3.8-flash-next",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

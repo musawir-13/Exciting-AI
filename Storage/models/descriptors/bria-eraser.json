@@ -1,0 +1,35 @@
+{
+  "name": "bria-eraser",
+  "model": "bria-eraser",
+  "display_name": "Bria-Eraser",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-bria-eraser",
+  "details": {
+    "parent_model": "Bria-Eraser",
+    "format": "poe",
+    "family": "fal",
+    "families": [
+      "fal",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Bria Eraser enables precise removal of unwanted objects from images while maintaining high-quality outputs. Trained exclusively on licensed data for safe and risk-free commercial use. Send an image and a black-and-white mask image denoting the objects to be cleared out from the image. The input prompt is only used to create the filename of the output image.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Bria-Eraser",
+    "owner": "fal",
+    "category": "fal",
+    "url": "https://poe.com/bria-eraser",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-5685722-200-wyzpqxkeopjarifvxgavinsrornwatol.jpeg"
+  }
+}

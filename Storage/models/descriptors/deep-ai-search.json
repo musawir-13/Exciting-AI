@@ -1,0 +1,35 @@
+{
+  "name": "deep-ai-search",
+  "model": "deep-ai-search",
+  "display_name": "Deep-AI-Search",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-deep-ai-search",
+  "details": {
+    "parent_model": "Deep-AI-Search",
+    "format": "poe",
+    "family": "opensourcelab",
+    "families": [
+      "opensourcelab",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "Deep search engine that integrates Brave AI with real-time web search. This research assistant executes commands, validates facts and scrapes websites at scale while preserving its hallmark speed and intelligence advantage. Deep-AI-Search doesn't accept file attachments.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Deep-AI-Search",
+    "owner": "Open-Source-Lab",
+    "category": "Open-Source-Lab",
+    "url": "https://poe.com/deep-ai-search",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6249935-200-ywgdrjnhpcmzrecgmaxljbjfcfxyfxmb.jpeg"
+  }
+}

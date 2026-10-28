@@ -1,0 +1,36 @@
+{
+  "name": "wan-2-5",
+  "model": "wan-2.5",
+  "display_name": "Wan-2.5",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-wan-2-5",
+  "details": {
+    "parent_model": "Wan-2.5",
+    "format": "poe",
+    "family": "fal",
+    "families": [
+      "fal",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "Wan-2.5 Video Generation bot. Has text-to-video and image-to-video capabilities. Optionally, send an audio file (mp3) to guide the video generation. \n\nOptional Parameters:\nControl the output's resolution. Select from 480p, 720p or 1080p defaults to 720. Pricing varies on the basis of resolution.\nAspect ratio. Select from 16:9, 1:1, 9:16 defaults to 16:9 aspect ratio.\nDuration. Select video duration either 5 seconds or 10 seconds. Defaults to 5 seconds.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "Wan-2.5",
+    "owner": "fal",
+    "category": "fal",
+    "url": "https://poe.com/wan-2.5",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6453745-200-kfoxvndgzylncscaqzzkpvelxtpqqcao.jpeg"
+  }
+}

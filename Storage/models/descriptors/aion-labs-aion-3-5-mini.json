@@ -1,0 +1,45 @@
+{
+  "name": "aion-labs-aion-3-5-mini",
+  "model": "aion-labs/aion-3.5-mini",
+  "display_name": "AionLabs: Aion 3.5 Mini",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "openrouter-aion-labs-aion-3-5-mini",
+  "details": {
+    "parent_model": "AionLabs: Aion 3.5 Mini",
+    "format": "openrouter",
+    "family": "aionlabs",
+    "families": [
+      "aionlabs",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "Aion 3.5 Mini is a multi-model roleplaying and storytelling system from AionLabs, built on the GLM family of models. It is the smaller, lower-cost sibling of Aion 3.5 and uses...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "AionLabs: Aion 3.5 Mini",
+    "owner": "aion-labs",
+    "category": "aion-labs",
+    "url": "https://openrouter.ai/models/aion-labs/aion-3.5-mini",
+    "pricing": {
+      "prompt": "0.0000007",
+      "completion": "0.0000014",
+      "input_cache_read": "0.00000018"
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 32768,
+      "is_moderated": false
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "name": "anthropic-claude-haiku-5-5-batch",
+  "model": "anthropic/claude-haiku-5.5:batch",
+  "display_name": "Anthropic: Claude Haiku 5.5 (batch)",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "openrouter-anthropic-claude-haiku-5-5-batch",
+  "details": {
+    "parent_model": "Anthropic: Claude Haiku 5.5 (batch)",
+    "format": "openrouter",
+    "family": "anthropic",
+    "families": [
+      "anthropic",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1000k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Claude Haiku 5.5 is Anthropic's small, fast model for high-volume, cost-sensitive work such as summarization, subagents, and browser use. It succeeds Claude Haiku 4.5 with stronger coding, computer use, and...",
+  "context_length": 1000000,
+  "metadata": {
+    "display_name": "Anthropic: Claude Haiku 5.5 (batch)",
+    "owner": "anthropic",
+    "category": "anthropic",
+    "url": "https://openrouter.ai/models/anthropic/claude-haiku-5.5:batch",
+    "pricing": {
+      "prompt": "0.00000005",
+      "completion": "0.00000025",
+      "web_search": "0.01",
+      "input_cache_read": "0.000000005",
+      "input_cache_write": "0.0000000625",
+      "input_cache_write_1h": "0.0000001",
+      "overrides": [
+        {
+          "min_prompt_tokens": 100000,
+          "prompt": "0.00000025",
+          "completion": "0.00000125",
+          "input_cache_read": "0.000000025",
+          "input_cache_write": "0.0000003125",
+          "input_cache_write_1h": "0.0000005"
+        }
+      ]
+    },
+    "top_provider": {
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
+      "is_moderated": true
+    }
+  }
+}

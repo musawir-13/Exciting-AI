@@ -1,0 +1,35 @@
+{
+  "name": "happyhorse-1-0-el",
+  "model": "happyhorse-1.0-el",
+  "display_name": "HappyHorse-1.0-EL",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-happyhorse-1-0-el",
+  "details": {
+    "parent_model": "HappyHorse-1.0-EL",
+    "format": "poe",
+    "family": "empiriolabsai",
+    "families": [
+      "empiriolabsai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "4k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud"
+  ],
+  "description": "HappyHorse 1.0 is a video generation model, capable of creating high-fidelity, motion-smooth videos from text, images, or by editing existing videos. It supports four generation modes: Text-to-Video (T2V), Image-to-Video (I2V), Reference-to-Video (R2V), and Video Edit.\n\nNotes:\n- This model is served from the Singapore region.\n- Upload one image to enable image-to-video, multiple images for reference-to-video, or a video for video editing. The mode is auto-detected from your attachments, or you can choose manually to override.\n- Generation typically takes 1–5 minutes per video, but may take longer.\n- Shot type and camera moves are described directly in your prompt (e.g., \"side medium shot opens, then cuts to a low-angle shot, then pushes into a facial close-up\").\n\nAttachments:\n- For T2V: No attachments required. Just describe the video you want.\n- For I2V: Attach exactly 1 image as the first frame. The output's aspect ratio automatically follows your input image (the Aspect Ratio control is ignored). The prompt is optional but recommended.\n- For R2V: Attach 1–9 reference images. Use `character1`, `character2`, … in your prompt to reference each image in the order they were attached (e.g., \"A woman in a red qipao character1 holding a folding fan character2…\").\n- For Video Edit: Attach 1 video (3–15s, ≤100 MB, MP4/MOV) plus 0–5 reference images. Output duration follows the input video's length (capped at 15s); audio can be kept from the source via the Audio Setting control.\n- Audio files: Not supported. HappyHorse 1.0 does not accept audio attachments, please remove any audio file before submitting.\n- Images are automatically validated and resized to fit limits (300–8,000px per side; R2V references should be at least 400px on the short side, 720P+ recommended). HEIC/HEIF images are auto-converted to JPEG.\n- Videos are validated (MP4/MOV, ≤100 MB, 3–15s) and auto-transcoded/trimmed if needed.\n\nThis bot supports optional parameters for additional customization.",
+  "context_length": 4096,
+  "metadata": {
+    "display_name": "HappyHorse-1.0-EL",
+    "owner": "EmpirioLabs AI",
+    "category": "EmpirioLabs AI",
+    "url": "https://poe.com/happyhorse-1.0-el",
+    "pricing": null,
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-6962577-200-ffhtbkotjuaqfkfkmedxwcnzyuryidlc.jpeg"
+  }
+}

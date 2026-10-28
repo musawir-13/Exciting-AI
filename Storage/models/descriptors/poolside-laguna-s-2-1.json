@@ -1,0 +1,45 @@
+{
+  "name": "poolside-laguna-s-2-1",
+  "model": "poolside/laguna-s-2.1",
+  "display_name": "Poolside: Laguna S 2.1",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-poolside-laguna-s-2-1",
+  "details": {
+    "parent_model": "Poolside: Laguna S 2.1",
+    "format": "openrouter",
+    "family": "poolside",
+    "families": [
+      "poolside",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1049k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and...",
+  "context_length": 1048576,
+  "metadata": {
+    "display_name": "Poolside: Laguna S 2.1",
+    "owner": "poolside",
+    "category": "poolside",
+    "url": "https://openrouter.ai/models/poolside/laguna-s-2.1",
+    "pricing": {
+      "prompt": "0.00000009",
+      "completion": "0.00000018",
+      "input_cache_read": "0.000000009"
+    },
+    "top_provider": {
+      "context_length": 1048576,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    }
+  }
+}

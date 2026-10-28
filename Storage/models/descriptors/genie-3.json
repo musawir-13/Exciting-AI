@@ -1,0 +1,37 @@
+{
+  "name": "genie-3",
+  "model": "genie-3",
+  "display_name": "Genie 3",
+  "modified_at": "2026-10-28T09:07:40.412Z",
+  "size": 0,
+  "digest": "poe-genie-3",
+  "details": {
+    "parent_model": "Genie 3",
+    "format": "poe",
+    "family": "google",
+    "families": [
+      "google",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Generative interactive world model for virtual environment creation.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "Genie 3",
+    "owner": "Google DeepMind",
+    "category": "Google DeepMind",
+    "url": null,
+    "pricing": null
+  }
+}

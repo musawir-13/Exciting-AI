@@ -1,0 +1,35 @@
+{
+  "name": "llama-guard-2",
+  "model": "llama-guard-2",
+  "display_name": "Llama Guard 2",
+  "modified_at": "2026-10-28T09:07:40.412Z",
+  "size": 0,
+  "digest": "poe-llama-guard-2",
+  "details": {
+    "parent_model": "Llama Guard 2",
+    "format": "poe",
+    "family": "meta",
+    "families": [
+      "meta",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "8.192k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "Content moderation and safety benchmark classifier.",
+  "context_length": 8192,
+  "metadata": {
+    "display_name": "Llama Guard 2",
+    "owner": "Meta AI",
+    "category": "Meta AI",
+    "url": null,
+    "pricing": null
+  }
+}

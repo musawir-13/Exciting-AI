@@ -1,0 +1,36 @@
+{
+  "name": "gemma:latest",
+  "model": "gemma:latest",
+  "display_name": "Gemma [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-gemma-latest",
+  "details": {
+    "parent_model": "gemma",
+    "format": "ollama",
+    "family": "google",
+    "families": [
+      "google",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "2B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion"
+  ],
+  "description": "Gemma is a family of lightweight, state-of-the-art open models built by Google DeepMind. Updated to version 1.1",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Gemma [Local]",
+    "owner": "Google DeepMind",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/gemma",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

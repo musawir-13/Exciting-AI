@@ -1,0 +1,43 @@
+{
+  "name": "minimax-m2-5",
+  "model": "minimax-m2.5",
+  "display_name": "MiniMax-M2.5",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-minimax-m2-5",
+  "details": {
+    "parent_model": "MiniMax-M2.5",
+    "format": "poe",
+    "family": "minimax",
+    "families": [
+      "minimax",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "197k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "tools"
+  ],
+  "description": "MiniMax M2.5 is a reasoning model for end-to-end development of complex full-stack systems across web, mobile, desktop, APIs, and databases.",
+  "context_length": 196608,
+  "metadata": {
+    "display_name": "MiniMax-M2.5",
+    "owner": "MiniMax",
+    "category": "MiniMax",
+    "url": "https://poe.com/minimax-m2.5",
+    "pricing": {
+      "prompt": "0.000000303",
+      "completion": "0.0000012121",
+      "image": null,
+      "request": null,
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-7072537-200-ipcxgaorbutapmrvzchqlkhajgrxiuha.jpeg"
+  }
+}

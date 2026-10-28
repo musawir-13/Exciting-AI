@@ -1,0 +1,36 @@
+{
+  "name": "step-3-7",
+  "model": "step-3-7",
+  "display_name": "Step 3.7",
+  "modified_at": "2026-10-28T09:07:40.413Z",
+  "size": 0,
+  "digest": "poe-step-3-7",
+  "details": {
+    "parent_model": "Step 3.7",
+    "format": "poe",
+    "family": "stepfun",
+    "families": [
+      "stepfun",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "128k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision",
+    "tools"
+  ],
+  "description": "High performance step reasoning model with image grounding.",
+  "context_length": 128000,
+  "metadata": {
+    "display_name": "Step 3.7",
+    "owner": "DeepSeek & Chinese Tech Labs",
+    "category": "DeepSeek & Chinese Tech Labs",
+    "url": null,
+    "pricing": null
+  }
+}

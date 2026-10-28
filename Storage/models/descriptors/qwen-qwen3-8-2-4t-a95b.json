@@ -1,0 +1,45 @@
+{
+  "name": "qwen-qwen3-8-2-4t-a95b",
+  "model": "qwen/qwen3.8-2.4t-a95b",
+  "display_name": "Qwen: Qwen3.8 2.4T A95B",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-qwen-qwen3-8-2-4t-a95b",
+  "details": {
+    "parent_model": "Qwen: Qwen3.8 2.4T A95B",
+    "format": "openrouter",
+    "family": "qwen",
+    "families": [
+      "qwen",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "1049k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "tools"
+  ],
+  "description": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of [Qwen3.8 Max](/qwen/qwen3.8-max), with 95 billion active parameters out of 2.4 trillion total. It is...",
+  "context_length": 1048576,
+  "metadata": {
+    "display_name": "Qwen: Qwen3.8 2.4T A95B",
+    "owner": "qwen",
+    "category": "qwen",
+    "url": "https://openrouter.ai/models/qwen/qwen3.8-2.4t-a95b",
+    "pricing": {
+      "prompt": "0.000002",
+      "completion": "0.000006",
+      "input_cache_read": "0.00000025"
+    },
+    "top_provider": {
+      "context_length": 1010000,
+      "max_completion_tokens": 909000,
+      "is_moderated": false
+    }
+  }
+}

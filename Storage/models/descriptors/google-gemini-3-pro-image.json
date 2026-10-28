@@ -1,0 +1,53 @@
+{
+  "name": "google-gemini-3-pro-image",
+  "model": "google/gemini-3-pro-image",
+  "display_name": "Google: Nano Banana Pro (Gemini 3 Pro Image)",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-google-gemini-3-pro-image",
+  "details": {
+    "parent_model": "Google: Nano Banana Pro (Gemini 3 Pro Image)",
+    "format": "openrouter",
+    "family": "google",
+    "families": [
+      "google",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "131k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Nano Banana Pro is Google’s most advanced image-generation and editing model, built on Gemini 3 Pro. It extends the original Nano Banana with significantly improved multimodal reasoning, real-world grounding, and...",
+  "context_length": 131072,
+  "metadata": {
+    "display_name": "Google: Nano Banana Pro (Gemini 3 Pro Image)",
+    "owner": "google",
+    "category": "google",
+    "url": "https://openrouter.ai/models/google/gemini-3-pro-image",
+    "pricing": {
+      "prompt": "0.000002",
+      "completion": "0.000012",
+      "image": "0.000002",
+      "image_output": "0.00012",
+      "audio": "0.000002",
+      "input_audio_cache": "0.0000002",
+      "web_search": "0.014",
+      "internal_reasoning": "0.000012",
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.000000375"
+    },
+    "top_provider": {
+      "context_length": 65536,
+      "max_completion_tokens": 32768,
+      "is_moderated": false
+    }
+  }
+}

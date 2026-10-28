@@ -1,0 +1,37 @@
+{
+  "name": "command-a",
+  "model": "command-a",
+  "display_name": "Command A [Local]",
+  "modified_at": "2026-10-28T13:02:44.207Z",
+  "size": 0,
+  "digest": "ollama-command-a",
+  "details": {
+    "parent_model": "command-a",
+    "format": "ollama",
+    "family": "cohere",
+    "families": [
+      "cohere",
+      "local",
+      "ollama"
+    ],
+    "parameter_size": "111B",
+    "quantization_level": "Q4_K_M",
+    "context_window": "33k"
+  },
+  "capabilities": [
+    "completion",
+    "tools"
+  ],
+  "description": "111 billion parameter model optimized for demanding enterprises that require fast, secure, and high-quality AI",
+  "context_length": 32768,
+  "metadata": {
+    "display_name": "Command A [Local]",
+    "owner": "Cohere",
+    "category": "Ollama Local",
+    "url": "https://ollama.com/library/command-a",
+    "pricing": {
+      "prompt": "0",
+      "completion": "0"
+    }
+  }
+}

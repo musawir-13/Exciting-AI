@@ -1,0 +1,52 @@
+{
+  "name": "bytedance-seed-seed-2-0-code",
+  "model": "bytedance-seed/seed-2.0-code",
+  "display_name": "ByteDance Seed: Seed-2.0-Code",
+  "modified_at": "2026-10-28T10:31:33.934Z",
+  "size": 0,
+  "digest": "openrouter-bytedance-seed-seed-2-0-code",
+  "details": {
+    "parent_model": "ByteDance Seed: Seed-2.0-Code",
+    "format": "openrouter",
+    "family": "bytedanceseed",
+    "families": [
+      "bytedanceseed",
+      "cloud",
+      "openrouter"
+    ],
+    "parameter_size": "OpenRouter API",
+    "quantization_level": "cloud",
+    "context_window": "262k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "thinking",
+    "vision",
+    "tools"
+  ],
+  "description": "Seed 2.0 Code is a model from ByteDance Seed optimized for agentic coding. It is suited for frontend development, multilingual programming tasks, and coding-agent workflows in tools such as Claude...",
+  "context_length": 262144,
+  "metadata": {
+    "display_name": "ByteDance Seed: Seed-2.0-Code",
+    "owner": "bytedance-seed",
+    "category": "bytedance-seed",
+    "url": "https://openrouter.ai/models/bytedance-seed/seed-2.0-code",
+    "pricing": {
+      "prompt": "0.0000005",
+      "completion": "0.000003",
+      "overrides": [
+        {
+          "min_prompt_tokens": 128000,
+          "prompt": "0.000001",
+          "completion": "0.000006"
+        }
+      ]
+    },
+    "top_provider": {
+      "context_length": 262144,
+      "max_completion_tokens": 131072,
+      "is_moderated": false
+    }
+  }
+}

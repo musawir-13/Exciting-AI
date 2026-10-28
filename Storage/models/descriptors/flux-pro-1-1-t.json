@@ -1,0 +1,43 @@
+{
+  "name": "flux-pro-1-1-t",
+  "model": "flux-pro-1.1-t",
+  "display_name": "FLUX-pro-1.1-T",
+  "modified_at": "2026-10-28T10:31:33.933Z",
+  "size": 0,
+  "digest": "poe-flux-pro-1-1-t",
+  "details": {
+    "parent_model": "FLUX-pro-1.1-T",
+    "format": "poe",
+    "family": "togetherai",
+    "families": [
+      "togetherai",
+      "cloud",
+      "poe"
+    ],
+    "parameter_size": "POE API",
+    "quantization_level": "cloud",
+    "context_window": "0k"
+  },
+  "capabilities": [
+    "completion",
+    "cloud",
+    "vision"
+  ],
+  "description": "The best state of the art image model from BFL. FLUX 1.1 Pro generates images six times faster than its predecessor, FLUX 1 Pro, while also improving image quality, prompt adherence, and output diversity. The bot does not support any attachments.",
+  "context_length": 256,
+  "metadata": {
+    "display_name": "FLUX-pro-1.1-T",
+    "owner": "Together AI",
+    "category": "Together AI",
+    "url": "https://poe.com/flux-pro-1.1-t",
+    "pricing": {
+      "prompt": null,
+      "completion": null,
+      "image": null,
+      "request": "0.030",
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "icon_url": "https://qph.cf2.poecdn.net/main-thumb-pb-5220409-200-wwylxwxlilbgdxwtqxmsdmxtitislywa.jpeg"
+  }
+}
